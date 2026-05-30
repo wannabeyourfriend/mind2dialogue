@@ -1,106 +1,140 @@
 # Mind2Dialogue: State-Aware User Simulation for Theory-of-Mind and Personalization
 
-[![Paper](https://img.shields.io/badge/arXiv-xxx.svg)](https://arxiv.org/abs/xxxx)
-[![Dataset](https://img.shields.io/badge/HuggingFace-xxx.svg)](https://huggingface.co/datasets/wannabeyourfriend-hf/mind2dialogue)
+[![arXiv](https://img.shields.io/badge/arXiv-2026.xxxxx-b31b1b.svg)](https://arxiv.org/abs/xxxx)
+[![HuggingFace Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow.svg)](https://huggingface.co/datasets/wannabeyourfriend-hf/mind2dialogue)
+[![License](https://img.shields.io/badge/License-MIT%20%C2%B7%20CC--BY--4.0-blue.svg)](LICENSE)
 
 ![idea-promotion](assets/idea-promotion.png)
 
-🚨 **[Abstract]** Developing Large Language Models capable of true personalization remains a significant challenge, primarily due to the scarcity of high-quality, private personalized conversation data. Existing approaches rely on publicly available internet data, which suffers from
-severe distribution shifts, or synthetic data generated from static personas, which fail to capture the dynamic causal structure of
-real-world interactions. We propose a novel data generation pipeline
-that synthesizes conversation trajectories by explicitly and
-structurally maintaining latent user state, encompassing psychological
-dynamics, beliefs, and evolving social relationships. Unlike naïve
-scaling strategies, our approach uses these evolving user states as continuous constraints to guide generation, ensuring that the synthesized dialogues reflect realistic causal depth rather than
-surface-level mimicry. Experiments show that models fine-tuned on our data exhibit superior sample efficiency and significantly improved capabilities in intention inference and theory-of-mind reasoning compared to baselines.
+## 📌 Overview
 
-### Installation
+**Mind2Dialogue** is a data-generation pipeline for *state-aware* "shared-mind" simulation. Instead of role-playing a static persona, a **user simulator** carries an explicit, evolving latent state — psychological dynamics, beliefs, and shifting social relationships — and an **Oracle assistant** is granted privileged read access to that same latent state, so the two share one mind during a rollout. This privileged Oracle produces responses that are causally grounded in what the user *actually* feels and intends, and **privileged distillation** then transfers that grounding into a student model that sees only the dialogue surface. The result is synthetic conversation data with realistic causal depth rather than surface-level mimicry, yielding models with better sample efficiency and stronger intention-inference and theory-of-mind reasoning.
+
+## 🧭 Architecture
+
+![overview](assets/overview.png)
+
+The pipeline runs in stages: persona-grounded prompt rewriting → state-aware rollout (simulator + privileged Oracle) → quality control and A/B/C tiering → QA-format SFT construction from Tier-A conversations → optional difficulty rewriting → benchmark evaluation. Every stage is a subcommand of a single CLI (see [Quickstart](#-quickstart)).
+
+## ⚙️ Installation
 
 ```bash
 git clone --recursive https://github.com/wannabeyourfriend/mind2dialogue.git
 cd mind2dialogue
-uv sync  # or: pip install -e .
+uv sync   # or: pip install -e .
 ```
 
-Set OpenAI-compatible LLM credentials before running anything:
+If you cloned without `--recursive`, pull the submodules with
+`git submodule update --init`.
+
+## 🔑 Environment
+
+All stages read an OpenAI-compatible endpoint from the environment (or a local `.env`; copy `.env.example` and fill it in):
 
 ```bash
-export OPENAI_BASE_URL="https://api.openai.com/v1"   # or any compat. endpoint
+export OPENAI_BASE_URL="https://api.openai.com/v1"   # OpenAI, vLLM, or any compatible gateway
 export OPENAI_API_KEY="sk-..."
-export MODEL_NAME="gpt-4o-mini"
+export MODEL_NAME="gpt-4o-mini"                       # default model for all roles
 ```
 
-The simulator and oracle accept independent model overrides via
-`SIM_MODEL` / `ORACLE_MODEL` and a separate `JUDGE_MODEL` for the QC and
-benchmark judges (mitigates self-judging bias).
+Each role may be pinned to a different model. Splitting roles across models/endpoints is the recommended way to avoid self-judging bias and to pair a cheap simulator with a stronger judge:
 
-Generate conversational rollouts.
+| Variable | Role | Falls back to |
+|---|---|---|
+| `SIM_MODEL` | User simulator + scenario constructor | `MODEL_NAME` |
+| `ORACLE_MODEL` | Privileged Oracle assistant | `MODEL_NAME` |
+| `JUDGE_MODEL` | QC judges + PrefEval benchmark judge | per-command default |
+
+## 🚀 Quickstart
+
+Everything runs through one entry point, `python mind2dialogue.py <subcommand>`:
+
+| Subcommand | What it does |
+|---|---|
+| `rollout` | Roll out state-aware conversations from rewritten persona prompts. |
+| `scenario` | Construct per-persona scenarios, then roll out deep dialogues (`lifelong` / `highfreq` / `affective` / `concerning`). |
+| `qc` | Quality-control scoring + A/B/C tiering of conversation JSONs. |
+| `qa-build` | Build QA-format SFT data from (Tier-A) conversations. |
+| `qa-rewrite` | Rewrite v1 QA items into harder, persona-grounded v2 items. |
+| `qa-eval` | Benchmark models on the QA-format JSONL data. |
+
+Run `python mind2dialogue.py <subcommand> --help` for the full flag list.
+
+### End-to-end pipeline
 
 ```bash
-python run_rollout.py --ablation full --concurrency 80
+# 1. Roll out conversations (full ablation = simulator + privileged Oracle)
+python mind2dialogue.py rollout --ablation full --concurrency 80
+
+# 2. (optional) Scenario-driven deep rollouts
+python mind2dialogue.py scenario --constructor lifelong --concurrency 40
+
+# 3. Quality control + A/B/C tiering
+python mind2dialogue.py qc \
+    --conversations-dir output/conversations/full \
+    --output-dir output/qc/v1
+
+# 4. Build QA-format SFT data from Tier-A conversations
+python mind2dialogue.py qa-build \
+    --conversations-dir output/conversations/full \
+    --qc-results output/qc/v1/qc_results.jsonl \
+    --output-dir output/qa/v1
+
+# 5. (optional) Rewrite v1 → harder, persona-grounded v2
+python mind2dialogue.py qa-rewrite \
+    --qa-dir output/qa/v1 --output-dir output/qa/v2 \
+    --conversations-dir output/conversations/full
+
+# 6. Benchmark models on the QA set
+python mind2dialogue.py qa-eval --qa-dir output/qa/v2 --models gpt-4o-mini gpt-5-mini
 ```
 
-Or scenario-driven rollouts (lifelong / highfreq / concerning / affective):
+`rollout` writes conversation JSONs under `output/conversations/<ablation>/` and a paired SFT JSONL under `output/sft/`. `qc` writes `qc_results.jsonl` + `qc_summary.json`; `qa-eval` writes per-model predictions plus `eval_summary.{json,md}`.
 
-```bash
-python run_deep_scenario_rollout.py --constructor simulator_lifelong_scenario_constructor --concurrency 80
+## 📁 Repository layout
+
+```
+.
+├── mind2dialogue.py                # single CLI: rollout · scenario · qc · qa-build · qa-rewrite · qa-eval
+├── user_simulator/                 # core library
+│   ├── oracle.py                   # privileged Oracle assistant
+│   ├── ablation.py                 # ablation configs (full / no_privilege / no_behavior / no_state / …)
+│   ├── data.py · sft.py · qa.py    # LLM client, SFT instance builder, QA generators
+│   ├── prompts/                    # prompt templates (rollout, scenario, QC, rewrite)
+│   ├── simulator/                  # rollout.py · user_turn.py · parsing.py · persona_block.py · behavior/
+│   └── qc/                         # checks.py · judges.py (programmatic + LLM-judge QC)
+├── data/                           # released artifacts (personas, prompts, behavior modes) — see data/README.md
+├── training/                       # SFT trainer submodule (Unsloth + TRL)
+├── evaluations/                    # personalization benchmark harness submodule
+└── assets/                         # overview.png · idea-promotion.png
 ```
 
-```bash
-python run_qc.py --conversations-dir output/conversations/full --output-dir output/qc/v1
-```
+## 🧱 Submodules
 
-Construct SFT sample by using user state aware minds in conversations as ground-truth.
-
-```bash
-python run_qa_construction.py --conversations-dir output/conversations/full --qc-results output/qc/v1/qc_results.jsonl --output-dir output/qa/v1
-```
-
-Run any benchmark
+- **`training/`** — one-file LoRA SFT trainer (Unsloth backbone, TRL `SFTTrainer`, response-only loss) plus per-run YAML configs and vLLM serving launchers. See [`training/README.md`](training/README.md).
+- **`evaluations/`** — `multibench` harness collecting personalization / theory-of-mind benchmarks (PersonaMem, PrefEval, BigToM, LaMP). Initialize and run:
 
 ```bash
 git submodule update --init evaluations
 pip install -e evaluations
-multibench run personamem -- --api-base <server_endpoint> --model <run_name> --workers 64 --output-dir results/<run_name>/PersonaMem
+multibench run personamem -- \
+    --api-base <server_endpoint> --model <run_name> \
+    --workers 64 --output-dir results/<run_name>/PersonaMem
 ```
 
-![overview](assets/overview.png)
+## 📦 Dataset
 
+Released artifacts (persona library, prompt pool, persona-grounded rewrites, behavior modes) live on the Hugging Face Hub:
 
-### Codebase layout
+➡️ **https://huggingface.co/datasets/wannabeyourfriend-hf/mind2dialogue**
 
-```
-.
-├── user_simulator/                 
-│   ├── oracle.py                                          
-│   ├── prompts/
-│   ├── simulator/               
-│   │   ├── rollout.py           
-│   │   ├── user_turn.py         
-│   │   ├── parsing.py           
-│   │   ├── persona_block.py     
-│   │   └── behavior/         
-│   └── qc/
-├── training/                    # unsloth sft_trainer submodule
-│   ├── sft_trainer.py           
-│   ├── configs/                 
-│   └── scripts/                 
-├── evaluations/                 # personalization benchmarks collection submodule
-│   └── multibench/benchmarks/   
-├── data/                        # artifacts data for conversational rollouts
-│   ├── filterd_refined_profiles/
-│   ├── initial_prompts/
-│   ├── rewritten_prompts/
-│   └── behavior_modes/
-├── run_rollout.py               
-├── run_deep_scenario_rollout.py
-├── run_qc.py
-├── run_qa_construction.py
-├── run_qa_rewrite.py            
-└── run_eval_qa.py            
-```
+The release ships the inputs needed to regenerate the corpus, not the (large, expensive-to-reproduce) rollout conversations or SFT JSONLs. Run the pipeline against `data/` to produce the training corpus from scratch. Field schemas are documented in [`data/README.md`](data/README.md).
 
-### Citation
+## ⚠️ Responsible use
+
+The **concerning-scenario** generator (`simulator_concerning_scenario_constructor`, the `scenario --constructor concerning` family) produces sensitive prompts wrapped in legitimizing personas. It is intended **only** for training and benchmarking refusal-quality and safe-completion behavior, and is **withheld from the public release**. Conversations generated through it are tagged `scenario_family = "concerning"` so downstream consumers can opt out. Do not use any released data to fine-tune an assistant that lacks an upstream safety layer.
+
+## 📖 Citation
 
 ```bibtex
 @article{mind2dialogue2026,
@@ -110,8 +144,8 @@ multibench run personamem -- --api-base <server_endpoint> --model <run_name> --w
 }
 ```
 
-### Responsible use
+## License
 
-The release ships a **concerning-scenario** generator (`simulator_concerning_scenario_constructor`) that produces sensitive prompts wrapped in legitimising personas. These are intended **only** for training and benchmarking refusal-quality and safe-completion behavior; they are clearly tagged in `metadata.scenario_family = "concerning"` so downstream consumers can opt out. Do not use the released data to fine-tune an assistant that lacks an upstream safety layer.
-
-License: MIT (code) · CC-BY-4.0 (data artifacts under `data/`).
+MIT (code) · CC-BY-4.0 (data artifacts under `data/`).
+</content>
+</invoke>

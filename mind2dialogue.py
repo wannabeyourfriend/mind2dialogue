@@ -53,7 +53,6 @@ def read_jsonl(path: Path, limit: int | None = None) -> list[dict]:
 async def gather_bounded(
     factories: Sequence[Callable[[], Awaitable[Any]]], concurrency: int
 ) -> list[Any]:
-    """Run coroutine-factories with at most `concurrency` in flight."""
     sem = asyncio.Semaphore(concurrency)
 
     async def _run(make: Callable[[], Awaitable[Any]]) -> Any:
@@ -64,8 +63,6 @@ async def gather_bounded(
 
 
 class JsonlWriter:
-    """Append-mode JSONL writer guarded by an asyncio lock for concurrent use."""
-
     def __init__(self, path: Path):
         path.parent.mkdir(parents=True, exist_ok=True)
         self._fh = open(path, "a", encoding="utf-8")
@@ -84,7 +81,6 @@ class JsonlWriter:
 
 
 def _out_dirs(output_dir: str | None) -> tuple[Path, Path]:
-    """Return (conversations_dir, sft_dir), honoring a custom --output-dir."""
     from user_simulator.data import CONV_DIR, SFT_DIR
 
     if output_dir:
@@ -679,7 +675,6 @@ def _render_rewrite_prompt(style: str, parsed: dict, tmpl: str) -> str:
 
 
 def _build_ctx_lookup(conv_root: Path) -> dict:
-    """Map (persona_id, scenario_id) → {profile_block, conversation_excerpt}."""
     lookup: dict = {}
     for p in conv_root.rglob("*.json"):
         try:
