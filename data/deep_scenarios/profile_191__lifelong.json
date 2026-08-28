@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_191_scenario_0",
+    "context_note": "This scenario reflects the persona's ongoing struggle with the tension between professional obligations and personal identity, as they assess their role within the industry while considering life transitions.",
+    "category": "career_transition",
+    "initial_prompt": "I've been thinking about my career in exhibition management lately. What happens to my sense of self if I decide to take a step back or switch my focus? Can I still be the same person I am now?"
+  },
+  {
+    "scenario_id": "lifelong_profile_191_scenario_1",
+    "context_note": "This scenario connects to the persona's desire for efficiency in both professional and personal contexts, revealing an underlying emotional tension regarding family relationships.",
+    "category": "relationship",
+    "initial_prompt": "I often feel caught between my busy work life and maintaining connections with family. How do I express my affection without compromising my time management?"
+  },
+  {
+    "scenario_id": "lifelong_profile_191_scenario_2",
+    "context_note": "This scenario highlights the persona's analytical nature and their tendency to reflect on past experiences, making it relevant as they consider their long-term goals and potential regrets.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I plan future exhibitions, I wonder if my current path is the right one. What would I regret not pursuing in my career five years from now?"
+  },
+  {
+    "scenario_id": "lifelong_profile_191_scenario_3",
+    "context_note": "This scenario addresses the persona's practical nature and their relationship with physical activity, reflecting on how their body has changed over time and what that means for their energy levels.",
+    "category": "health_decision",
+    "initial_prompt": "I've noticed my energy levels fluctuating more lately. How do I cope with these changes in my body as I try to maintain my routine without feeling overwhelmed?"
+  },
+  {
+    "scenario_id": "lifelong_profile_191_scenario_4",
+    "context_note": "This scenario taps into the persona's experience of navigating industry relationships and their pragmatic approach to communication, illustrating their desire for clarity amidst the complexities of professional interactions.",
+    "category": "intergenerational",
+    "initial_prompt": "Sometimes, I find myself trying to balance my work relationships with the expectations from older colleagues. How can I express my own values while still honoring their perspectives?"
+  }
+]

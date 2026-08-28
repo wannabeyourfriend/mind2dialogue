@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_id": "lifelong_profile_134_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle to balance family obligations with personal growth, highlighting the tension between adhering to traditional family roles and pursuing individual aspirations.",
+    "category": "intergenerational",
+    "initial_prompt": "I've been feeling a pull between wanting to help my family more and needing to carve out my own path. Sometimes, I wonder if they truly understand my dreams, or if they just see me as the dependable one in the family."
+  },
+  {
+    "scenario_id": "lifelong_profile_134_scenario_1",
+    "context_note": "This scenario addresses the persona's current struggle with their identity as a food delivery worker and the impact of their recent injury, emphasizing feelings of frustration and the search for reassurance in their professional identity.",
+    "category": "career_transition",
+    "initial_prompt": "With my leg injury, I can't help but feel like I'm losing a part of myself as a delivery person. What if I can't keep up with the demands of the job like I used to? It makes me question who I am when I'm not riding my scooter."
+  },
+  {
+    "scenario_id": "lifelong_profile_134_scenario_2",
+    "context_note": "This scenario reflects the persona's efforts to manage financial constraints while supporting their family, revealing an internal conflict about financial security and familial obligations.",
+    "category": "financial",
+    "initial_prompt": "Lately, I've been feeling anxious about money. Balancing my family's needs with my own limited income is challenging, and sometimes I worry that I'm not doing enough to secure our future."
+  },
+  {
+    "scenario_id": "lifelong_profile_134_scenario_3",
+    "context_note": "This scenario explores the persona's nostalgic connection to cooking traditional dishes and how it serves as a bridge to their identity and family legacy, while also revealing a desire for self-expression.",
+    "category": "creative_expression",
+    "initial_prompt": "When I cook those simple, traditional dishes from my childhood, I feel a sense of connection to my family. Yet, I wonder if I should experiment more in the kitchen. What does it mean for me to blend tradition and creativity in my cooking?"
+  },
+  {
+    "scenario_id": "lifelong_profile_134_scenario_4",
+    "context_note": "This scenario captures the persona's reflection on their experiences with injury and how it has changed their perception of safety and risk in their daily life, echoing themes of grief and adjustment.",
+    "category": "health_decision",
+    "initial_prompt": "Since my leg injury, I’ve become more cautious on the streets. I find myself grieving the freedom I had before, but I know I need to prioritize my safety. How can I find a way to feel secure without losing my sense of adventure?"
+  },
+  {
+    "scenario_id": "lifelong_profile_134_scenario_5",
+    "context_note": "This scenario looks forward to the persona's aspirations for a better future, weighing the potential regret of not pursuing changes that could improve their life against the comfort of the familiar.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about my future, I wonder if I should consider a career change. On one hand, staying in delivery is safe and familiar, but part of me fears missing out on opportunities that could lead to a more fulfilling life. What if I regret not taking that leap?"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_200_scenario_0",
+    "context_note": "This scenario reflects the persona's current struggle with balancing career integrity and personal values, a theme that replays across time.",
+    "category": "identity_values",
+    "initial_prompt": "I've been grappling with how my work aligns with my core values. At times, I feel torn between what my clients expect and what I believe is ethically right. How do I reconcile this tension without compromising my integrity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_200_scenario_1",
+    "context_note": "The challenge of navigating workplace relationships is evident, mimicking patterns from earlier family dynamics where honesty and communication were pivotal.",
+    "category": "relationship",
+    "initial_prompt": "I've noticed that my directness at work sometimes rubs colleagues the wrong way. It's hard to balance being honest with wanting to maintain good relationships. How can I communicate transparently while still fostering a supportive environment?"
+  },
+  {
+    "scenario_id": "lifelong_profile_200_scenario_2",
+    "context_note": "This scenario speaks to the transition in the persona's life as they ponder future career moves and the potential impact on their identity.",
+    "category": "career_transition",
+    "initial_prompt": "I'm considering a shift in my career path that might align better with my values, but I'm apprehensive. If I make this change, who will I be in my professional life? What if I lose the connections I've built over the years?"
+  },
+  {
+    "scenario_id": "lifelong_profile_200_scenario_3",
+    "context_note": "The persona's relationship with their health and wellness is evolving, reflecting a history of physical engagement that continues to shape their identity.",
+    "category": "health_decision",
+    "initial_prompt": "As I age, I'm realizing that my body requires more care and attention than before. I'm reflecting on how my relationship with fitness has changed over the years, and I wonder if I'm doing enough to maintain my health. Am I honoring my body the way it deserves?"
+  },
+  {
+    "scenario_id": "lifelong_profile_200_scenario_4",
+    "context_note": "This scenario draws from the persona's desire to leave a positive legacy, resonating with their commitment to integrity and ethical practices.",
+    "category": "creative_expression",
+    "initial_prompt": "I've been thinking about starting a project that combines my knowledge of ethics in media with creative storytelling. It feels like a way to express who I am and what I stand for, but I wonder if I'm ready to share that part of myself with the world. What does taking this step say about my legacy?"
+  }
+]

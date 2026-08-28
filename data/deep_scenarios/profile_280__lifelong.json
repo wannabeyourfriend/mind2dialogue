@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_280_scenario_0",
+    "context_note": "This scenario reflects the tension between the persona's ambitions and family expectations, showcasing the struggle of wanting to pursue personal projects while feeling the weight of familial obligations.",
+    "category": "relationship",
+    "initial_prompt": "I'm feeling a bit stuck between what my family wants me to do and what I really want to explore with my projects. How do I find a way to pursue my interests without disappointing them?"
+  },
+  {
+    "scenario_id": "lifelong_profile_280_scenario_1",
+    "context_note": "This scenario captures the persona's forward-looking perspective as they contemplate the potential future implications of their current choices, specifically regarding their ambition to innovate and profit.",
+    "category": "long_term_planning",
+    "initial_prompt": "I keep thinking about what it would feel like to either succeed in my projects or to just go along with what everyone expects. What if I miss out on my true potential by not taking risks now?"
+  },
+  {
+    "scenario_id": "lifelong_profile_280_scenario_2",
+    "context_note": "This scenario taps into the persona's past experiences of navigating family dynamics and feeling constrained by adult rules, which has shaped their current skepticism toward authority.",
+    "category": "intergenerational",
+    "initial_prompt": "Looking back, I sometimes feel like I've been told to follow rules that don't make sense to me. I'm wondering how I can break free from these patterns and create my own path without feeling guilty."
+  },
+  {
+    "scenario_id": "lifelong_profile_280_scenario_3",
+    "context_note": "This scenario represents the ongoing struggle of the persona as they grapple with their identity and how it aligns with their ambitions, particularly in the context of their DIY projects and interests in technology.",
+    "category": "identity_values",
+    "initial_prompt": "I'm starting to question whether my passion for technology and DIY projects truly reflects who I am or if it's just a phase. How do I figure out what I genuinely care about without being influenced by others?"
+  },
+  {
+    "scenario_id": "lifelong_profile_280_scenario_4",
+    "context_note": "This scenario highlights the persona's desire for autonomy and success while balancing family expectations, illustrating the psychological conflict of wanting to forge their own identity and career.",
+    "category": "career_transition",
+    "initial_prompt": "As I think about future career paths, I feel torn between what I think will make my family proud and what I really want to achieve for myself. Who will I become if I choose my own path?"
+  }
+]

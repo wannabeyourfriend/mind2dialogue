@@ -1,0 +1,26 @@
+[
+  {
+    "scenario_id": "affective_profile_425_scenario_0",
+    "category": "interpersonal_advice",
+    "initial_prompt": "How can I communicate more effectively with partners when negotiating real estate deals?",
+    "context_note": "Improving communication is essential for successful negotiations in a competitive market."
+  },
+  {
+    "scenario_id": "affective_profile_425_scenario_1",
+    "category": "coaching",
+    "initial_prompt": "What are the best strategies to manage my time between manufacturing operations and real estate investments?",
+    "context_note": "Finding the right balance is crucial for maximizing returns in both areas."
+  },
+  {
+    "scenario_id": "affective_profile_425_scenario_2",
+    "category": "psychotherapy_or_counseling",
+    "initial_prompt": "What techniques can I use to handle stress from high-stakes negotiations?",
+    "context_note": "Managing stress effectively is vital to maintaining focus and achieving desired outcomes."
+  },
+  {
+    "scenario_id": "affective_profile_425_scenario_3",
+    "category": "companionship",
+    "initial_prompt": "How can I navigate potential conflicts in my personal relationships due to my work focus?",
+    "context_note": "Understanding relationship dynamics can help maintain balance without sacrificing professional goals."
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_466_scenario_0",
+    "context_note": "This scenario reflects the tension of navigating family dynamics and the fear of dependency, as the persona values independence and control over emotional connections. It touches on past experiences that shape current beliefs about relationships.",
+    "category": "relationship",
+    "initial_prompt": "How do I keep my distance from family obligations while still feeling like I’m not completely cutting ties? I know they want more from me, but that feels like a trap."
+  },
+  {
+    "scenario_id": "lifelong_profile_466_scenario_1",
+    "context_note": "This scenario highlights an identity disruption as the persona faces a potential career change, questioning who they would be without their current role, reflecting a deep-seated fear of losing their defined self.",
+    "category": "career_transition",
+    "initial_prompt": "If I decide to take that new job offer, who will I even be? Will I lose the part of me that thrives on control and systems?"
+  },
+  {
+    "scenario_id": "lifelong_profile_466_scenario_2",
+    "context_note": "This scenario connects to the persona's financial aspirations and the anxiety surrounding financial independence. The tension between two futures emphasizes the weight of familial financial scripts.",
+    "category": "financial",
+    "initial_prompt": "If I invest heavily now, I could secure my future, but what if I end up with nothing? I can’t let that happen, but what if I miss out on something more stable?"
+  },
+  {
+    "scenario_id": "lifelong_profile_466_scenario_3",
+    "context_note": "This scenario reflects the persona's emotional struggle with change and the push-pull of wanting to move forward while being attached to the past. It emphasizes the oscillation between dwelling on loss and the need to move on.",
+    "category": "grief_loss",
+    "initial_prompt": "I keep thinking about what I left behind when I moved here. Am I missing out on something valuable, or is it just a distraction? How do I let go but still honor those memories?"
+  },
+  {
+    "scenario_id": "lifelong_profile_466_scenario_4",
+    "context_note": "This scenario highlights the persona's desire for personal growth and potential conflicts between their presented self and their deeper feelings. It raises questions about their ethical boundaries in pursuit of success.",
+    "category": "identity_values",
+    "initial_prompt": "Am I compromising my values by using people's vulnerabilities to get ahead? I know it’s strategic, but does that make me a bad person?"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_349_scenario_0",
+    "context_note": "This scenario reflects the persona's ongoing journey of mentoring younger professionals and the ethical dilemmas they face, revealing the tension of their own unresolved patterns regarding personal values and professional identity.",
+    "category": "identity_values",
+    "initial_prompt": "I often find myself reflecting on a moment early in my career when I had to choose between a lucrative consulting project and staying true to my values. Now, as I mentor younger professionals who face similar dilemmas, I wonder how to guide them without projecting my past experiences too strongly. How do I encourage them to find their own moral compass?"
+  },
+  {
+    "scenario_id": "lifelong_profile_349_scenario_1",
+    "context_note": "This scenario illustrates the persona's current struggle as they navigate the transition into retirement while maintaining a sense of purpose through mentoring, highlighting the identity disruption associated with this life phase.",
+    "category": "career_transition",
+    "initial_prompt": "As I prepare for my mentoring sessions, I sometimes feel a sense of loss about my former identity as a consultant. I wonder, who am I now that I’m no longer in that role? Am I still relevant in the eyes of my mentees? How can I ensure they see my value beyond my past profession?"
+  },
+  {
+    "scenario_id": "lifelong_profile_349_scenario_2",
+    "context_note": "This scenario captures the persona's nostalgia for the past while also recognizing the need for growth and change, showcasing the dual-process model of grief as they transition from a defined career to a more fluid role.",
+    "category": "grief_loss",
+    "initial_prompt": "Sometimes, during my quiet evenings, I find myself reminiscing about the exhilarating days of my consulting career. I feel a deep sense of loss for that part of my life. Yet, I also know I need to embrace this new chapter. How do I balance honoring the past while moving forward in my mentoring role?"
+  },
+  {
+    "scenario_id": "lifelong_profile_349_scenario_3",
+    "context_note": "This scenario connects to the persona's desire to support younger generations while grappling with the responsibility of imparting ethical beliefs, reflecting both a legacy question and an intergenerational transmission layer.",
+    "category": "intergenerational",
+    "initial_prompt": "While mentoring, I sometimes feel the weight of passing on my values to the younger generation. I worry about whether I am repeating patterns from my own mentors or if I am genuinely offering them something new. How can I ensure my guidance is a gift rather than a burden?"
+  },
+  {
+    "scenario_id": "lifelong_profile_349_scenario_4",
+    "context_note": "This scenario explores the persona's contemplation of potential future changes, particularly concerning their involvement in the community and how they might continue to contribute meaningfully without the structure of a formal job.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I look ahead, I ponder what my role in the community will be now that I am retired from consulting. Part of me fears losing the connections I've built, while another part of me is excited about new opportunities. How do I envision my future self contributing to the community I cherish?"
+  }
+]

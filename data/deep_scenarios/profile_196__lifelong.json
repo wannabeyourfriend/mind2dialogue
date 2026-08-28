@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_196_scenario_0",
+    "context_note": "This scenario reflects the persona's meticulous nature and engagement with the emotional weight of their work, hinting at a deeper struggle with the tension of feeling burdened by their responsibilities while seeking fairness in their decisions.",
+    "category": "emotional_support",
+    "initial_prompt": "I've been feeling a bit overwhelmed with my workload lately. It's as if the weight of every claim investigation rests on my shoulders, and I can't shake this feeling that I'm responsible for ensuring fairness, even when the job demands so much patience. How do I process this emotional tension?"
+  },
+  {
+    "scenario_id": "lifelong_profile_196_scenario_1",
+    "context_note": "In this scenario, the persona grapples with the idea of their professional identity and the possibility of career change, which reflects a fear of losing the structured identity they've built over time.",
+    "category": "career_transition",
+    "initial_prompt": "I find myself questioning my career path lately. What if I decided to pivot from auto insurance to something entirely different? Who would I be if I left this structured role that has defined me for so long? How do I reconcile this internal conflict?"
+  },
+  {
+    "scenario_id": "lifelong_profile_196_scenario_2",
+    "context_note": "This scenario highlights the persona's struggle with future planning and the emotions surrounding aging, with a sense of loss tied to the potential changes in lifestyle as they look ahead to retirement.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about my long-term goals, I can't help but feel torn. Should I prioritize saving more aggressively for retirement or invest in experiences that bring immediate joy? The thought of losing out on a comfortable lifestyle in my later years weighs heavily on me. How can I approach this dilemma?"
+  },
+  {
+    "scenario_id": "lifelong_profile_196_scenario_3",
+    "context_note": "This scenario addresses the persona's relationship with their body and health, exploring how past experiences influence their current lifestyle choices and the grief associated with changes in health demands.",
+    "category": "health_decision",
+    "initial_prompt": "I’ve been reflecting on how my body has changed over the years. I'm trying to balance my busy lifestyle with healthier choices, but I find myself grieving the ease with which I used to manage my health. What does it mean to navigate these changes now?"
+  },
+  {
+    "scenario_id": "lifelong_profile_196_scenario_4",
+    "context_note": "This scenario touches on the persona's careful approach to finances, revealing an underlying tension related to family and the impact of money beliefs from their upbringing on current decisions.",
+    "category": "financial",
+    "initial_prompt": "I'm contemplating my budget for the upcoming months. While I want to ensure I save enough for my future, I also feel the urge to break free from the frugality I learned growing up. How do I balance these conflicting financial beliefs?"
+  }
+]

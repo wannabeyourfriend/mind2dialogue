@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_336_scenario_0",
+    "context_note": "This scenario taps into the persona's ongoing struggle with balancing passion for robotics with the pressure of maintaining close relationships, reflecting an inherent fear of dependency on others.",
+    "category": "relationship",
+    "initial_prompt": "I’ve been so focused on my robotics projects lately, but I wonder if I’m missing out on connections with my friends. Is it okay to prioritize my work over socializing, or should I be finding a way to balance both?"
+  },
+  {
+    "scenario_id": "lifelong_profile_336_scenario_1",
+    "context_note": "This scenario reflects the persona's uncertainty about their future as they think about what it means to evolve beyond their current identity as a student and part-time employee.",
+    "category": "career_transition",
+    "initial_prompt": "I’m starting to think about what comes after school, but I feel lost. If I pursue a career in robotics, who will I be if I’m not just a student or a part-time worker?"
+  },
+  {
+    "scenario_id": "lifelong_profile_336_scenario_2",
+    "context_note": "This scenario evokes a nostalgia for simpler times when projects were less complex, reflecting a tension between the desire for growth and the fear of losing the joy of creation.",
+    "category": "grief_loss",
+    "initial_prompt": "As I work on more complex robotics projects, I can’t help but miss the thrill of my earlier builds. Is it normal to feel a sense of loss for the simpler times when I just tinkered for fun?"
+  },
+  {
+    "scenario_id": "lifelong_profile_336_scenario_3",
+    "context_note": "This scenario captures the persona's anxiety around financial decisions related to investing in robotics projects, revealing an underlying fear of failure and its impact on their future.",
+    "category": "financial",
+    "initial_prompt": "I’m thinking about saving my prize money for new robotics parts, but what if I make the wrong investment? How do I decide what’s worth it without risking too much?"
+  },
+  {
+    "scenario_id": "lifelong_profile_336_scenario_4",
+    "context_note": "This scenario emphasizes the persona's ongoing experimentation with their identity, balancing technical mastery with personal expression and the desire for legacy in their work.",
+    "category": "creative_expression",
+    "initial_prompt": "When I create a new robot, I wonder what it says about who I am. Am I allowed to pursue my projects for artistic expression too, or is it only about functionality?"
+  }
+]

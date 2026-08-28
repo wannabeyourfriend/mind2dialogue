@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_163_scenario_0",
+    "context_note": "This scenario reflects the ongoing struggle between maintaining personal gain versus environmental responsibility, mirroring the persona's current stage of Generativity vs. Stagnation.",
+    "category": "identity_values",
+    "initial_prompt": "在为一个新的项目提供资金支持时，我发现自己在思考：我是否在牺牲环境的同时，正在追求个人利益？这让我质疑自己一直以来所坚持的价值观。"
+  },
+  {
+    "scenario_id": "lifelong_profile_163_scenario_1",
+    "context_note": "This scenario reveals a formative experience from the persona's past where a decision influenced their current views on financial success and environmental concerns.",
+    "category": "long_term_planning",
+    "initial_prompt": "我一直在回忆起年轻时的一个决定：当时我选择追求金钱而忽视了与环境的关系。如果我当初选择不同的道路，现在生活会有什么不同？"
+  },
+  {
+    "scenario_id": "lifelong_profile_163_scenario_2",
+    "context_note": "This scenario captures the persona's current feelings of disorientation in navigating work-life balance, indicative of a transitional phase in their life.",
+    "category": "life_transition",
+    "initial_prompt": "最近我感到一种迷茫，工作和个人生活之间的界限变得模糊。为了追求职业发展，我是否放弃了自己生活中重要的部分？"
+  },
+  {
+    "scenario_id": "lifelong_profile_163_scenario_3",
+    "context_note": "This scenario explores the persona's relationship with their health and lifestyle, touching on regrets about past choices and a desire for change.",
+    "category": "health_decision",
+    "initial_prompt": "随着年龄的增长，我开始更注意自己的健康。然而，我常常反思：我是否在追求事业成功的同时忽略了对自己身体的关爱？"
+  },
+  {
+    "scenario_id": "lifelong_profile_163_scenario_4",
+    "context_note": "This scenario delves into the persona's financial anxieties stemming from family history, revealing an underlying tension in their relationship with money.",
+    "category": "financial",
+    "initial_prompt": "我总是对财富感到焦虑，尤其是在考虑我的投资和支出时。这种对金钱的紧张关系是否源于我家庭的历史？"
+  }
+]

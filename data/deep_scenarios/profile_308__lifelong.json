@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_id": "lifelong_profile_308_scenario_0",
+    "context_note": "Reflects the persona's cautious approach to change in his investment strategy, contemplating the potential regret of not taking calculated risks.",
+    "category": "long_term_planning",
+    "initial_prompt": "I've been considering whether to diversify my investments into emerging markets. What if that leads to a loss I can't recover from?"
+  },
+  {
+    "scenario_id": "lifelong_profile_308_scenario_1",
+    "context_note": "Connects to the persona's past experiences in consulting and his current role as a mentor, exploring his identity as a trusted advisor while grappling with the evolving nature of those relationships.",
+    "category": "career_transition",
+    "initial_prompt": "As I mentor others, I sometimes wonder if I'm still seen as the expert I once was, or am I becoming irrelevant in their eyes?"
+  },
+  {
+    "scenario_id": "lifelong_profile_308_scenario_2",
+    "context_note": "Addresses the persona's feelings about aging and the changes in his body, expressing a complex relationship with his physical capabilities and the grief associated with that transition.",
+    "category": "health_decision",
+    "initial_prompt": "I've noticed my walks are getting shorter, and it brings up a lot of feelings. How do I come to terms with the limitations that come with aging?"
+  },
+  {
+    "scenario_id": "lifelong_profile_308_scenario_3",
+    "context_note": "Explores the persona's struggles with family dynamics, particularly regarding his limited social interactions and how that shapes his connections with others, reflecting a pattern of guardedness.",
+    "category": "relationship",
+    "initial_prompt": "In my interactions with local contacts, I feel a tension between wanting to connect and my instinct to keep people at a distance. What does this say about my relationships?"
+  },
+  {
+    "scenario_id": "lifelong_profile_308_scenario_4",
+    "context_note": "Highlights the persona's introspection about his legacy and the simplicity of his life, allowing for a reflection on what contributions he hopes to leave behind.",
+    "category": "creative_expression",
+    "initial_prompt": "Sometimes I wonder if my quiet life adds value to the world. How can I express my experiences in a way that honors my journey?"
+  },
+  {
+    "scenario_id": "lifelong_profile_308_scenario_5",
+    "context_note": "Bridges his past experiences of learning about investments from family, while also reflecting on the emotional weight of managing wealth in a modest lifestyle.",
+    "category": "financial",
+    "initial_prompt": "I often think about how my family's views on money shaped my own. Am I making choices that reflect their values or my own?"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_265_scenario_0",
+    "context_note": "Reflects the persona's cautious approach to financial decisions and the anxiety tied to maintaining fairness and transparency in budgeting.",
+    "category": "financial",
+    "initial_prompt": "I've been feeling the pressure of balancing our household budget lately. I'm torn between wanting to save for my children's future while ensuring we have enough for our current needs. How do I know if I'm making the right choices for both?"
+  },
+  {
+    "scenario_id": "lifelong_profile_265_scenario_1",
+    "context_note": "Captures the persona's negotiation skills in a work environment while reflecting the tension between tradition and the need for modernizing practices.",
+    "category": "career_transition",
+    "initial_prompt": "As I consider introducing a new management tool at the hotel, I find myself questioning if I can really adapt to this change. Will it affect how I see my role in the team, and who will I become if I embrace this technology?"
+  },
+  {
+    "scenario_id": "lifelong_profile_265_scenario_2",
+    "context_note": "Highlights the persona's aspirations for their children and how they navigate family dynamics while instilling values of responsibility and fairness.",
+    "category": "parenting_family",
+    "initial_prompt": "I've been reflecting on the lessons I want to pass down to my children. I want them to understand the importance of fairness and hard work, but I worry that I might be repeating patterns from my own upbringing. How can I ensure they learn the right values without feeling burdened?"
+  },
+  {
+    "scenario_id": "lifelong_profile_265_scenario_3",
+    "context_note": "Demonstrates the persona's struggle with the balance between feeling overwhelmed and the desire to maintain an organized, productive life.",
+    "category": "emotional_support",
+    "initial_prompt": "Sometimes, I feel like I’m drowning in my responsibilities at work and home. I try to stay organized, but the pressure just builds up. How do I confront this feeling without letting it take over my life?"
+  },
+  {
+    "scenario_id": "lifelong_profile_265_scenario_4",
+    "context_note": "Points to the persona's reflections on life transitions as they consider the future of their career and the legacy they want to leave in hospitality.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about the future of my career, I’m left wondering what kind of impact I want to have in the hospitality industry. If I don’t take steps toward sustainable growth, will I regret it later? What does success look like for me in the long term?"
+  }
+]

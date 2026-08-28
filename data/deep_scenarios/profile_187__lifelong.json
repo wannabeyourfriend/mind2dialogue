@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_187_scenario_0",
+    "context_note": "This scenario reflects Erikson's stage of Generativity vs. Stagnation, where the individual grapples with their legacy and contributions to future generations.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about my career in electronic R&D, I often wonder if I'm doing enough to advance renewable energy technology. Will I look back and feel regret for not pushing harder for sustainable innovations that could benefit future generations?"
+  },
+  {
+    "scenario_id": "lifelong_profile_187_scenario_1",
+    "context_note": "This scenario speaks to the present-tense struggle of transitioning in one's career while maintaining a sense of identity, which aligns with Erikson's identity disruption theme.",
+    "category": "career_transition",
+    "initial_prompt": "With the rapid changes in automotive technology, I find myself questioning my professional identity. If I pivot towards a different role within renewable energy, who will I be? Will my years of expertise still hold value?"
+  },
+  {
+    "scenario_id": "lifelong_profile_187_scenario_2",
+    "context_note": "This scenario reflects a past-facing decision about the tension between professional ambition and personal values, revealing a consistent thread of cautiousness in their relationship with technology.",
+    "category": "identity_values",
+    "initial_prompt": "Looking back on my early years in electronics, I remember moments when I chose caution over ambition. I often wonder if my desire for reliability has held me back from embracing riskier innovations. Is there a part of me that fears losing sight of integrity in pursuit of progress?"
+  },
+  {
+    "scenario_id": "lifelong_profile_187_scenario_3",
+    "context_note": "This scenario illustrates the ongoing process of coping with change and the emotional landscape that comes with advancing age and career pressures.",
+    "category": "emotional_support",
+    "initial_prompt": "Lately, I’ve been feeling a bit overwhelmed by the pressure to stay at the cutting edge of technology. I can’t quite name the emotion, but it feels like a mix of anxiety and anticipation. How do I manage this feeling while also focusing on my work?"
+  },
+  {
+    "scenario_id": "lifelong_profile_187_scenario_4",
+    "context_note": "This forward-looking scenario highlights the realizations about aging and the evolving relationship with one's body in the context of professional demands.",
+    "category": "health_decision",
+    "initial_prompt": "As I continue to tackle complex engineering problems, I’ve started to notice that my body doesn’t recover as quickly as it used to. How do I reconcile my ambitions with the reality of taking better care of myself as I age?"
+  }
+]

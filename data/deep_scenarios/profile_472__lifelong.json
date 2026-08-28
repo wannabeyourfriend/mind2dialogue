@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_472_scenario_0",
+    "context_note": "This scenario reflects the persona's cautiousness about sharing creative ideas, rooted in their need for control over their work and the fear of losing intellectual ownership.",
+    "category": "relationship",
+    "initial_prompt": "I've been thinking about how to approach feedback on my designs. Sometimes I feel a bit anxious about sharing my ideas, worried they won’t be understood or valued. How do I balance getting input while still protecting my vision?"
+  },
+  {
+    "scenario_id": "lifelong_profile_472_scenario_1",
+    "context_note": "This scenario explores the persona's past experiences with collaboration that may have shaped their current preference for solo work, highlighting a recurring theme of distrust in group dynamics.",
+    "category": "career_transition",
+    "initial_prompt": "Looking back at my earlier experiences in team projects, I realize they often left me feeling frustrated and unrecognized. I wonder how those moments have influenced my current approach to working alone. Am I missing out on something important by not collaborating now?"
+  },
+  {
+    "scenario_id": "lifelong_profile_472_scenario_2",
+    "context_note": "This scenario addresses the persona's ongoing struggle to maintain a sustainable freelance career amidst the fast-paced fashion industry, reflecting their desire for control and predictability.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about the future of my freelance career, I'm torn between wanting to expand my reach and the fear of losing the control I have over my creative process. What steps can I take to ensure growth while still safeguarding my autonomy?"
+  },
+  {
+    "scenario_id": "lifelong_profile_472_scenario_3",
+    "context_note": "This scenario taps into the persona's relationship with their body and energy levels, addressing the tension between their work demands and self-care needs.",
+    "category": "health_decision",
+    "initial_prompt": "I've been pushing myself during long work sessions, but I’m starting to feel the fatigue weigh on me. It makes me reflect on how my body has changed and what it truly needs to stay healthy. How can I honor those needs without compromising my work?"
+  },
+  {
+    "scenario_id": "lifelong_profile_472_scenario_4",
+    "context_note": "This scenario looks at the persona's self-identity in the context of their creative expression, questioning who they are allowed to be as a fashion designer.",
+    "category": "creative_expression",
+    "initial_prompt": "I'm contemplating a new collection that feels quite different from my usual style, and it brings up feelings of doubt. What if this shift changes how I’m perceived in the industry? How do I reconcile my desire for innovation with my established identity?"
+  }
+]

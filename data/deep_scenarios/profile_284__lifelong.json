@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_284_scenario_0",
+    "context_note": "This scenario reflects the persona's cautiousness in relationships and the difficulty in trusting others, especially in a work environment where verbal agreements often fall through.",
+    "category": "relationship",
+    "initial_prompt": "Sometimes I wonder if I'm too guarded in my interactions at work. Is it wise to rely on anyone, or should I stick to my own path?"
+  },
+  {
+    "scenario_id": "lifelong_profile_284_scenario_1",
+    "context_note": "This scenario addresses the persona's struggle with their identity and self-worth, particularly when considering moving to a new job or career path.",
+    "category": "career_transition",
+    "initial_prompt": "If I take this new job opportunity, who will I be? Will I still feel like myself, or will it change everything I've worked for?"
+  },
+  {
+    "scenario_id": "lifelong_profile_284_scenario_2",
+    "context_note": "This scenario captures the persona's fears about balancing financial security with their current lifestyle, reflecting on the pressure of making the right choices for stability.",
+    "category": "financial",
+    "initial_prompt": "I'm weighing my options for this month's budget. If I stretch my finances too thin, will I regret not saving more for the future?"
+  },
+  {
+    "scenario_id": "lifelong_profile_284_scenario_3",
+    "context_note": "This scenario is about processing the emotional impact of a family dynamic and how it affects the persona's views on trust and reliance on others.",
+    "category": "grief_loss",
+    "initial_prompt": "I sometimes think about how I lost touch with my family. Am I holding onto the past too tightly, or is it time to let go and move forward?"
+  },
+  {
+    "scenario_id": "lifelong_profile_284_scenario_4",
+    "context_note": "This scenario reflects the persona's present struggle with daily life demands and how they manage their health amid a busy schedule, highlighting the tension between responsibility and self-care.",
+    "category": "health_decision",
+    "initial_prompt": "With my hectic routine, I wonder if I'm neglecting my health. How do I balance my work demands with taking care of myself?"
+  }
+]

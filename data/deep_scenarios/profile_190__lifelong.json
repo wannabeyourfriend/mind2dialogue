@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_id": "lifelong_profile_190_scenario_0",
+    "context_note": "This scenario reflects the persona's current feelings of nostalgia and unresolved patterns from their past, particularly concerning their identity as an engineer and their relationship with their craftsmanship.",
+    "category": "grief_loss",
+    "initial_prompt": "I often find myself reminiscing about my workshop days. How do you think we can honor the skills we once had, even if we're not using them as much?"
+  },
+  {
+    "scenario_id": "lifelong_profile_190_scenario_1",
+    "context_note": "This scenario captures the tension of navigating personal connections and the desire for closeness while remaining cautious about vulnerability, a pattern that has persisted throughout the persona's life.",
+    "category": "relationship",
+    "initial_prompt": "I enjoy the brief conversations at the bakery, but I sometimes wonder if I'm missing out on deeper connections. Is it ever too late to build closer friendships?"
+  },
+  {
+    "scenario_id": "lifelong_profile_190_scenario_2",
+    "context_note": "This scenario addresses the persona's current life phase, where they are contemplating their routines and what they might mean for their identity as they age, especially relating to their gardening and volunteering.",
+    "category": "life_transition",
+    "initial_prompt": "As I reflect on my daily routines, I wonder if they are still fulfilling or if I'm just holding on to what feels safe. How can we recognize when it's time for a change?"
+  },
+  {
+    "scenario_id": "lifelong_profile_190_scenario_3",
+    "context_note": "This scenario expresses the persona's internal conflict about maintaining control over finances while navigating potential changes in their life, emphasizing the emotional weight of financial decisions.",
+    "category": "financial",
+    "initial_prompt": "I feel anxious about the future and how my financial choices might affect my independence. What considerations should I keep in mind to ensure I'm making the right decisions?"
+  },
+  {
+    "scenario_id": "lifelong_profile_190_scenario_4",
+    "context_note": "This scenario hints at the persona's ongoing relationship with the physical changes that come with aging, reflecting on how their body has changed and what it demands from them now.",
+    "category": "health_decision",
+    "initial_prompt": "As I spend more time in my garden, I notice my body isn't as resilient as it once was. How can I adjust my routine to stay active without overexerting myself?"
+  },
+  {
+    "scenario_id": "lifelong_profile_190_scenario_5",
+    "context_note": "This scenario focuses on the persona's legacy and what it means to create and maintain traditions, especially through baking, which connects their past with their present.",
+    "category": "creative_expression",
+    "initial_prompt": "Baking brings me comfort and connects me to my family history. How can I ensure that my recipes and traditions are shared with others, even after I'm gone?"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_id": "lifelong_profile_447_scenario_0",
+    "context_note": "Reflects on a formative decision about work safety and personal responsibility rooted in earlier years, influencing his current safety practices.",
+    "category": "career_transition",
+    "initial_prompt": "I remember a time early in my career when a co-worker got seriously injured because I didn't speak up about a safety issue. It's been on my mind lately—how do I ensure my team understands the importance of safety like I do?"
+  },
+  {
+    "scenario_id": "lifelong_profile_447_scenario_1",
+    "context_note": "Explores current feelings of identity tied to his profession, questioning who he is as he approaches retirement.",
+    "category": "career_transition",
+    "initial_prompt": "As I near retirement, I sometimes wonder—if I'm not a welder anymore, who am I? It's a strange feeling to think about life beyond the job."
+  },
+  {
+    "scenario_id": "lifelong_profile_447_scenario_2",
+    "context_note": "Navigates the tension of aging with his body and the physical demands of his work, revealing grief for what he's losing.",
+    "category": "health_decision",
+    "initial_prompt": "Lately, I've felt my body holding me back more than before—it's frustrating. I know I need to stretch and stay mobile, but part of me mourns the strength I used to have."
+  },
+  {
+    "scenario_id": "lifelong_profile_447_scenario_3",
+    "context_note": "Reflects on family dynamics and patterns of responsibility in his relationships, especially regarding his adult children.",
+    "category": "parenting_family",
+    "initial_prompt": "I’ve been thinking about how I raised my kids to be responsible. I hope they don’t end up feeling the weight of that responsibility like I did. How do I support them without pushing too hard?"
+  },
+  {
+    "scenario_id": "lifelong_profile_447_scenario_4",
+    "context_note": "Confronts future regret about retirement choices, weighing the impact of his work life on personal fulfillment.",
+    "category": "long_term_planning",
+    "initial_prompt": "When I think about retiring, I wonder if I’ll have any regrets about not pursuing different opportunities. Should I have tried something new, or is it best to stick with what I know?"
+  },
+  {
+    "scenario_id": "lifelong_profile_447_scenario_5",
+    "context_note": "Explores legacy and meaning in his work, questioning the impact of his craftsmanship and what he’ll leave behind.",
+    "category": "creative_expression",
+    "initial_prompt": "As I build things at home, I find myself thinking—what will people remember about the work I've done? Is there more I could create to leave a mark?"
+  }
+]

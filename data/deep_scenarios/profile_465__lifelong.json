@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_465_scenario_1",
+    "context_note": "This scenario reflects the struggle of coming to terms with the evolving relationships as children grow up and move away, which ties to the person's focus on maintaining family connections despite physical distance.",
+    "category": "parenting_family",
+    "initial_prompt": "I often find myself looking through the family photo albums, feeling a mix of pride and sadness as I remember the days when everyone was still home. How do I hold onto those moments without feeling the weight of their absence?"
+  },
+  {
+    "scenario_id": "lifelong_profile_465_scenario_2",
+    "context_note": "This scenario explores the tension between the routines that provide comfort and the necessary changes that come with aging, reflecting on how the persona's relationship with their body has changed over time.",
+    "category": "health_decision",
+    "initial_prompt": "As I embrace my daily rituals, I sometimes wonder if my body is keeping up. I enjoy cooking and staying active, but I feel a twinge of fear about how these changes might affect my independence. What can I do to honor both my past and my present health?"
+  },
+  {
+    "scenario_id": "lifelong_profile_465_scenario_3",
+    "context_note": "This scenario indicates a prospective regret about the possibility of moving from a place that holds deep memories, reflecting the tension between maintaining comfort and pursuing new opportunities.",
+    "category": "long_term_planning",
+    "initial_prompt": "I've been considering whether to stay in Cottonwood Heights or explore a new community. On one hand, my home is filled with memories; on the other, I wonder if there might be a fulfilling new chapter waiting elsewhere. How do I weigh these two futures?"
+  },
+  {
+    "scenario_id": "lifelong_profile_465_scenario_4",
+    "context_note": "This scenario addresses the legacy the persona wishes to leave, exploring their quilting as a way to express and preserve family history while grappling with the question of identity as they age.",
+    "category": "creative_expression",
+    "initial_prompt": "As I sit down to quilt, I think about the stories woven into each piece. I wonder, what does it mean for me to create something that carries the weight of our family history? Am I leaving a legacy that holds true to who I am?"
+  },
+  {
+    "scenario_id": "lifelong_profile_465_scenario_5",
+    "context_note": "This scenario delves into the feelings of loss associated with the children moving out while simultaneously reflecting on the joy of shared memories, resonating with the dual-process model of grief.",
+    "category": "grief_loss",
+    "initial_prompt": "After the last visit from my children, I found myself feeling both joyful and melancholic. I cherish every moment spent together but also feel a sense of loss as they create their own lives. How do I navigate this blend of feelings while preserving our bond?"
+  }
+]

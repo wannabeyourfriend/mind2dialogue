@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_296_scenario_0",
+    "context_note": "This scenario reflects the ongoing struggle of balancing personal ambitions with familial expectations, showing the tension in navigating traditional roles while striving for individual success.",
+    "category": "relationship",
+    "initial_prompt": "I often find myself torn between pursuing my career goals and meeting my family's expectations. How can I better communicate my aspirations without feeling like I'm letting them down?"
+  },
+  {
+    "scenario_id": "lifelong_profile_296_scenario_1",
+    "context_note": "This scenario addresses the fear of losing connection with essential aspects of one's life, particularly in the context of career changes, reflecting a concern about identity and purpose.",
+    "category": "career_transition",
+    "initial_prompt": "As I consider expanding my role within the company or possibly starting my own venture, I can't help but wonder who I will become in the process. How do I ensure that my core values remain intact?"
+  },
+  {
+    "scenario_id": "lifelong_profile_296_scenario_2",
+    "context_note": "This scenario encapsulates the anticipation of future regret related to potential life transitions, reflecting the anxiety of making decisions that could lead to significant changes in one's life path.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm at a crossroads regarding whether to invest all my efforts in my current job or to take a leap and start my own business. What if I choose the safer route and later regret not taking the risk?"
+  },
+  {
+    "scenario_id": "lifelong_profile_296_scenario_3",
+    "context_note": "This scenario highlights the emotional processing of setbacks and challenges in professional life, illustrating the need for coping mechanisms in times of stress.",
+    "category": "emotional_support",
+    "initial_prompt": "After facing multiple challenges with suppliers and adapting my work processes, I'm feeling overwhelmed. How can I better manage stress during these tough periods?"
+  },
+  {
+    "scenario_id": "lifelong_profile_296_scenario_4",
+    "context_note": "This scenario reflects the ongoing negotiation of cultural and personal identity, particularly the contrasting expectations from one's community versus personal beliefs and aspirations.",
+    "category": "identity_values",
+    "initial_prompt": "I often grapple with the cultural expectations placed on me by my community and how they clash with my personal beliefs about progress and innovation. How can I find a balance that honors both?"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_id": "lifelong_profile_290_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with generativity as they navigate their role as both a professional and a family member, balancing responsibilities while wanting to leave a positive legacy.",
+    "category": "parenting_family",
+    "initial_prompt": "I've been thinking about how my approach to guiding my children mirrors what I learned growing up. I want them to be informed and secure, but I also fear I might be repeating some patterns from my own upbringing. How do I ensure they have a strong sense of independence while still respecting our family values?"
+  },
+  {
+    "scenario_id": "lifelong_profile_290_scenario_1",
+    "context_note": "This scenario connects to the persona's identity values, as they grapple with the balance between traditional beliefs and modern financial practices, reflecting the tension between their past and present.",
+    "category": "identity_values",
+    "initial_prompt": "I often find myself torn between the traditional values my parents instilled in me and the modern financial strategies that I know can benefit my clients. How do I honor my heritage while also adapting to the changing financial landscape?"
+  },
+  {
+    "scenario_id": "lifelong_profile_290_scenario_2",
+    "context_note": "Here, the persona is considering long-term financial decisions which resonate with their concern about generational wealth and the lessons they want to pass down to their children.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about planning for my retirement, I'm weighing the options between investing in properties for passive income versus saving for my children's education. What if I choose the wrong path and it affects both my future and theirs?"
+  },
+  {
+    "scenario_id": "lifelong_profile_290_scenario_3",
+    "context_note": "This scenario illustrates the persona's professional identity and the challenges they face as they aim to enhance trust in their client relationships while also reflecting on their own career motives.",
+    "category": "career_transition",
+    "initial_prompt": "With the insurance landscape evolving, I find myself questioning whether my approach is still relevant. Am I still the expert I once was, or is it time to redefine what success means for me and my clients?"
+  },
+  {
+    "scenario_id": "lifelong_profile_290_scenario_4",
+    "context_note": "This scenario highlights the persona's relationship with aging, balancing respect for their elders while considering their own health and lifestyle choices, exemplifying the interplay between tradition and modernity.",
+    "category": "health_decision",
+    "initial_prompt": "I'm starting to notice how my body is changing as I age, and it pushes me to think about my health choices more seriously. How do I blend the Ayurvedic practices I grew up with into a lifestyle that also respects my current needs?"
+  },
+  {
+    "scenario_id": "lifelong_profile_290_scenario_5",
+    "context_note": "This scenario reflects the persona's emotional journey with loss and nostalgia, drawing on their experiences with family dynamics and the legacy they wish to create for future generations.",
+    "category": "grief_loss",
+    "initial_prompt": "I've been reminiscing about the family gatherings from my childhood, and it makes me realize how much I value those connections. How do I keep those memories alive while also making space for new traditions with my own family?"
+  }
+]

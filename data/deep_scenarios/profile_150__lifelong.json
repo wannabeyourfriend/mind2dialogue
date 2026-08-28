@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_150_scenario_0",
+    "context_note": "This scenario reflects the persona's challenge with navigating workplace relationships, particularly in a small team where individual contributions can be obscured, echoing their preference for clear recognition.",
+    "category": "relationship",
+    "initial_prompt": "I've been feeling a bit frustrated lately at work. It's like no matter how much effort I put in, the recognition just doesn't match the contributions. How do I approach my colleagues about this without it turning into a big conflict?"
+  },
+  {
+    "scenario_id": "lifelong_profile_150_scenario_1",
+    "context_note": "This scenario captures the persona's forward-looking tension, weighing the potential regret of staying in a familiar job versus the fear of losing their current identity if they were to relocate for better opportunities.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm at a crossroads thinking about relocating for a new job. Part of me wonders if I’ll regret leaving the familiarity of my current position. How do I weigh the potential loss against the opportunity for growth?"
+  },
+  {
+    "scenario_id": "lifelong_profile_150_scenario_2",
+    "context_note": "This scenario addresses the persona's emotional struggle with change, particularly in their career, as they grapple with their identity in a potential transition, reflecting deeper fears of losing their established self.",
+    "category": "career_transition",
+    "initial_prompt": "I've been considering a shift in my career focus, but I'm worried about what that means for my identity as an engineer. Who will I be if I make this change? How do I navigate this uncertainty?"
+  },
+  {
+    "scenario_id": "lifelong_profile_150_scenario_3",
+    "context_note": "This scenario mirrors a past unresolved pattern, where the persona faced unclear family dynamics, paralleling their current struggles with recognition in their professional life.",
+    "category": "parenting_family",
+    "initial_prompt": "Looking back, I've always felt like my efforts in my family went unnoticed. It's hard not to carry that into my work now. How do I reconcile these feelings of wanting to be recognized without feeling like I’m seeking validation?"
+  },
+  {
+    "scenario_id": "lifelong_profile_150_scenario_4",
+    "context_note": "This scenario relates to the persona's directness in communication and their preference for measurable outcomes, as they navigate a challenging emotional landscape tied to performance and expectations.",
+    "category": "emotional_support",
+    "initial_prompt": "Lately, I've been struggling with the stress of meeting expectations at work, and it feels like I’m constantly under pressure. How do I cope with this without losing my focus on problem-solving?"
+  }
+]

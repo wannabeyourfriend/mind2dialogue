@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_476_scenario_1",
+    "context_note": "This scenario reflects the tension between wanting to explore and the need for safety, which is relevant for a child learning to navigate the world.",
+    "category": "emotional_support",
+    "initial_prompt": "Sometimes when I try a new experiment with my magnets, I feel really excited, but then I get scared when things don’t go as planned. How can I feel less worried about making mistakes?"
+  },
+  {
+    "scenario_id": "lifelong_profile_476_scenario_2",
+    "context_note": "This scenario addresses the importance of relationships and support from parents while developing independence in experimentation.",
+    "category": "relationship",
+    "initial_prompt": "I love trying new science projects, but sometimes I feel like I need to ask my parents for help, even when I want to do it on my own. Is it okay to ask for help, or should I figure everything out by myself?"
+  },
+  {
+    "scenario_id": "lifelong_profile_476_scenario_3",
+    "context_note": "This scenario explores the identity of becoming a young scientist, which reflects the persona's desire for self-discovery through their love of experimentation.",
+    "category": "identity_values",
+    "initial_prompt": "I want to be a scientist and discover new things, but what if I change my mind later? How do I know if this is really who I am supposed to be?"
+  },
+  {
+    "scenario_id": "lifelong_profile_476_scenario_4",
+    "context_note": "This scenario highlights the persona's energetic nature and curiosity, while also touching on the challenge of transitioning to a more organized approach in their learning.",
+    "category": "creative_expression",
+    "initial_prompt": "I have so many ideas for experiments with my magnets and other stuff, but sometimes I feel overwhelmed and can't decide which one to do first. How can I find a way to organize my ideas without losing my creativity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_476_scenario_5",
+    "context_note": "This scenario engages the persona's feelings about their experiences in school and their eagerness to learn, and how they balance that with the need for patience.",
+    "category": "life_transition",
+    "initial_prompt": "At school, I often feel really excited when we start a new lesson, but if things are too slow, I get restless. How can I keep my excitement while also waiting for the teacher to explain things?"
+  }
+]

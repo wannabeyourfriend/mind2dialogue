@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_221_scenario_0",
+    "context_note": "This scenario captures the tension between a need for independence in friendships and the struggle with sharing and patience, reflecting the persona's growing awareness of interpersonal dynamics.",
+    "category": "relationship",
+    "initial_prompt": "I wonder how to be more patient when playing with my friends. Sometimes I feel like I want to win or get my turn quickly, but I also want everyone to have fun. How do I balance that?"
+  },
+  {
+    "scenario_id": "lifelong_profile_221_scenario_1",
+    "context_note": "This scenario highlights a formative experience from the past related to helping others, revealing a pattern of seeking approval through responsibility.",
+    "category": "parenting_family",
+    "initial_prompt": "I remember when I helped my parents with our garden. It felt good to be responsible and help them. But I sometimes worry if I’m doing enough to support my family, especially when I see them stressed. How can I find a balance?"
+  },
+  {
+    "scenario_id": "lifelong_profile_221_scenario_2",
+    "context_note": "This scenario reflects the persona's anticipation of future changes in their education journey, particularly the transition from elementary school to higher education.",
+    "category": "life_transition",
+    "initial_prompt": "I feel a bit nervous about moving up to a new grade next year. What if I miss my friends or have a hard time adjusting? I want to make sure I’m ready for the new challenges that come with it."
+  },
+  {
+    "scenario_id": "lifelong_profile_221_scenario_3",
+    "context_note": "This scenario reveals a conflict between the persona's self-image as a helpful person and an emerging desire for creative self-expression through their garden projects.",
+    "category": "creative_expression",
+    "initial_prompt": "I love illustrating the plants and making project posters, but sometimes I wonder if it's okay to just create for fun without worrying about how others see it. What does making something just for myself mean about who I am?"
+  },
+  {
+    "scenario_id": "lifelong_profile_221_scenario_4",
+    "context_note": "This scenario ties to the persona's relationship with their body and the natural world, hinting at a desire to connect with nature more deeply as they grow.",
+    "category": "health_decision",
+    "initial_prompt": "I love spending time in the garden and outside, but I sometimes feel overwhelmed by how fast I’m growing up. How can I stay connected to nature as I change, while still taking care of myself?"
+  }
+]

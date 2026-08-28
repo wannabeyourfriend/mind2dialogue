@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_276_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with feelings of inadequacy and the pressure of maintaining their competitive edge in mobile game development.",
+    "category": "career_transition",
+    "initial_prompt": "As I work on my latest game, I can't shake off the thought: if this one doesn't outperform the last, what does that say about my skills and identity as a developer?"
+  },
+  {
+    "scenario_id": "lifelong_profile_276_scenario_1",
+    "context_note": "This scenario addresses the tension between the persona's desire for independence in their work and the inevitable changes that come with aging.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm thinking about the next five years. If I continue to push for autonomy in my projects, will I miss opportunities for collaboration that could elevate my game development, or is my current path the right one?"
+  },
+  {
+    "scenario_id": "lifelong_profile_276_scenario_2",
+    "context_note": "This scenario taps into the persona's feelings of nostalgia and their relationship with their body, reflecting on how their lifestyle choices are changing as they age.",
+    "category": "health_decision",
+    "initial_prompt": "As I incorporate more exercise into my routine, I wonder if I'm doing this to reclaim a sense of youth or to simply keep up with the demands of my work in game development."
+  },
+  {
+    "scenario_id": "lifelong_profile_276_scenario_3",
+    "context_note": "This scenario highlights the persona's concern about financial stability as they consider the long-term viability of their game development projects.",
+    "category": "financial",
+    "initial_prompt": "When I look at my investment in new tools for development, I question whether I'm building a legacy or just securing a safety net for the uncertainties that lie ahead in the market."
+  },
+  {
+    "scenario_id": "lifelong_profile_276_scenario_4",
+    "context_note": "This scenario captures the persona's internal conflict regarding their identity as a developer and how they navigate professional relationships.",
+    "category": "identity_values",
+    "initial_prompt": "Sometimes I feel torn between the developer I want to be—innovative and collaborative—and the one I am—more focused on precision and control in my work."
+  }
+]

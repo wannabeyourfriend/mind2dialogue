@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_286_scenario_0",
+    "context_note": "This scenario reflects the persona's current struggle with understanding how to make a difference in their community regarding environmental issues, capturing a moment where they grapple with their growing awareness of responsibility.",
+    "category": "identity_values",
+    "initial_prompt": "Sometimes I feel torn between wanting to save our environment and being just a kid who wants to have fun. How do I balance my dreams of helping with the pressure to just enjoy my childhood?"
+  },
+  {
+    "scenario_id": "lifelong_profile_286_scenario_1",
+    "context_note": "This scenario connects the persona’s interest in solar energy with a deeper reflection on their identity, as they question how their passion aligns with their family's values and the expectations of their community.",
+    "category": "career_transition",
+    "initial_prompt": "As I learn more about renewable energy, I wonder if I could actually make a career out of this. But what if my family expects me to follow a different path? Who would I be if I chose to pursue this passion?"
+  },
+  {
+    "scenario_id": "lifelong_profile_286_scenario_2",
+    "context_note": "This scenario explores the persona’s feelings about their home and community, situated between nostalgia for the past and the desire for a cleaner, safer future, illustrating their emotional journey as they witness changes in their environment.",
+    "category": "grief_loss",
+    "initial_prompt": "I sometimes miss the way our street looked before the floods changed everything. It makes me sad to think about what we've lost. How can I help restore what was once beautiful?"
+  },
+  {
+    "scenario_id": "lifelong_profile_286_scenario_3",
+    "context_note": "This scenario illustrates the persona's current family dynamics as they navigate their role within their family, seeking to honor their parents' values while also expressing their own unique passion for science and the environment.",
+    "category": "relationship",
+    "initial_prompt": "I love sharing my science projects with my family, but sometimes I feel like they don’t fully understand my passion for the environment. How can I make them see how important this is to me?"
+  },
+  {
+    "scenario_id": "lifelong_profile_286_scenario_4",
+    "context_note": "This scenario captures the persona's excitement and anxiety about the future as they anticipate changes in their educational journey, expressing the tension between their current knowledge and the unknown possibilities ahead.",
+    "category": "long_term_planning",
+    "initial_prompt": "I often think about what high school will be like and what subjects I should focus on. Will I still be able to explore my interests in science and the environment? What if I choose the wrong path?"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_254_scenario_0",
+    "context_note": "This scenario reflects the tension between the persona's current successful career in aerospace and a lingering sense of identity as they navigate their professional ambitions.",
+    "category": "career_transition",
+    "initial_prompt": "I've been feeling somewhat unsettled in my role lately. As I negotiate project timelines and oversee teams, I can't help but wonder: if I were to shift my focus to something new, who would I be without this title and recognition?"
+  },
+  {
+    "scenario_id": "lifelong_profile_254_scenario_1",
+    "context_note": "This scenario captures the persona's ongoing struggle with the pressures of maintaining appearances and status, reflecting their values around success, which can sometimes conflict with their personal feelings.",
+    "category": "identity_values",
+    "initial_prompt": "I often find myself caught between wanting to showcase my achievements—like that luxury watch I just bought—and feeling like I'm just putting on a show. What does it mean for me to wear these symbols of success? Am I losing touch with what truly matters?"
+  },
+  {
+    "scenario_id": "lifelong_profile_254_scenario_2",
+    "context_note": "This scenario illustrates the persona's reflections on intergenerational family dynamics and money scripts, especially as they consider their career's impact on future generations.",
+    "category": "financial",
+    "initial_prompt": "When I think about my financial achievements, I can't shake the feeling that I'm repeating my family's patterns around success and wealth. What if I end up creating the same pressure for my future family? How do I break that cycle while still securing my legacy?"
+  },
+  {
+    "scenario_id": "lifelong_profile_254_scenario_3",
+    "context_note": "This scenario explores the persona's relationship with their body and health, highlighting a tension between their career demands and the physical stamina they need to maintain.",
+    "category": "health_decision",
+    "initial_prompt": "I often push myself to meet the demands of my job, but sometimes I wonder if I'm neglecting my health. How do I find a balance between staying sharp for negotiations and acknowledging my body's changing needs? What am I grieving about who I used to be?"
+  },
+  {
+    "scenario_id": "lifelong_profile_254_scenario_4",
+    "context_note": "This scenario addresses the persona's aspirations while hinting at an impending career transition, reflecting their desire to climb higher while facing uncertainties in a competitive environment.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I look ahead in my career, I feel torn between the comfort of my current position and the prospect of pursuing a more prominent role. What if I take a leap and it doesn't turn out as planned? Am I ready to risk what I've built for something unknown?"
+  }
+]

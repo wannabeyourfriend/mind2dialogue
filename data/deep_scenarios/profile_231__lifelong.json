@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_231_scenario_0",
+    "context_note": "This scenario reflects the persona's tendency to lead and strategize, while also facing the challenge of recognizing others' contributions and feelings, which is key at this stage of development.",
+    "category": "relationship",
+    "initial_prompt": "I want to organize a new game for recess, but I’m worried my friends might not like my ideas. How can I make sure everyone feels included while still taking the lead?"
+  },
+  {
+    "scenario_id": "lifelong_profile_231_scenario_1",
+    "context_note": "In this scenario, the persona navigates the anticipation of school transitions, capturing the feeling of uncertainty about what lies ahead and the fear of losing the familiar structure.",
+    "category": "life_transition",
+    "initial_prompt": "I'm excited about moving to the next grade, but I'm also scared of leaving my friends behind. How can I prepare myself for the changes without feeling sad about what I might lose?"
+  },
+  {
+    "scenario_id": "lifelong_profile_231_scenario_2",
+    "context_note": "This situation reveals the persona's desire for recognition, suggesting internal conflict between the need to lead and the fear of losing connection with peers, mirroring feelings from earlier experiences.",
+    "category": "identity_values",
+    "initial_prompt": "I've always been the one to lead our group projects, but sometimes I worry that my classmates don't really appreciate my ideas. How can I show them I value their opinions too?"
+  },
+  {
+    "scenario_id": "lifelong_profile_231_scenario_3",
+    "context_note": "This reflects the persona's struggle with balancing ambition and relational dynamics, echoing earlier patterns where success might overshadow teamwork.",
+    "category": "career_transition",
+    "initial_prompt": "I really want to win the next video game tournament, but I feel bad if my teammates aren't playing their best. How do I balance my drive to succeed with my friendships?"
+  },
+  {
+    "scenario_id": "lifelong_profile_231_scenario_4",
+    "context_note": "This scenario taps into the persona's emerging understanding of their identity and the challenges of growing up, highlighting the tension between wanting independence and fearing loss of connection.",
+    "category": "long_term_planning",
+    "initial_prompt": "I know I need to start thinking about school projects for next year, but I can't help but feel nostalgic about this year's adventures with my friends. How do I prepare for the future while cherishing what I've had?"
+  }
+]

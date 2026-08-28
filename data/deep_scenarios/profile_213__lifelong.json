@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_213_scenario_0",
+    "context_note": "This scenario captures the persona's struggle with the transition into retirement, reflecting on past professional identity while considering how to maintain relevance and contribution in the community.",
+    "category": "career_transition",
+    "initial_prompt": "I've been reflecting on my identity since stepping back from consulting. How do I ensure I remain relevant and valued in my community through mentoring without losing the professional self I once defined myself by?"
+  },
+  {
+    "scenario_id": "lifelong_profile_213_scenario_1",
+    "context_note": "This scenario highlights the persona's cautious approach to investment decisions, revealing the deeper anxieties tied to financial security and the fear of loss that stem from past experiences.",
+    "category": "financial",
+    "initial_prompt": "As I analyze the latest investment trends, I can't shake the fear that I might make a misstep. How do I reconcile my cautious nature with the desire to seize new opportunities without jeopardizing what I've built?"
+  },
+  {
+    "scenario_id": "lifelong_profile_213_scenario_2",
+    "context_note": "This scenario reflects on the persona's relationship with their body and aging, revealing the emotional tension between acceptance and the grief of lost physical capabilities.",
+    "category": "health_decision",
+    "initial_prompt": "With aging comes a shift in my body's demands and capabilities. How do I navigate this change without feeling like I'm losing a part of myself, especially when I cherish my independence?"
+  },
+  {
+    "scenario_id": "lifelong_profile_213_scenario_3",
+    "context_note": "This scenario explores the persona's cautious view on sustainability initiatives while grappling with the tension between community responsibility and personal financial stability.",
+    "category": "identity_values",
+    "initial_prompt": "I've been debating the importance of sustainability in my investments. How can I align my values with my financial goals without feeling that I might compromise the stability I've worked hard to maintain?"
+  },
+  {
+    "scenario_id": "lifelong_profile_213_scenario_4",
+    "context_note": "This scenario illustrates the persona's need for clarity in mentoring roles, showing their selective nature and the tension between wanting to support others and the fear of overextending themselves.",
+    "category": "relationship",
+    "initial_prompt": "As I consider mentoring more startups, I find myself questioning how to balance my desire to help with the risk of taking on too much. How do I choose who to mentor without losing sight of my priorities?"
+  }
+]

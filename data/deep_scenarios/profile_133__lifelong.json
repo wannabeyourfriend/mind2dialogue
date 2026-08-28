@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_133_scenario_0",
+    "context_note": "This scenario reflects the persona's ongoing balance between school responsibilities and their passion for coding, capturing a moment of uncertainty regarding their identity as a student and a coder.",
+    "category": "career_transition",
+    "initial_prompt": "I've been spending so much time coding lately, but I sometimes wonder, am I just a student who codes, or am I a coder who happens to be in school? How do I find the balance between these two identities?"
+  },
+  {
+    "scenario_id": "lifelong_profile_133_scenario_1",
+    "context_note": "This scenario highlights the persona's interaction with their family, particularly their parents, and their desire for independence while simultaneously feeling the pressure of familial expectations.",
+    "category": "relationship",
+    "initial_prompt": "When we go shopping for school supplies, I feel this tug of war between wanting to express my own preferences and not wanting to disappoint my parents. How do I navigate that without feeling guilty?"
+  },
+  {
+    "scenario_id": "lifelong_profile_133_scenario_2",
+    "context_note": "This scenario captures the persona's struggles with their health and the changes their body is going through during adolescence, reflecting on past habits while trying to adopt new ones.",
+    "category": "health_decision",
+    "initial_prompt": "I’ve been trying to balance my coding sessions with some exercise, but I sometimes miss the days when I could just play without thinking about my fitness. How do I make healthier choices without feeling like I’m losing something?"
+  },
+  {
+    "scenario_id": "lifelong_profile_133_scenario_3",
+    "context_note": "This forward-looking scenario connects the persona's curiosity about blockchain technology with their broader aspirations in tech, highlighting the tension between what they know and the uncertainty of their future.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I dive deeper into learning about blockchain, I can't help but wonder if I should focus on that or stick to traditional coding. What if I choose the wrong path and miss out on something revolutionary?"
+  },
+  {
+    "scenario_id": "lifelong_profile_133_scenario_4",
+    "context_note": "This scenario reflects a nostalgic moment where the persona is grappling with memories of carefree days spent discovering technology versus the pressures of academic life, illustrating the emotional tension between restoration and loss.",
+    "category": "grief_loss",
+    "initial_prompt": "Sometimes, I remember the simpler times when coding was just a fun hobby. Now it feels like a burden with all the school pressure. How do I honor those memories while still pushing myself to grow?"
+  }
+]

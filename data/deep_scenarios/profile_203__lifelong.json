@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_203_scenario_0",
+    "context_note": "This scenario reflects the persona's desire to repair and breathe new life into old things, symbolizing their connection to family values and their town's history.",
+    "category": "creative_expression",
+    "initial_prompt": "I often find myself feeling a mix of excitement and fear when I start mending my toys. What does it mean for me to create something new from something broken?"
+  },
+  {
+    "scenario_id": "lifelong_profile_203_scenario_1",
+    "context_note": "This scenario illustrates the persona's struggle with their identity as they engage in their artistic pursuits, questioning the permission they allow themselves to express their creativity.",
+    "category": "identity_values",
+    "initial_prompt": "When I paint, I sometimes feel like I’m not really expressing who I am. How do I find the balance between what I feel and what I show to the world?"
+  },
+  {
+    "scenario_id": "lifelong_profile_203_scenario_2",
+    "context_note": "This scenario encapsulates the ongoing family dynamic, where the persona’s responsibility to help at home sometimes conflicts with their desire to play and explore.",
+    "category": "relationship",
+    "initial_prompt": "I want to help my parents at home, but I also feel this urge to go out and play with my friends. How can I find a way to honor both sides of myself?"
+  },
+  {
+    "scenario_id": "lifelong_profile_203_scenario_3",
+    "context_note": "This scenario reflects the persona's anticipation of future changes while also grappling with the weight of their family's expectations and their own desires.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about my future and what I want to do, I wonder if I’m making the right choices. What would it mean to follow a path that feels true to me, even if it goes against what others expect?"
+  },
+  {
+    "scenario_id": "lifelong_profile_203_scenario_4",
+    "context_note": "This scenario captures the persona's nurturing side, especially in relation to the lost dog, reflecting their ability to show kindness despite the boundaries set by their family.",
+    "category": "grief_loss",
+    "initial_prompt": "Taking care of the lost dog felt so rewarding, yet I also felt a deep sadness knowing I can't have a pet. How do I reconcile that sense of loss with the joy of caring for someone in need?"
+  }
+]

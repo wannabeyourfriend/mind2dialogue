@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_304_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with identity as they navigate their responsibilities and aspirations, feeling the weight of tradition while also wanting to innovate.",
+    "category": "identity_values",
+    "initial_prompt": "Sometimes I feel torn between following the traditional ways of cooking that my grandparents cherish and experimenting with new recipes I read about. How can I honor their legacy while also expressing my own creativity in the kitchen?"
+  },
+  {
+    "scenario_id": "lifelong_profile_304_scenario_1",
+    "context_note": "This scenario highlights the persona's connection to their family history and the struggle between nostalgia for past practices and the desire for growth and change.",
+    "category": "grief_loss",
+    "initial_prompt": "I often find myself reminiscing about the rice planting festivals my grandparents tell me about, feeling a mix of joy and sadness. How do I hold onto these memories while also looking forward to new traditions we might create?"
+  },
+  {
+    "scenario_id": "lifelong_profile_304_scenario_2",
+    "context_note": "This scenario captures the tension of transitioning into adulthood while still being deeply connected to family obligations, reflecting Erikson's stage of identity versus role confusion.",
+    "category": "life_transition",
+    "initial_prompt": "As I approach the end of middle school, I'm starting to think about high school and my future. I'm excited but also worried about losing the close connections I have with my family and community. How can I balance my aspirations with my responsibilities at home?"
+  },
+  {
+    "scenario_id": "lifelong_profile_304_scenario_3",
+    "context_note": "This scenario addresses the persona's desire for a deeper understanding of their community and its traditions, showcasing their need for clarity in navigating their relationships with elders.",
+    "category": "relationship",
+    "initial_prompt": "When I speak with the elders in my community about our traditions, I sometimes feel like I'm not fully understanding their perspectives. How can I ask better questions to connect with them and learn more about our history?"
+  },
+  {
+    "scenario_id": "lifelong_profile_304_scenario_4",
+    "context_note": "This scenario reflects the persona's contemplation of future changes in their life and how they might affect their family's agricultural practices, emphasizing the importance of preserving their heritage while adapting to modern methods.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm starting to think about how technology can improve our farming methods, but I worry about losing the essence of our traditions. What should I consider when discussing these potential changes with my grandparents and community?"
+  }
+]

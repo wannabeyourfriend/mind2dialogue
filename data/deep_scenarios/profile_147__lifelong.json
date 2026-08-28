@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_147_scenario_0",
+    "context_note": "This scenario reflects the struggle of wanting to be loved and accepted while also feeling the need to protect oneself from potential disappointment, echoing the difficulty in trusting others.",
+    "category": "relationship",
+    "initial_prompt": "Sometimes, I feel like I want to be closer to my parents, but I worry they won’t understand me. How can I express my feelings without feeling vulnerable?"
+  },
+  {
+    "scenario_id": "lifelong_profile_147_scenario_1",
+    "context_note": "This scenario highlights her desire for independence and how it manifests in decision-making, revealing the fear of change and uncertainty in her current life phase.",
+    "category": "life_transition",
+    "initial_prompt": "I’m thinking about what I want to do when I grow up, but I’m not sure if I should stick to what I know or try something new. What if I lose what I already have?"
+  },
+  {
+    "scenario_id": "lifelong_profile_147_scenario_2",
+    "context_note": "This scenario connects to feelings of loss linked to her childhood and evolving identity. It addresses her struggle with change and the nostalgia for simpler times.",
+    "category": "grief_loss",
+    "initial_prompt": "I sometimes miss how things were when I was younger, and I feel sad about growing up. How can I hold onto those memories without feeling lost?"
+  },
+  {
+    "scenario_id": "lifelong_profile_147_scenario_3",
+    "context_note": "This scenario reflects the internal conflict she faces in expressing herself creatively versus feeling confined by expectations, showing her struggle for authenticity.",
+    "category": "creative_expression",
+    "initial_prompt": "I love to write stories, but sometimes I wonder if they’re good enough. If I share them, what does it say about who I am as a person?"
+  },
+  {
+    "scenario_id": "lifelong_profile_147_scenario_4",
+    "context_note": "This scenario highlights her ongoing relationship with her own identity as she grows and changes. It expresses the tension between who she wants to become and the fears that hold her back.",
+    "category": "identity_values",
+    "initial_prompt": "I feel like I’m expected to be a certain way, but sometimes I don’t feel like I fit that mold. How do I figure out who I really am?"
+  }
+]

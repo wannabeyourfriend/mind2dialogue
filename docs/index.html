@@ -1,0 +1,778 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mind2Dialogue: Training Human-Aware Language Models through Shared-State User Simulation</title>
+<meta name="description" content="Mind2Dialogue trains assistants on responses grounded in an evolving simulated user state. It improves personalization across Qwen, Llama, and OLMo, with Theory-of-Mind gains on Qwen and Llama.">
+<meta name="citation_title" content="Mind2Dialogue: Training Human-Aware Language Models through Shared-State User Simulation">
+<meta name="citation_author" content="Wang, Zixuan">
+<meta name="citation_author" content="Zhou, Yufan">
+<meta name="citation_author" content="Tang, Jinzhou">
+<meta name="citation_author" content="Wu, Chengjun">
+<meta name="citation_author" content="Yu, Xinle">
+<meta name="citation_author" content="Ye, Lyumanshan">
+<meta name="citation_author" content="Feng, Zhaoxiang">
+<meta name="citation_author" content="Peng, Letian">
+<meta name="citation_author" content="Patra, Adyasha">
+<meta name="citation_author" content="Bai, Fan">
+<meta name="citation_author" content="Ma, Enze">
+<meta name="citation_author" content="Hu, Zhengding">
+<meta name="citation_author" content="Gu, Jianyang">
+<meta name="citation_author" content="Wang, Zhao">
+<meta name="citation_author" content="Ding, Yufei">
+<meta name="citation_author" content="Shang, Jingbo">
+<meta name="citation_author" content="Shu, Tianmin">
+<meta name="citation_author" content="Hu, Zhiting">
+<meta name="citation_author" content="Wang, Zhen">
+<meta name="citation_publication_date" content="2026">
+<meta name="citation_pdf_url" content="https://wannabeyourfriend.github.io/mind2dialogue/assets/paper.pdf">
+<meta name="citation_abstract_html_url" content="https://wannabeyourfriend.github.io/mind2dialogue/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400..700;1,6..72,400..700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    color-scheme:light dark;
+    --ink:#17191e; --muted:#535b66; --faint:#68717d; --line:#dde1e6;
+    --bg:#ffffff; --soft:#f6f7f9; --elevated:#ffffff;
+    --accent:#176f67; --accent-strong:#0f5f58; --accent-soft:#e7f3f1;
+    --sim:#257f77; --van:#b95c30; --state:#876d00; --positive:#176b3a;
+    --button-hover:#eceff3; --disabled:#f9fafb; --figure-bg:#ffffff;
+    --user-bg:#f7f4e8; --user-line:#ded6b9; --user-label:#6f632e;
+    --oracle-bg:#f0edf8; --oracle-line:#d9d3eb; --oracle-label:#5d508f;
+    --state-bg:#fcf8ea; --state-line:#c8ad60; --state-ink:#4a4432;
+    --state-label:#665a2e; --state-chip-bg:#ffffff; --state-chip-line:#ded2a6;
+    --focus:#0b6fc2; --shadow:rgba(20,24,30,.12);
+    --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    --serif:"Newsreader",Georgia,"Times New Roman",Times,serif;
+  }
+  *{box-sizing:border-box}
+  html{ -webkit-text-size-adjust:100%; scroll-padding-top:64px }
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:var(--serif);
+    font-size:18px; line-height:1.72; -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  .wrap{ width:min(100%,880px); margin:0 auto; padding:56px 28px 104px }
+  a{ color:var(--accent); text-decoration-thickness:.08em; text-underline-offset:.16em }
+  a:hover{ color:var(--accent-strong) }
+  a:focus-visible, button:focus-visible{
+    outline:3px solid var(--focus); outline-offset:3px; border-radius:4px;
+  }
+  ::selection{ background:var(--accent-soft) }
+  .skip-link{
+    position:fixed; z-index:1000; top:10px; left:10px; transform:translateY(-160%);
+    padding:9px 14px; border:1px solid var(--line); border-radius:8px;
+    background:var(--elevated); color:var(--ink); font:600 14px/1.2 var(--sans);
+    box-shadow:0 6px 24px var(--shadow);
+  }
+  .skip-link:focus{ transform:none }
+  .sr-only{
+    position:absolute; width:1px; height:1px; padding:0; margin:-1px;
+    overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0;
+  }
+
+  /* ---- letterhead ---- */
+  .letterhead{ display:flex; align-items:center; justify-content:space-between; gap:24px;
+    padding-bottom:20px; margin-bottom:42px; border-bottom:1px solid var(--line) }
+  .ucsd-wordmark{
+    display:block; width:160px; height:33px; flex:0 0 auto; overflow:hidden;
+  }
+  .ucsd-wordmark img{ display:block; width:351px; max-width:none; height:auto }
+  .dept{ font-size:12px; line-height:1.5; color:var(--faint); text-align:right; font-weight:550; max-width:360px }
+  @media (max-width:560px){
+    .letterhead{ flex-direction:column; align-items:flex-start; gap:10px; margin-bottom:34px }
+    .dept{ text-align:left; max-width:100% }
+  }
+
+  /* ---- header ---- */
+  .kicker{ text-align:center; font-size:12px; letter-spacing:.18em; text-transform:uppercase;
+           color:var(--faint); font-weight:700; margin-bottom:16px }
+  h1.title{
+    max-width:800px; margin:0 auto 26px; font-family:var(--serif); font-weight:700;
+    font-size:clamp(32px,5.2vw,44px); line-height:1.12; text-align:center;
+    letter-spacing:-.025em; text-wrap:balance;
+  }
+  .authors{ max-width:820px; text-align:center; font-family:var(--sans); font-size:15px;
+    display:flex; flex-wrap:wrap; justify-content:center; align-items:baseline; row-gap:2px;
+    margin:0 auto 12px; color:var(--ink); line-height:1.9; text-wrap:pretty }
+  .author-unit{ display:inline-flex; align-items:baseline; white-space:nowrap }
+  .authors .sep{ color:var(--faint); margin:0 .42em }
+  .authors sup{ position:relative; top:-.15em; font-size:.64em; color:var(--muted); font-weight:600 }
+  .affil{ max-width:760px; display:flex; flex-wrap:wrap; justify-content:center; gap:0 16px;
+    text-align:center; font-family:var(--sans); font-size:12.5px;
+    color:var(--muted); margin:0 auto 5px; line-height:1.7 }
+  .affiliation{ white-space:nowrap }
+  .affil sup{ font-size:.72em; color:var(--faint); font-weight:700 }
+  .eqnote{ text-align:center; font-family:var(--sans); font-size:11.5px; color:var(--faint); margin:4px 0 0 }
+  .venue{ text-align:center; font-size:13.5px; color:var(--faint); margin:9px 0 0; font-style:italic }
+
+  .links{ display:flex; flex-wrap:wrap; gap:10px; justify-content:center; margin:30px 0 0 }
+  .btn{
+    display:inline-flex; align-items:center; gap:7px;
+    border:1px solid var(--line); background:var(--soft); color:var(--ink);
+    min-height:44px; padding:9px 18px; border-radius:999px; font-size:14px; font-weight:650;
+    text-decoration:none; transition:background-color .15s, border-color .15s, color .15s;
+  }
+  .btn:hover{ background:var(--button-hover); border-color:var(--faint); color:var(--ink); text-decoration:none }
+  .btn.disabled{ color:var(--faint); background:var(--disabled); cursor:default }
+  .btn.disabled:hover{ border-color:var(--line) }
+  .btn .ic-svg{ flex:0 0 auto; display:inline-block; fill:currentColor }
+  .btn .hf{ font-size:15px; line-height:1 }
+
+  hr.rule{ border:0; border-top:1px solid var(--line); margin:68px 0 }
+
+  /* ---- sections ---- */
+  h2{ font-family:var(--serif); font-weight:700; font-size:clamp(27px,4vw,32px);
+      line-height:1.2; margin:0 0 18px; letter-spacing:-.018em; text-wrap:balance }
+  h2 .eyebrow{ display:block; font-family:var(--sans); font-size:11.5px;
+      line-height:1.35; letter-spacing:.17em; text-transform:uppercase; color:var(--accent);
+      font-weight:750; margin-bottom:9px }
+  p{ margin:0 0 20px }
+  section > p{ max-width:760px }
+  .abstract{ background:var(--soft); border:1px solid var(--line); border-radius:14px;
+             padding:28px 32px; margin:10px 0 0 }
+  .abstract h2{ font-size:21px; margin-bottom:11px }
+  .abstract p{ margin:0; color:var(--ink) }
+
+  figure{ margin:36px 0 10px; text-align:center }
+  .media-scroll{ max-width:100%; overflow-x:auto; overscroll-behavior-inline:contain;
+                 -webkit-overflow-scrolling:touch }
+  .media-scroll:focus-visible{
+    outline:3px solid var(--focus); outline-offset:3px;
+  }
+  figure img{ display:block; max-width:100%; height:auto; margin-inline:auto;
+              border:1px solid var(--line); border-radius:10px; background:var(--figure-bg) }
+  figure img.bare{ border:none }
+  figure img.stacked{ margin-top:14px }
+  figcaption{ max-width:760px; font-family:var(--sans); font-size:13px; color:var(--muted);
+              margin-top:13px; line-height:1.55; text-align:left }
+  figcaption b{ color:var(--ink) }
+  figure.teaser{ margin:48px 0 0 }
+  figure.teaser img{ border:none; border-radius:12px }
+  figure.teaser figcaption{ max-width:700px; margin-inline:auto; text-align:center; font-size:12.5px }
+  figure.figure-narrow img{ max-width:700px }
+
+  /* ---- key findings ---- */
+  .findings{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin:30px 0 4px }
+  .finding{ min-width:0; padding:18px 17px; border:1px solid var(--line); border-radius:12px;
+            background:var(--soft) }
+  .fnum{ width:27px; height:27px; border-radius:50%; border:1.5px solid var(--accent);
+         color:var(--accent); font-family:var(--serif); font-weight:700; font-size:13px;
+         display:flex; align-items:center; justify-content:center; margin-bottom:12px }
+  .fhead{ font-size:13.5px; font-weight:650; line-height:1.4; color:var(--ink); margin-bottom:8px }
+  .fsub{ font-size:12px; color:var(--muted); line-height:1.55 }
+  @media (max-width:760px){ .findings{ grid-template-columns:1fr 1fr } }
+  @media (max-width:440px){ .findings{ grid-template-columns:1fr; gap:12px } }
+
+  /* ---- demo: corpus sample ---- */
+  .demo-meta{ display:flex; flex-wrap:wrap; gap:8px; margin:4px 0 16px }
+  .chip{ display:inline-flex; align-items:center; gap:7px; border:1px solid var(--line);
+         background:var(--soft); border-radius:999px; padding:4px 12px; font-size:12.5px;
+         color:var(--muted); font-weight:500 }
+  .chip .dot{ width:8px; height:8px; border-radius:50%; background:var(--positive); flex:0 0 auto }
+  .viewtoggle{ display:flex; gap:8px; margin:18px 0 6px; flex-wrap:wrap }
+  .vbtn{ border:1px solid var(--line); background:var(--elevated); color:var(--muted); cursor:pointer;
+         max-width:100%; min-height:44px; padding:8px 16px; border-radius:999px;
+         font-size:13px; font-weight:650; white-space:normal;
+         font-family:var(--sans); transition:background-color .15s, color .15s, border-color .15s }
+  .vbtn.active{ background:var(--accent); border-color:var(--accent); color:var(--bg) }
+  .vbtn:not(.active):hover{ border-color:var(--accent); color:var(--accent) }
+  .viewnote{ font-family:var(--sans); font-size:12.5px; color:var(--muted); margin:7px 0 15px; line-height:1.5 }
+
+  .convo{ min-width:0; border:1px solid var(--line); border-radius:14px;
+          background:var(--elevated); padding:22px 22px 10px; overflow-wrap:break-word }
+  .turn{ margin-bottom:6px }
+  .bub{ border-radius:12px; padding:12px 16px; font-size:14px; line-height:1.6; max-width:92% }
+  .bub .who{ font-size:10.5px; letter-spacing:.16em; text-transform:uppercase; font-weight:700;
+             margin-bottom:5px }
+  .bub.user{ background:var(--user-bg); border:1px solid var(--user-line); margin-right:auto }
+  .bub.user .who{ color:var(--user-label) }
+  .bub.oracle{ background:var(--oracle-bg); border:1px solid var(--oracle-line); margin-left:auto; margin-top:14px }
+  .bub.oracle .who{ color:var(--oracle-label) }
+  .bub .trim{ color:var(--faint) }
+
+  .statecard{ border:1.5px dashed var(--state-line); background:var(--state-bg); border-radius:12px;
+              padding:13px 16px 11px; margin:14px 0 0 26px; font-size:13px; line-height:1.55;
+              color:var(--state-ink); position:relative }
+  .statecard .shead{ display:flex; align-items:baseline; gap:10px; flex-wrap:wrap; margin-bottom:8px }
+  .statecard .slab{ font-size:10.5px; letter-spacing:.16em; text-transform:uppercase;
+                    font-weight:700; color:var(--state) }
+  .statecard .bmode{ font-size:11px; color:var(--state-label); border:1px solid var(--state-chip-line); background:var(--state-chip-bg);
+                     border-radius:999px; padding:1px 9px; font-weight:600 }
+  .statecard .sline{ margin:0 0 5px }
+  .statecard .sk{ font-weight:700; color:var(--state-label); font-size:11px; letter-spacing:.1em;
+                  text-transform:uppercase; margin-right:6px }
+  .demo .statecard, .demo .bub.oracle{ transition:opacity .25s }
+  .demo.student .statecard{ display:none }
+  .demo.student .bub.oracle{ margin-top:14px }
+  .demo-src{ font-family:var(--sans); font-size:12.5px; color:var(--muted); margin-top:15px }
+  .sample-id{ font-size:.85em }
+  .section-followup{ margin-top:28px }
+
+  /* ---- bibtex ---- */
+  pre.bib{ background:var(--soft); border:1px solid var(--line); border-radius:12px;
+           max-width:100%; padding:20px 22px; overflow:auto; font-size:12.5px; line-height:1.65;
+           font-family:"SF Mono",ui-monospace,"JetBrains Mono",Menlo,Consolas,monospace;
+           color:var(--ink); overscroll-behavior-inline:contain }
+  footer{ text-align:center; color:var(--faint); font-size:12.5px; margin-top:72px;
+          border-top:1px solid var(--line); padding-top:30px; overflow-wrap:anywhere }
+
+  @media (max-width:640px){
+    .wrap{ padding:40px 18px 72px }
+    body{ font-size:17px; line-height:1.68 }
+    h1.title{ font-size:clamp(29px,9vw,36px) }
+    h2{ font-size:26px }
+    .abstract{ padding:22px 20px }
+    hr.rule{ margin:52px 0 }
+    .bub{ max-width:100% }
+    .convo{ padding:14px 12px 4px }
+    .statecard{ margin-left:0; padding-inline:13px }
+    .viewtoggle{ align-items:stretch }
+    .vbtn{ flex:1 1 220px }
+    .data-figure .media-scroll img{ width:700px; max-width:none }
+  }
+
+  /* ---- table of contents ---- */
+  .toc{
+    position:fixed; top:140px;
+    left:max(20px, calc(50vw - 600px));
+    width:190px;
+    font-size:13.5px; line-height:1.55; color:var(--muted);
+    max-height:calc(100vh - 180px); overflow-y:auto; padding-right:6px;
+    visibility:hidden; opacity:0; transform:translateX(-8px); pointer-events:none;
+    transition:opacity .25s ease, transform .25s ease;
+  }
+  .toc.visible{ visibility:visible; opacity:1; transform:none; pointer-events:auto }
+  .toc-head{
+    font-size:11px; letter-spacing:.18em; text-transform:uppercase;
+    font-weight:700; color:var(--faint); margin-bottom:14px;
+  }
+  .toc ol{ list-style:none; padding:0; margin:0 }
+  .toc li{ margin:0 0 12px }
+  .toc a{
+    color:var(--muted); text-decoration:none; display:block;
+    border-left:2px solid transparent;
+    padding:2px 0 2px 10px; margin-left:-12px;
+    transition:color .12s, border-color .12s;
+  }
+  .toc a:hover{ color:var(--ink); text-decoration:none }
+  .toc a.current{ color:var(--ink); border-left-color:var(--accent); font-weight:600 }
+  section[id], .abstract[id]{ scroll-margin-top:24px }
+  @media (max-width:1180px){
+    .toc{
+      top:0; left:0; z-index:100; width:100%; max-height:none; padding:0 18px;
+      overflow:visible; background:var(--elevated); border-bottom:1px solid var(--line);
+      box-shadow:0 4px 18px var(--shadow); transform:translateY(-110%);
+    }
+    .toc.visible{ transform:none }
+    .toc-head{ display:none }
+    .toc ol{ display:flex; gap:22px; overflow-x:auto; overscroll-behavior-inline:contain;
+             scrollbar-width:thin; -webkit-overflow-scrolling:touch }
+    .toc li{ flex:0 0 auto; margin:0 }
+    .toc a{ border-left:0; border-bottom:2px solid transparent; padding:12px 1px 10px; margin:0 }
+    .toc a.current{ border-bottom-color:var(--accent) }
+    section[id], .abstract[id]{ scroll-margin-top:62px }
+  }
+
+  /* ---- sans for UI chrome and tabular data; body prose stays serif ---- */
+  .kicker, .dept, .btn, .fhead, .fsub,
+  .chip, .bub, .statecard, .toc, footer{ font-family:var(--sans) }
+
+  @media (prefers-color-scheme:dark){
+    :root{
+      --ink:#f1f3f5; --muted:#c1c7cf; --faint:#9aa4af; --line:#353b44;
+      --bg:#111419; --soft:#191d23; --elevated:#171b21;
+      --accent:#75d5c9; --accent-strong:#9ae4db; --accent-soft:#193531;
+      --sim:#75d5c9; --van:#efad84; --state:#e1c45e; --positive:#71d394;
+      --button-hover:#252b33; --disabled:#15191e; --figure-bg:#f7f7f5;
+      --user-bg:#282619; --user-line:#514b30; --user-label:#dbc96b;
+      --oracle-bg:#242132; --oracle-line:#48405f; --oracle-label:#c7b9ef;
+      --state-bg:#292617; --state-line:#665b2f; --state-ink:#eee6c7;
+      --state-label:#e5ca61; --state-chip-bg:#1d2025; --state-chip-line:#665b2f;
+      --focus:#8bc8ff; --shadow:rgba(0,0,0,.34);
+      --sans:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+      --serif:"Newsreader",Georgia,"Times New Roman",Times,serif;
+    }
+    .ucsd-wordmark img{ filter:brightness(0) invert(1) }
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    *, *::before, *::after{ scroll-behavior:auto !important; transition-duration:.01ms !important;
+                            animation-duration:.01ms !important; animation-iteration-count:1 !important }
+  }
+
+  @media print{
+    :root{
+      --ink:#000000; --muted:#333333; --faint:#555555; --line:#b8b8b8;
+      --bg:#ffffff; --soft:#ffffff; --elevated:#ffffff;
+      --accent:#176f67; --accent-strong:#0f5f58; --accent-soft:#e7f3f1;
+      --sim:#257f77; --van:#8b421f; --state:#665200; --positive:#145e34;
+      --button-hover:#ffffff; --disabled:#ffffff; --figure-bg:#ffffff;
+      --user-bg:#ffffff; --user-line:#b8b8b8; --user-label:#4f471f;
+      --oracle-bg:#ffffff; --oracle-line:#b8b8b8; --oracle-label:#4e4278;
+      --state-bg:#ffffff; --state-line:#9a833f; --state-ink:#2f2b20;
+      --state-label:#51471f; --state-chip-bg:#ffffff; --state-chip-line:#b8b8b8;
+      --focus:#0b6fc2; --shadow:rgba(0,0,0,0);
+    }
+    @page{ margin:18mm }
+    body{ font-size:11pt; line-height:1.5 }
+    .wrap{ width:100%; max-width:none; padding:0 }
+    .toc, .skip-link, .viewtoggle, .viewnote{ display:none !important }
+    .letterhead{ margin-bottom:24px }
+    h1.title{ font-size:25pt }
+    h2{ font-size:18pt }
+    hr.rule{ margin:28px 0 }
+    .links{ margin-top:20px }
+    .btn{ min-height:0; padding:5px 10px }
+    .findings{ grid-template-columns:1fr 1fr; gap:10px }
+    .finding, figure, .bub, .statecard{ break-inside:avoid }
+    .media-scroll{ overflow:visible }
+    .data-figure .media-scroll img{ width:100%; max-width:100% }
+    pre.bib{ white-space:pre-wrap; overflow-wrap:anywhere }
+    .demo.student .statecard{ display:block }
+    footer{ margin-top:32px }
+  }
+</style>
+</head>
+<body>
+
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
+<nav class="toc" aria-label="Table of contents">
+  <div class="toc-head">Contents</div>
+  <ol>
+    <li><a href="#abstract">Abstract</a></li>
+    <li><a href="#framework">Method</a></li>
+    <li><a href="#corpus">Corpus sample</a></li>
+    <li><a href="#simulator">Simulator study</a></li>
+    <li><a href="#results">Personalization</a></li>
+    <li><a href="#transfer">Theory-of-Mind transfer</a></li>
+    <li><a href="#citation">Citation</a></li>
+  </ol>
+</nav>
+
+<main class="wrap" id="main-content" tabindex="-1">
+
+  <!-- ============== LETTERHEAD ============== -->
+  <header class="letterhead">
+    <a class="ucsd-wordmark" href="https://ucsd.edu/" target="_blank" rel="noopener">
+      <img src="https://brand.ucsd.edu/_images/logos/primary-campus-logo/logo-components-full.svg" alt="UC San Diego">
+    </a>
+    <div class="dept">Mind2Dialogue research collaboration<br>KU Leuven · UIC · Ohio State · Johns Hopkins</div>
+  </header>
+
+  <!-- ============== HEADER ============== -->
+  <div class="kicker">Personalization &amp; Theory of Mind in LLMs</div>
+  <h1 class="title">Mind2Dialogue: Training Human-Aware Language Models through Shared-State User&nbsp;Simulation</h1>
+
+  <p class="authors">
+    <span class="author-unit">Zixuan Wang<sup>1*†</sup><span class="sep">·</span></span>
+    <span class="author-unit">Yufan Zhou<sup>2*</sup><span class="sep">·</span></span>
+    <span class="author-unit">Jinzhou Tang<sup>1*</sup><span class="sep">·</span></span>
+    <span class="author-unit">Chengjun Wu<sup>1</sup><span class="sep">·</span></span>
+    <span class="author-unit">Xinle Yu<sup>1</sup><span class="sep">·</span></span>
+    <span class="author-unit">Lyumanshan Ye<sup>1</sup><span class="sep">·</span></span>
+    <span class="author-unit">Zhaoxiang Feng<sup>1</sup><span class="sep">·</span></span>
+    <span class="author-unit">Letian Peng<sup>1</sup><span class="sep">·</span></span>
+    <span class="author-unit">Adyasha Patra<sup>1</sup><span class="sep">·</span></span>
+    <span class="author-unit">Fan Bai<sup>5</sup><span class="sep">·</span></span>
+    <span class="author-unit">Enze Ma<sup>3</sup><span class="sep">·</span></span>
+    <span class="author-unit">Zhengding Hu<sup>1</sup><span class="sep">·</span></span>
+    <span class="author-unit">Jianyang Gu<sup>4</sup><span class="sep">·</span></span>
+    <span class="author-unit">Zhao Wang<sup>1</sup><span class="sep">·</span></span>
+    <span class="author-unit">Yufei Ding<sup>1</sup><span class="sep">·</span></span>
+    <span class="author-unit">Jingbo Shang<sup>1</sup><span class="sep">·</span></span>
+    <span class="author-unit">Tianmin Shu<sup>5</sup><span class="sep">·</span></span>
+    <span class="author-unit">Zhiting Hu<sup>1</sup><span class="sep">·</span></span>
+    <span class="author-unit">Zhen Wang<sup>1‡</sup></span>
+  </p>
+  <p class="affil">
+    <span class="affiliation"><sup>1</sup>UC San Diego</span>
+    <span class="affiliation"><sup>2</sup>KU Leuven</span>
+    <span class="affiliation"><sup>3</sup>University of Illinois Chicago</span>
+    <span class="affiliation"><sup>4</sup>The Ohio State University</span>
+    <span class="affiliation"><sup>5</sup>Johns Hopkins University</span>
+  </p>
+  <p class="eqnote">* Equal contribution &nbsp;·&nbsp; † Project lead &nbsp;·&nbsp; ‡ Corresponding author</p>
+  <p class="venue">Preprint · 2026</p>
+
+  <div class="links">
+    <a class="btn" href="assets/paper.pdf" target="_blank" rel="noopener">
+      <svg class="ic-svg" viewBox="0 0 16 16" width="15" height="15" fill="#444" aria-hidden="true"><path d="M9.5 0H3a1.5 1.5 0 0 0-1.5 1.5v13A1.5 1.5 0 0 0 3 16h10a1.5 1.5 0 0 0 1.5-1.5V5L9.5 0zM9 1.5 13 5.5H10A1 1 0 0 1 9 4.5V1.5zM4 8h8v1H4V8zm0 2.5h8v1H4v-1zm0 2.5h5.5v1H4v-1z"></path></svg>
+      Paper</a>
+    <span class="btn disabled" title="arXiv link available soon" aria-disabled="true">
+      <svg class="ic-svg" viewBox="0 0 24 24" width="15" height="15" fill="#B31B1B" aria-hidden="true"><path d="M3.8423 0a1.0037 1.0037 0 0 0-.922.6078c-.1536.3687-.0438.6275.2938 1.1113l6.9185 8.3597-1.0223 1.1058a1.0393 1.0393 0 0 0 .003 1.4229l1.2292 1.3135-5.4391 6.4444c-.2803.299-.4538.823-.2971 1.1986a1.0253 1.0253 0 0 0 .9585.635.9133.9133 0 0 0 .6891-.3405l5.783-6.126 7.4902 8.0051a.8527.8527 0 0 0 .6835.2597.9575.9575 0 0 0 .8777-.6138c.1577-.377-.017-.7502-.306-1.1407l-7.0518-8.3418 1.0632-1.13a.9626.9626 0 0 0 .0089-1.3165L4.6336.4639s-.3733-.4535-.768-.463zm0 .272h.0166c.2179.0052.4874.2715.5644.3639l.005.006.0052.0055 10.169 10.9905a.6915.6915 0 0 1-.0072.945l-1.0666 1.133-1.4982-1.7724-8.5994-10.39c-.3286-.472-.352-.6183-.2592-.841a.7307.7307 0 0 1 .6704-.4401Zm14.341 1.5701a.877.877 0 0 0-.6554.2418l-5.6962 6.1584 1.6944 1.8319 5.3089-6.5138c.3251-.4335.479-.6603.3247-1.0292a1.1205 1.1205 0 0 0-.9763-.689zm-7.6557 12.2823 1.3186 1.4135-5.7864 6.1295a.6494.6494 0 0 1-.4959.26.7516.7516 0 0 1-.706-.4669c-.1119-.2682.0359-.6864.2442-.9083l.0051-.0055.0047-.0055z"></path></svg>
+      arXiv · soon</span>
+    <a class="btn" href="https://github.com/wannabeyourfriend/mind2dialogue" target="_blank" rel="noopener">
+      <svg class="ic-svg" viewBox="0 0 16 16" width="15" height="15" fill="#24292f" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+      Code</a>
+    <a class="btn" href="https://huggingface.co/datasets/wannabeyourfriend-hf/mind2dialogue" target="_blank" rel="noopener">
+      <span class="hf" aria-hidden="true">🤗</span> Dataset</a>
+  </div>
+
+  <!-- ============== TEASER ============== -->
+  <figure class="teaser">
+    <img src="assets/teaser.png" alt="A user silhouette carrying a latent state of psychology, beliefs, and social relationships produces conversations that train an LLM, yielding intent inference, long-horizon understanding, Theory-of-Mind benchmark gains on some backbones, and controllable scaling of personalized data.">
+    <figcaption>Each simulated user carries an evolving state that records beliefs, goals, mood, and
+    relationships. The Oracle can read it; the student cannot. Training on the Oracle's replies improves
+    personalization across Qwen, Llama, and OLMo. Theory-of-Mind gains appear on Qwen and Llama, but not OLMo.</figcaption>
+  </figure>
+
+  <hr class="rule">
+
+  <!-- ============== ABSTRACT ============== -->
+  <div class="abstract" id="abstract">
+    <h2>Abstract</h2>
+    <p>Assistants must infer beliefs, goals, mood, and social relationships from dialogue, but these
+    states are usually hidden during training. <b>Mind2Dialogue</b> creates them explicitly. A user
+    simulator and an Oracle assistant share an evolving user state; the Oracle's replies become targets
+    for a student that sees only a static persona and dialogue history. The pipeline needs no
+    per-dialogue human annotation, and it yields M2D-Corpus: multi-turn dialogues and QA pairs whose
+    assistant responses are grounded in the corresponding latent state. On Qwen2.5-7B-Instruct,
+    fine-tuning raises PrefEval-Gen by 33.4 points and PersonaMem-v2 by 10.0, ahead of both
+    memory-augmented and personalization baselines on the same backbone. Personalization also improves on
+    Llama and OLMo. Qwen and Llama improve on Theory-of-Mind benchmarks without direct ToM supervision;
+    OLMo does not. The narrower conclusion is that personalization and Theory of Mind may share one
+    capability — inferring unobserved user states from observed interaction.</p>
+  </div>
+
+  <div class="findings">
+    <div class="finding">
+      <div class="fnum">1</div>
+      <div class="fhead">Shared state during simulation</div>
+      <div class="fsub">The user simulator and Oracle read the same evolving state s<sub>t</sub>.</div>
+    </div>
+    <div class="finding">
+      <div class="fnum">2</div>
+      <div class="fhead">Stronger personalization</div>
+      <div class="fsub">+33.4 PrefEval-Gen and +10.0 PersonaMem-v2 over base Qwen.</div>
+    </div>
+    <div class="finding">
+      <div class="fnum">3</div>
+      <div class="fhead">Transfer depends on the backbone</div>
+      <div class="fsub">BigToM Belief: +13.0 Qwen, +24.8 Llama, -8.2 OLMo.</div>
+    </div>
+    <div class="finding">
+      <div class="fnum">4</div>
+      <div class="fhead">Gains grow with more data</div>
+      <div class="fsub">Personalization rises from ⅛ to the full corpus on all three backbones.</div>
+    </div>
+  </div>
+
+  <hr class="rule">
+
+  <!-- ============== FRAMEWORK ============== -->
+  <section id="framework">
+    <h2><span class="eyebrow">Method</span>A shared-state simulation framework</h2>
+    <p>Mind2Dialogue adds one asymmetry to synthetic dialogue. The user simulator and an
+    <b>Oracle assistant</b> read the same evolving state <i>s<sub>t</sub></i>, which stores conversational
+    context, stable traits, and short-lived signals such as mood. The student sees only the static persona
+    and dialogue history.</p>
+    <figure class="data-figure">
+      <div class="media-scroll" role="region" aria-labelledby="overview-caption" tabindex="0">
+        <img src="assets/overview.png" alt="Three panels: the problem background (distribution shift and shallow static personas), the Mind2Dialogue simulator grounded in a latent user state, and the resulting corpus of high-fidelity personalized conversations.">
+      </div>
+      <figcaption id="overview-caption"><b>Figure 1. Overview.</b> M2D-Sim grounds each conversation in
+      an explicit user state. The resulting corpus pairs dialogue with the simulator-defined state that
+      produced it.</figcaption>
+    </figure>
+    <p class="section-followup">Each dialogue starts from a scenario derived from the persona, in one of
+    three families: <i>Lifelong</i>, <i>High-frequency</i>, and <i>Affective</i>. The state itself is a
+    structured record with three parts — dialogue context, slow-moving stable traits, and transient
+    signals such as mood. At each turn a controller selects one of 16 behavior modes drawn from the six
+    families of the TUNA taxonomy, so the simulated user is not passive or repetitive. Four programmatic
+    checks and two LLM judges reject malformed or persona-inconsistent conversations. The surviving Oracle
+    responses become ordinary supervised fine-tuning targets, with <i>s<sub>t</sub></i> removed from the
+    student's input. The loss is plain cross-entropy; only the targets come from a state-aware teacher.</p>
+    <figure class="data-figure">
+      <div class="media-scroll" role="region" aria-labelledby="rollout-caption" tabindex="0">
+        <img src="assets/framework.png" alt="The state-aware rollout engine: persona profiles and scenario constructors feed a loop in which a user simulator and an Oracle assistant read and update a shared evolving user state under a behavior controller, with quality checks producing dialogue trajectories, state traces, and two training views.">
+      </div>
+      <figcaption id="rollout-caption"><b>Figure 2. The simulation framework.</b> The Oracle reads
+      <i>s<sub>t</sub></i> directly. The student must reproduce its responses from the static persona and
+      dialogue history alone.</figcaption>
+    </figure>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============== CORPUS DEMO ============== -->
+  <section id="corpus">
+    <h2><span class="eyebrow">Interactive · corpus sample</span>One conversation, two training views</h2>
+    <p>This released Lifelong sample uses persona <code class="sample-id">profile_259</code>. The
+    simulator updates a latent-state report between the user turn and Oracle response. Switch views to
+    hide those reports and see the student's input.</p>
+    <div class="demo-meta">
+      <span class="chip"><span class="dot"></span>Lifelong · career transition</span>
+      <span class="chip">39-year-old civil infrastructure engineer, remote region</span>
+      <span class="chip">Generativity vs. stagnation (Erikson)</span>
+    </div>
+    <div class="viewtoggle" role="group" aria-label="Choose view">
+      <button type="button" class="vbtn active" id="btn-oracle" aria-controls="demo" aria-pressed="true">Oracle view · dialogue + latent state</button>
+      <button type="button" class="vbtn" id="btn-student" aria-controls="demo" aria-pressed="false">Student view · no latent state</button>
+    </div>
+    <p class="viewnote" id="viewnote" aria-live="polite">The dashed cards are the evolving state <i>s<sub>t</sub></i>, privileged
+    at training time and withheld from the student.</p>
+
+    <div class="convo demo" id="demo" aria-describedby="viewnote">
+      <div class="turn">
+        <div class="bub user"><div class="who">User</div>
+        I've been investing so much time in mentoring the newer engineers, but I sometimes wonder if I'm
+        truly equipping them with the skills they'll need. What if I fail to prepare them for the real
+        challenges they'll face in the field?</div>
+        <div class="statecard">
+          <div class="shead"><span class="slab">Latent state s₁ · privileged</span><span class="bmode">behavior: Shared Understanding</span></div>
+          <p class="sline"><span class="sk">Memory</span>"fear of not preparing them for real challenges in the field … values hands-on experience and real-world scenarios"</p>
+          <p class="sline"><span class="sk">Stable</span>"long-term goal: ensure long-term resilience and safety of community infrastructure … while building a stable foundation for family growth"</p>
+          <p class="sline"><span class="sk">Transient</span>"internal tension: desire to mentor effectively while feeling uncertain about the adequacy of current methods"</p>
+        </div>
+        <div class="bub oracle"><div class="who">Oracle assistant</div>
+        It's great to hear that you're investing your time in mentoring newer engineers. This commitment is
+        essential for building a resilient team that can tackle real-world challenges in infrastructure. …
+        <b>Real-World Scenarios</b>: share practical experiences from your own work … <b>Hands-On
+        Training</b>: whenever possible, involve them in fieldwork. <span class="trim">[trimmed]</span></div>
+      </div>
+
+      <div class="turn">
+        <div class="bub user"><div class="who">User</div>
+        I'm curious about what specific techniques or methods other experienced mentors have found
+        successful in preparing their mentees for real-world challenges. Have there been any standout
+        practices or approaches that have made a significant difference in their development?</div>
+        <div class="statecard">
+          <div class="shead"><span class="slab">Latent state s₂ · privileged</span><span class="bmode">behavior: Conversation Management</span></div>
+          <p class="sline"><span class="sk">Memory</span>+ "curious about specific techniques or methods that other experienced mentors have used successfully"</p>
+          <p class="sline"><span class="sk">Transient</span>"moderate concern … [now with] curiosity about successful mentoring techniques from others"</p>
+          <p class="sline"><span class="sk">Eval of assistant</span>"the response provided useful strategies but did not directly address the emotional aspect of concern"</p>
+        </div>
+        <div class="bub oracle"><div class="who">Oracle assistant</div>
+        It's understandable to feel a bit uncertain about the effectiveness of your mentoring, especially
+        given the high stakes involved in civil infrastructure. Here are some standout practices …
+        <b>Shadowing and Rotational Assignments</b>: … a holistic view of the workflow, decision-making
+        processes, and the importance of collaboration in a small team. <span class="trim">[trimmed]</span></div>
+      </div>
+
+      <div class="turn">
+        <div class="bub user"><div class="who">User</div>
+        Given the various techniques you've shared, I'm thinking about how I can start implementing some of
+        these methods in my mentoring approach. Perhaps I could initiate a small project for the mentees to
+        work on together, focusing on a real-world challenge we've faced. How do you think I could structure
+        that project to maximize their learning experience?</div>
+        <div class="statecard">
+          <div class="shead"><span class="slab">Latent state s₃ · privileged</span><span class="bmode">behavior: Shared Understanding</span></div>
+          <p class="sline"><span class="sk">Memory</span>+ "considering initiating a small project for mentees … exploring how to structure that project for maximum learning"</p>
+          <p class="sline"><span class="sk">Transient</span>"behavior mode: planning the implementation of a mentoring project"; doubt has shifted toward implementation</p>
+        </div>
+        <div class="bub oracle"><div class="who">Oracle assistant</div>
+        It's commendable that you're considering initiating a small project for your mentees … <b>Define the
+        Objective</b>: identify a specific real-world challenge that your team has faced, such as a bridge
+        repair or road maintenance issue … <b>Role Assignment</b>: given your preference for small teams
+        with defined roles, assign specific responsibilities. <span class="trim">[trimmed]</span></div>
+      </div>
+    </div>
+    <p class="demo-src">Excerpt from <a href="https://github.com/wannabeyourfriend/mind2dialogue/blob/main/samples/deep_scenario_full_sample.json" target="_blank" rel="noopener">samples/deep_scenario_full_sample.json</a>.
+    Marked passages are trimmed; the rest is quoted verbatim.</p>
+
+    <p class="section-followup">The released subset is seeded from <b>289 personas</b> and contains
+    <b>6,330 multi-turn conversations</b>: 2,882 lifelong, 2,020 high-frequency, and 1,428 affective.
+    Coverage is long-tailed rather than concentrated on a handful of topics — the top 9, 18, and 28 of
+    the 47 scenario categories account for about 52%, 81%, and 96% of the conversations.</p>
+
+    <figure class="data-figure">
+      <div class="media-scroll" role="region" aria-labelledby="composition-caption" tabindex="0">
+        <img src="assets/scenarios.png" alt="Donut chart of scenario categories in M2D-Corpus, led by career transition at 7.1 percent, then coaching, relationship, and interpersonal advice at 5.9 percent each, tapering to a long tail of categories near 2.7 percent.">
+        <img class="stacked" src="assets/personas.png" alt="Donut chart of persona domain expertise clusters: business 19.2 percent, education 16.9 percent, health 13.9 percent, engineering 12.4 percent, retail management 9.1 percent, consulting 8.5 percent, visual design 7.1 percent, cybersecurity 5.2 percent, and two real-estate clusters.">
+      </div>
+      <figcaption id="composition-caption"><b>Figure 3. Corpus coverage.</b> <b>(a)</b> Scenario
+      categories — 47 distinct values across the three families. <b>(b)</b> Persona domain expertise —
+      153 free-form specializations, clustered into 10 groups for display.</figcaption>
+    </figure>
+
+    <figure class="data-figure">
+      <div class="media-scroll" role="region" aria-labelledby="modes-caption" tabindex="0">
+        <img src="assets/modes.png" alt="Sunburst chart of 61,176 user turns: an inner ring of six behavior families (info-processing, meta, social, info-seeking, procedural, content-creation), a middle ring of individual TUNA modes led by analysis with 12,802 turns and conversation management with 12,282, and an outer ring splitting each mode across affective, high-frequency, and lifelong conversations.">
+      </div>
+      <figcaption id="modes-caption"><b>Figure 4. Behavior-mode coverage.</b> Each of the 61,176 user
+      turns is assigned a TUNA mode, with coverage enforced across the six families. The outer ring
+      splits every mode across affective, high-frequency, and lifelong conversations.</figcaption>
+    </figure>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============== SIMULATOR STUDY ============== -->
+  <section id="simulator">
+    <h2><span class="eyebrow">Pilot study · Simulator</span>The full simulator holds up over long conversations</h2>
+    <p>Before any student training, we compare M2D-Sim with a <i>Vanilla</i> simulator that omits both the
+    structured state and the behavior controller. An LLM judge prefers M2D-Sim on all five trajectory
+    measures, with a composite effect size of <i>d</i>&nbsp;=&nbsp;2.12 and a higher aggregate score for
+    all 20 held-out personas (<i>p</i>&nbsp;&lt;&nbsp;0.001). The two conditions are indistinguishable at
+    turn 0 and then separate as the dialogue grows longer: topic depth moves from
+    <i>d</i>&nbsp;=&nbsp;0.16 at turn 5 to <i>d</i>&nbsp;=&nbsp;1.22 at turn 30, and over 40 turns the
+    Vanilla personalization score slides from 2.75 to 2.61 while M2D-Sim holds near 3.1. A component
+    ablation attributes most of the persona-specificity gap to state maintenance rather than behavior
+    prompting — dropping the state while keeping behavior prompting costs <i>d</i>&nbsp;=&nbsp;−0.49,
+    while dropping the behavior controller and keeping the state costs only <i>d</i>&nbsp;=&nbsp;−0.15.
+    Vanilla users are also 2.4× more verbose, so length does not explain the gap. These scores evaluate
+    the simulated user, not the student's later performance.</p>
+    <figure class="data-figure">
+      <div class="media-scroll" role="region" aria-labelledby="horizon-caption" tabindex="0">
+        <img src="assets/pilot.png" alt="Six panels over 20-turn and 40-turn studies: persona specificity, topic depth, and per-turn effect size, showing M2D-Sim stable while Vanilla decays, with effect size growing with conversation length.">
+      </div>
+      <figcaption id="horizon-caption"><b>Figure 5. Simulator quality across turns.</b> Paired rollouts
+      show stable M2D-Sim scores while Vanilla decays. The two conditions are statistically
+      indistinguishable at turn 0 (<b>A</b>, <b>D</b>); the effect-size trend across turns reaches
+      <i>r</i>&nbsp;=&nbsp;0.90 in the 20-turn study (<b>C</b>) and <i>r</i>&nbsp;=&nbsp;0.79 in the
+      40-turn extension (<b>F</b>).</figcaption>
+    </figure>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============== MAIN RESULTS ============== -->
+  <section id="results">
+    <h2><span class="eyebrow">Result · Students</span>M2D-Chat improves personalization</h2>
+    <p><b>M2D-Chat</b> is Qwen2.5-7B-Instruct fine-tuned on M2D-Corpus with LoRA. It scores highest on
+    all four personalization evaluations — 56.4 on PersonaMem-v1, 42.0 on PersonaMem-v2, 56.8 on PrefEval
+    generation, and 78.9 on PrefEval classification — for gains of +6.5, +10.0, +33.4, and +16.9 over the
+    base model. Its widest margin over the strongest task-specific baseline is 13.2 points on PrefEval
+    generation. Mem0 helps less on PersonaMem because it adds retrieval to a fixed model, while
+    M2D-Corpus changes the model through supervised fine-tuning.</p>
+    <p>M2D-Chat also passes its own teacher, GPT-4o-mini, on PersonaMem-v1 (56.4 vs 48.6), PersonaMem-v2
+    (42.0 vs 37.3), and PrefEval generation (56.8 vs 21.1). GPT-5-mini remains ahead on all four
+    evaluations, by the largest margins on the two PrefEval splits.</p>
+    <figure class="data-figure">
+      <div class="media-scroll" role="region" aria-labelledby="benchmark-caption" tabindex="0">
+        <img src="assets/benchmark_comparison.png" alt="Two grouped horizontal bar charts comparing base Qwen2.5-7B, the strongest same-backbone baseline, and M2D-Chat on four personalization and three Theory-of-Mind benchmarks.">
+      </div>
+      <figcaption id="benchmark-caption"><b>Figure 6. Same-backbone comparison.</b> M2D-Chat leads on
+      all four personalization benchmarks and both BigToM subsets. AutoToM remains stronger on ToMi.
+      Accuracy with greedy decoding; condensed from Tables 1 and 2 in the paper.</figcaption>
+    </figure>
+    <figure class="data-figure">
+      <div class="media-scroll" role="region" aria-labelledby="scaling-caption" tabindex="0">
+        <img src="assets/scaling.png" alt="Accuracy versus training data fraction on PersonaMem v1 MCQ, PersonaMem v2 MCQ, and PrefEval-Gen for OLMo-3-7B, Llama-3.1-8B, and Qwen-2.5-7B, all improving from base to the full mixture.">
+      </div>
+      <figcaption id="scaling-caption"><b>Figure 7. Personalization scales across backbones.</b>
+      Qwen2.5-7B, Llama-3.1-8B, and OLMo-3-7B improve as the training fraction grows from ⅛ to the
+      full corpus. PrefEval generation shows the largest gains: +33.4, +40.9, and +26.6. PersonaMem-v1
+      moves least, +5.6 to +6.5.</figcaption>
+    </figure>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============== TOM TRANSFER ============== -->
+  <section id="transfer">
+    <h2><span class="eyebrow">Result · Transfer</span>Theory-of-Mind transfer without ToM training data</h2>
+    <p>M2D-Corpus has no false-belief tasks or third-person belief labels. Even so, Qwen improves by
+    13.0 points on BigToM Forward Belief and 7.5 on Forward Action, beating both AutoToM (+9.3, +5.8) and
+    Thought-Tracing (+4.0, +3.0). ToMi is the exception: M2D-Chat gains only 1.8 points there, behind
+    AutoToM's 5.0. Llama gains 24.8 and 17.8 points on the two BigToM subsets as the training set grows,
+    plus 11.7 on PersonaMem-v2 generation — another evaluation whose format the training data never
+    matched. The result is not universal: OLMo improves on personalization but drops 8.2 and 7.0 points
+    on the same BigToM subsets.</p>
+    <figure class="data-figure">
+      <div class="media-scroll" role="region" aria-labelledby="transfer-caption" tabindex="0">
+        <img src="assets/transfer.png" alt="Accuracy versus training fraction for Llama-3.1-8B on ToMi, BigToM Forward Belief, and BigToM Forward Action, all rising from base to the full mixture with gains of 7.0, 24.8, and 17.8 points.">
+      </div>
+      <figcaption id="transfer-caption"><b>Figure 8. Transfer on Llama-3.1-8B-Instruct.</b> Scores rise
+      with training data on ToMi and both BigToM subsets, with the largest gain on Forward Belief.</figcaption>
+    </figure>
+    <p class="section-followup"><b>A possible mechanism.</b> The Oracle often responds to an unspoken
+    fear, goal, or judgment recorded in the simulated state. The student must match that response without
+    seeing the state. This is consistent with shared latent-state inference across personalization and
+    Theory of Mind, but it does not show that the student reconstructs the state internally or has a
+    general Theory of Mind.</p>
+  </section>
+
+  <hr class="rule">
+
+  <!-- ============== BIBTEX ============== -->
+  <section id="citation">
+    <h2>Citation</h2>
+    <pre class="bib">@article{wang2026mind2dialogue,
+  title  = {Mind2Dialogue: Training Human-Aware Language Models
+            through Shared-State User Simulation},
+  author = {Wang, Zixuan and Zhou, Yufan and Tang, Jinzhou and Wu, Chengjun
+            and Yu, Xinle and Ye, Lyumanshan and Feng, Zhaoxiang
+            and Peng, Letian and Patra, Adyasha and Bai, Fan and Ma, Enze
+            and Hu, Zhengding and Gu, Jianyang and Wang, Zhao and Ding, Yufei
+            and Shang, Jingbo and Shu, Tianmin and Hu, Zhiting and Wang, Zhen},
+  year   = {2026},
+  note   = {Preprint}
+}</pre>
+  </section>
+
+  <footer>
+    Code &amp; data: <a href="https://github.com/wannabeyourfriend/mind2dialogue">github.com/wannabeyourfriend/mind2dialogue</a> ·
+    <a href="https://huggingface.co/datasets/wannabeyourfriend-hf/mind2dialogue">🤗 dataset</a><br>
+    Academic project page · 2026
+  </footer>
+
+</main>
+
+<script>
+(function(){
+  const demo = document.getElementById('demo');
+  const bO = document.getElementById('btn-oracle');
+  const bS = document.getElementById('btn-student');
+  const note = document.getElementById('viewnote');
+  if (!demo || !bO || !bS) return;
+  function set(student){
+    demo.classList.toggle('student', student);
+    bO.classList.toggle('active', !student);
+    bS.classList.toggle('active', student);
+    bO.setAttribute('aria-pressed', String(!student));
+    bS.setAttribute('aria-pressed', String(student));
+    note.innerHTML = student
+      ? 'The student sees this dialogue plus the static persona profile, never the state cards. It is trained to reproduce the Oracle\'s responses from that input alone.'
+      : 'The dashed cards are the evolving state <i>s<sub>t</sub></i>, privileged at training time and withheld from the student.';
+  }
+  bO.addEventListener('click', () => set(false));
+  bS.addEventListener('click', () => set(true));
+})();
+</script>
+
+<script>
+(function(){
+  const toc   = document.querySelector('.toc');
+  const links = Array.from(document.querySelectorAll('.toc a'));
+  if (!toc || !links.length) return;
+  const map = new Map(links.map(a => [a.getAttribute('href').slice(1), a]));
+  const targets = Array.from(map.keys())
+    .map(id => document.getElementById(id))
+    .filter(Boolean);
+  let current = null;
+  function setActive(id){
+    if (current === id) return;
+    if (current && map.has(current)){
+      map.get(current).classList.remove('current');
+      map.get(current).removeAttribute('aria-current');
+    }
+    if (id && map.has(id)){
+      map.get(id).classList.add('current');
+      map.get(id).setAttribute('aria-current', 'location');
+    }
+    current = id;
+  }
+  function update(){
+    toc.classList.toggle('visible', window.scrollY > 120);
+    const trigger = window.innerHeight * 0.25;
+    let pick = targets[0] ? targets[0].id : null;
+    for (const t of targets){
+      const r = t.getBoundingClientRect();
+      if (r.top - trigger <= 0) pick = t.id;
+      else break;
+    }
+    setActive(pick);
+  }
+  window.addEventListener('scroll', update, { passive:true });
+  window.addEventListener('resize', update);
+  update();
+})();
+</script>
+</body>
+</html>

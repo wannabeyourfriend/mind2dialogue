@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_444_scenario_0",
+    "context_note": "This scenario captures the tension between the persona's commitment to their community and the fear of losing their unique creative identity, reflecting their current life phase of questioning career direction.",
+    "category": "career_transition",
+    "initial_prompt": "I've been thinking about how my work as an Art/Design Director is shaping my identity. Am I still honoring my roots, or am I slipping into what's commercially safe? How do I navigate this without losing my creative essence?"
+  },
+  {
+    "scenario_id": "lifelong_profile_444_scenario_1",
+    "context_note": "This scenario connects to the persona's formative experiences around family and resilience, highlighting their struggle with generational patterns as they seek to create a legacy that honors their culture.",
+    "category": "intergenerational",
+    "initial_prompt": "I’ve been reflecting on my family’s influence on my creative journey. How do I honor their struggles while carving out my path in design? Is there a way to break free from old patterns and create something authentically mine?"
+  },
+  {
+    "scenario_id": "lifelong_profile_444_scenario_2",
+    "context_note": "This scenario speaks to the persona's ongoing struggle with emotional processing, particularly reflecting on moments of loss related to family and identity—an experience that they oscillate between dwelling on and moving forward from.",
+    "category": "grief_loss",
+    "initial_prompt": "Sometimes I feel this profound nostalgia for moments with my family that have shaped my creative vision. How do I balance that feeling of loss with the need to keep moving forward in my work?"
+  },
+  {
+    "scenario_id": "lifelong_profile_444_scenario_3",
+    "context_note": "This scenario highlights the persona's desire to make thoughtful innovations and reflect community identity, capturing the forward-looking aspect of their life as they envision future projects that resonate with cultural depth.",
+    "category": "creative_expression",
+    "initial_prompt": "I’m excited about an upcoming project that aims to blend contemporary design with local cultural elements. What does it mean for me to create something that not only represents my vision but also connects deeply with the community?"
+  },
+  {
+    "scenario_id": "lifelong_profile_444_scenario_4",
+    "context_note": "This scenario illustrates the persona's navigation of emotional support and stress management while balancing their creative aspirations, especially in light of their structured work-life approach.",
+    "category": "emotional_support",
+    "initial_prompt": "Lately, I’ve been feeling the pressure of balancing deep work with personal well-being. How can I create space for my creativity without overwhelming myself, especially when I’m so passionate about my projects?"
+  }
+]

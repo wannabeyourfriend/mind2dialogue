@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_360_scenario_0",
+    "context_note": "This scenario reflects the persona's careful approach to managing their wealth while grappling with the uncertainties that come with aging, highlighting a tension between stability and the inevitability of change.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I look at my rental properties, I wonder if I'm doing enough to ensure their future value. Should I consider selling any of them now, before the market shifts? What would that mean for my financial security?"
+  },
+  {
+    "scenario_id": "lifelong_profile_360_scenario_1",
+    "context_note": "This scenario emphasizes the persona's relationship with their own body and health, touching on the challenges of aging without invoking drama, and the pragmatic acceptance of physical limitations over time.",
+    "category": "health_decision",
+    "initial_prompt": "I've noticed some changes in my health that make me question how much longer I can manage everything on my own. Is it time to think about assistance, or can I still maintain my independence?"
+  },
+  {
+    "scenario_id": "lifelong_profile_360_scenario_2",
+    "context_note": "This scenario opens a dialogue about the persona's past decisions regarding wealth management and their reflections on family influences that shape their current financial practices.",
+    "category": "financial",
+    "initial_prompt": "Reflecting on my childhood, I realize how my parents' views on money shaped mine. Am I overly cautious with my investments, or is it just a reflection of what I've learned about financial stability?"
+  },
+  {
+    "scenario_id": "lifelong_profile_360_scenario_3",
+    "context_note": "This scenario highlights the persona's need for control in their life as they confront the uncertainties of aging and the potential loss of independence, presenting a choice that feels like a loss of self.",
+    "category": "life_transition",
+    "initial_prompt": "As I think about the future, I'm faced with the idea of moving into a more supportive living situation. Do I accept that change, or do I fight to stay in my current home, even if it means more challenges?"
+  },
+  {
+    "scenario_id": "lifelong_profile_360_scenario_4",
+    "context_note": "This scenario captures the persona's careful navigation of personal identity as they consider how their relationships with family may change in the wake of aging and the potential re-evaluation of familial roles.",
+    "category": "intergenerational",
+    "initial_prompt": "With my children getting older, I find myself wondering how much support they expect from me now. Am I holding onto old patterns, or is it time to redefine our dynamics as we all age?"
+  }
+]

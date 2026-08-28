@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_176_scenario_0",
+    "context_note": "This scenario highlights the struggle with changing identity as the persona transitions from retail to a tech focus, reflecting on who they will become in this new role.",
+    "category": "career_transition",
+    "initial_prompt": "I've been thinking about how changing my career from retail to tech will affect my identity. Sometimes it feels overwhelming to think about who I will be if I switch paths."
+  },
+  {
+    "scenario_id": "lifelong_profile_176_scenario_1",
+    "context_note": "This scenario addresses the financial anxiety of the persona, as they navigate reduced work hours and the need to re-evaluate their budgeting while managing school and family expectations.",
+    "category": "financial",
+    "initial_prompt": "With my hours cut at work, I'm stressed about how to budget my expenses. It's hard to face these money worries when I've always been careful with finances."
+  },
+  {
+    "scenario_id": "lifelong_profile_176_scenario_2",
+    "context_note": "This scenario reflects on a formative decision in the persona's past, where they might have felt pressure to conform to family expectations, impacting their current values around efficiency and clear communication.",
+    "category": "identity_values",
+    "initial_prompt": "Sometimes I wonder if I’m pushing myself too hard to meet expectations. I feel like there's this conflict between what I want and what others expect of me."
+  },
+  {
+    "scenario_id": "lifelong_profile_176_scenario_3",
+    "context_note": "This scenario showcases the active struggle of balancing school, work, and personal life while feeling the pressure of impending exams and a desire to excel in coding.",
+    "category": "emotional_support",
+    "initial_prompt": "I’ve been feeling a lot of pressure juggling my studies and work, especially with exams coming up. It’s as if I can’t name this anxiety, but it weighs on me."
+  },
+  {
+    "scenario_id": "lifelong_profile_176_scenario_4",
+    "context_note": "This scenario expresses the anticipation of future changes as the persona considers the implications of their current decisions on their long-term goals, especially within the tech field.",
+    "category": "long_term_planning",
+    "initial_prompt": "I often think about where I want to be in the next few years. I fear that if I don’t take this coding seriously now, I might regret missing out on a tech career."
+  }
+]

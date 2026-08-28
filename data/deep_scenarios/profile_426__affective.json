@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "affective_profile_426_scenario_0",
+    "category": "interpersonal_advice",
+    "initial_prompt": "How can I enhance my written communication skills to convey complex real estate appraisal concepts more clearly to clients?",
+    "context_note": "This is personal because clear communication is critical in your role as a real estate appraiser, where clients rely on your expertise to understand valuation metrics."
+  },
+  {
+    "scenario_id": "affective_profile_426_scenario_1",
+    "category": "coaching",
+    "initial_prompt": "What strategies can I employ to ensure my professional integrity while navigating the challenges of the real estate market?",
+    "context_note": "Maintaining integrity is a core value for you, especially in a field where pressures can influence appraisal accuracy."
+  },
+  {
+    "scenario_id": "affective_profile_426_scenario_2",
+    "category": "psychotherapy_or_counseling",
+    "initial_prompt": "What techniques can I implement to manage any stress that arises from the demands of my job while staying focused on my long-term goals?",
+    "context_note": "As someone who values a low-risk lifestyle, managing stress effectively will help you maintain your focus on integrity and financial stability."
+  },
+  {
+    "scenario_id": "affective_profile_426_scenario_3",
+    "category": "companionship",
+    "initial_prompt": "How can I support friends or colleagues who might be feeling overwhelmed with their own professional challenges?",
+    "context_note": "Given your dedication to clear communication and integrity, offering support could also be an opportunity for you to connect with others on a deeper level."
+  },
+  {
+    "scenario_id": "affective_profile_426_scenario_4",
+    "category": "interpersonal_advice",
+    "initial_prompt": "What steps can I take to improve my ability to analyze and discuss the historical significance of properties with clients?",
+    "context_note": "Your work involves assessing homes with rich histories, and enhancing this skill will deepen your connection to both your clients and the properties."
+  }
+]

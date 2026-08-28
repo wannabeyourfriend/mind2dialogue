@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_477_scenario_0",
+    "context_note": "This scenario reflects the persona's long-standing commitment to empathetic leadership, as they navigate the emotional turbulence of their role while being mindful of their team's well-being.",
+    "category": "emotional_support",
+    "initial_prompt": "I've been feeling a bit overwhelmed lately, trying to keep the team motivated during this peak season. Sometimes, I worry if I'm doing enough for them. How can I support my staff better during these busy times?"
+  },
+  {
+    "scenario_id": "lifelong_profile_477_scenario_1",
+    "context_note": "This scenario highlights the persona's relationship with their changing professional identity as they approach retirement, grappling with their legacy and influence on the next generation of hospitality professionals.",
+    "category": "career_transition",
+    "initial_prompt": "As I approach the later stages of my career, I'm reflecting on my journey. If I were to step back from my role, who would I be without my job? How do I ensure that my experience and values are passed on to the next generation?"
+  },
+  {
+    "scenario_id": "lifelong_profile_477_scenario_2",
+    "context_note": "This scenario connects to the persona's past experiences and decisions, relating to their relationships and family dynamics, particularly around the lessons learned from their upbringing in the hospitality industry.",
+    "category": "family",
+    "initial_prompt": "Reflecting on my early experiences in hospitality, I often think about how my upbringing shaped my approach to leadership. Did my parents instill in me the values of service and empathy, or am I trying to carve out a different path for my children?"
+  },
+  {
+    "scenario_id": "lifelong_profile_477_scenario_3",
+    "context_note": "This scenario captures the persona's present struggle as they balance their professional responsibilities with personal health, underlining their commitment to self-care and the impact of stress over time.",
+    "category": "health_decision",
+    "initial_prompt": "I've always prioritized my health, especially with the demands of my job. But lately, I've been feeling more fatigued. How can I maintain my energy levels without sacrificing my responsibilities at work?"
+  },
+  {
+    "scenario_id": "lifelong_profile_477_scenario_4",
+    "context_note": "This scenario is forward-looking, focusing on the persona's thoughts about future transitions and their desire to create a sustainable impact in their community, reflecting their legacy in the hospitality industry.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about retirement, I'm torn between a peaceful life at the beach or continuing to mentor young professionals in hospitality. What will I miss if I choose one path over the other, and how can I make a meaningful contribution no matter where I end up?"
+  }
+]

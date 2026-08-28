@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_202_scenario_0",
+    "context_note": "This scenario highlights the persona's ongoing struggle to stand up for fairness and inclusion, reflecting their need for social justice in their current environment.",
+    "category": "relationship",
+    "initial_prompt": "Sometimes, when I see someone being left out during recess, I feel a knot in my stomach. I wonder if I’m doing enough to help them feel included, or if my friends think I’m being too outspoken. How can I balance speaking up for fairness while still wanting to fit in?"
+  },
+  {
+    "scenario_id": "lifelong_profile_202_scenario_1",
+    "context_note": "This scenario reflects on a past experience where the persona felt overwhelmed by a situation that didn’t seem fair, linking their current advocacy for inclusion with earlier unresolved feelings of frustration.",
+    "category": "emotional_support",
+    "initial_prompt": "I remember a time in class when a friend was teased, and I felt powerless. Even now, I think about it and feel a mix of sadness and anger. How can I process those feelings and transform them into actions that make a difference today?"
+  },
+  {
+    "scenario_id": "lifelong_profile_202_scenario_2",
+    "context_note": "This scenario looks forward to a future situation where the persona anticipates a challenge in their social environment, wrestling with their identity as an advocate for fairness.",
+    "category": "life_transition",
+    "initial_prompt": "I’m excited about starting high school, but I worry about standing up for others in a bigger crowd. What if the friends I make don’t share my values? How can I stay true to myself while navigating this new environment?"
+  },
+  {
+    "scenario_id": "lifelong_profile_202_scenario_3",
+    "context_note": "This scenario delves into the persona's values and moral beliefs, exploring the tension between their desire to be fair and the pressure to conform to peer expectations.",
+    "category": "identity_values",
+    "initial_prompt": "I often think about the stories we read in class about people who stood up for what was right. Sometimes, I feel torn between wanting to fit in and standing up for others. How do I know when it’s the right time to speak out, even if it means standing alone?"
+  },
+  {
+    "scenario_id": "lifelong_profile_202_scenario_4",
+    "context_note": "This scenario connects the persona's evolving social dynamics with their family influences, highlighting the importance they place on fairness and relationships.",
+    "category": "intergenerational",
+    "initial_prompt": "My parents always tell me to be kind and brave, but sometimes I find it hard to act on that when I see unfairness among my friends. How can I honor their teachings while also learning to navigate my own decisions in friendship?"
+  }
+]

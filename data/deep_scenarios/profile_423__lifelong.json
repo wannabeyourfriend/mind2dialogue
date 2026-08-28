@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_423_scenario_0",
+    "context_note": "Reflects the struggle of maintaining identity and purpose as roles within the community shift, particularly as younger generations leave.",
+    "category": "career_transition",
+    "initial_prompt": "I've been thinking about what it means to keep running this bar as the town changes. Sometimes I wonder, if I'm not the one behind the counter, who am I?"
+  },
+  {
+    "scenario_id": "lifelong_profile_423_scenario_1",
+    "context_note": "Captures the tension between wanting to ensure a fair bar environment and the fear of losing that stability as the community evolves.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I look at the younger folks moving away, I can't help but wonder if I'll be able to keep this bar going. What if I can't? What would I regret more—staying here or moving on?"
+  },
+  {
+    "scenario_id": "lifelong_profile_423_scenario_2",
+    "context_note": "Demonstrates the impact of familial relationships and how the persona's connection with their children informs their sense of legacy and responsibility.",
+    "category": "parenting_family",
+    "initial_prompt": "When my kids visit, we have our simple meals and honest talks. I sometimes think about the kind of family legacy I'm passing on. Am I doing enough to keep our connection strong as they grow?"
+  },
+  {
+    "scenario_id": "lifelong_profile_423_scenario_3",
+    "context_note": "Highlights the emotional difficulty of letting go of certain roles or identities while grappling with grief and nostalgia for what was.",
+    "category": "grief_loss",
+    "initial_prompt": "I find myself reminiscing about the days when the bar was always full. It's bittersweet, knowing that those times have changed. How do I honor those memories without letting them weigh me down?"
+  },
+  {
+    "scenario_id": "lifelong_profile_423_scenario_4",
+    "context_note": "Explores the persona's feelings about aging and health, reflecting on how their body has changed and the emotional weight of those changes.",
+    "category": "health_decision",
+    "initial_prompt": "As I keep up with the daily demands of the bar, I've started to feel the toll on my body. It leads me to wonder—how do I take care of myself while also caring for the place that's been my life?"
+  }
+]

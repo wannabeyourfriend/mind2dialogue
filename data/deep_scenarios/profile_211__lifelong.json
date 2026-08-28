@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_211_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle between artistic freedom and audience understanding, connecting both a past formative experience with a present challenge.",
+    "category": "creative_expression",
+    "initial_prompt": "I've been feeling this intense pressure to make my art resonate with a wider audience while staying true to my personal vision. It reminds me of when I was in university, trying to balance my unique style with what was expected in critiques. How do I navigate this tension without losing myself in the process?"
+  },
+  {
+    "scenario_id": "lifelong_profile_211_scenario_1",
+    "context_note": "This scenario highlights a current dilemma between personal values and financial realities, embodying a recurring pattern in the persona's life as they evaluate project choices based on personal ethics.",
+    "category": "financial",
+    "initial_prompt": "I'm facing a tough choice about whether to take on a high-paying project that doesn't align with my values or pass it up and risk financial strain. It's a familiar conflict for me—how do I weigh my creative integrity against the pressing need for financial stability?"
+  },
+  {
+    "scenario_id": "lifelong_profile_211_scenario_2",
+    "context_note": "This scenario explores the persona's relationship with their creative identity and how it might evolve, echoing their past experiences with self-definition in the artistic realm.",
+    "category": "career_transition",
+    "initial_prompt": "As I consider branching out into a new style of design, I find myself questioning who I am as a designer. Will this shift redefine my artistic identity, and can I still be recognized for my previous work? What does this change mean for my future in the industry?"
+  },
+  {
+    "scenario_id": "lifelong_profile_211_scenario_3",
+    "context_note": "This scenario connects to the persona's evolving relationship with their body and creative process, reflecting past insecurities and current challenges.",
+    "category": "health_decision",
+    "initial_prompt": "Lately, I've noticed my body demanding more from me—long hours at the computer are taking a toll. It brings back memories of feeling physically strained during my college years when I used to push through pain for deadlines. How do I find a balance between my passion for design and taking care of my well-being?"
+  },
+  {
+    "scenario_id": "lifelong_profile_211_scenario_4",
+    "context_note": "This scenario captures the persona's navigation of family dynamics and artistic aspirations, resonating with their ongoing quest for personal and professional validation.",
+    "category": "relationship",
+    "initial_prompt": "I had a conversation with my parents recently about my career choices, and it felt like they were struggling to understand the freelance path I’ve chosen. It made me reflect on how they view my art—not just as a career but as a part of my identity. How do I communicate my journey to them without feeling judged or misunderstood?"
+  }
+]

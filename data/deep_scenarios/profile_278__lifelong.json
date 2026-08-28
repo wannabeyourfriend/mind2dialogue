@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_278_scenario_0",
+    "context_note": "This scenario reflects the persona's deep-rooted connection to family while also highlighting their struggle for individuality within familial expectations.",
+    "category": "relationship",
+    "initial_prompt": "I often find myself torn between helping my family with chores and wanting to dive deeper into my science projects. How can I express my need for independence without making my family feel unsupported?"
+  },
+  {
+    "scenario_id": "lifelong_profile_278_scenario_1",
+    "context_note": "This scenario connects to the persona's ongoing journey of balancing their current role as a student passionate about environmental science and their fear of losing connection with family traditions.",
+    "category": "identity_values",
+    "initial_prompt": "As I explore new ideas in environmental science, I sometimes question how much I should stick to our family's traditions. Am I losing part of myself by wanting to innovate?"
+  },
+  {
+    "scenario_id": "lifelong_profile_278_scenario_2",
+    "context_note": "This scenario focuses on the persona's future aspirations and the emotional weight of choosing between pursuing a possible scholarship and staying close to home, revealing their fear of loss associated with change.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm considering applying for a scholarship that could take me away from Sambhal, but I fear leaving my family behind. What if I regret not taking the opportunity, but also miss home too much?"
+  },
+  {
+    "scenario_id": "lifelong_profile_278_scenario_3",
+    "context_note": "This scenario highlights the persona's curiosity and desire for knowledge while also revealing their struggle with their own self-identity as they navigate the expectations of others.",
+    "category": "career_transition",
+    "initial_prompt": "As I prepare for future science fairs and community discussions, I wonder if I am truly building my identity in environmental science, or just fulfilling what others expect of me. Who am I really becoming?"
+  },
+  {
+    "scenario_id": "lifelong_profile_278_scenario_4",
+    "context_note": "This scenario reflects the persona's exploration of their health choices and how they relate to their family's dietary habits, marking a pivotal moment of self-awareness and potential change.",
+    "category": "health_decision",
+    "initial_prompt": "I've started experimenting with healthier recipes, inspired by my mother, but I worry if I’m making choices that will separate me from our family's usual meals. How do I balance my health goals with family traditions?"
+  }
+]

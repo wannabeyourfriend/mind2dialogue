@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_241_scenario_0",
+    "context_note": "The persona grapples with the fear of losing control over their business as they consider the future of their custom furniture design. There's a tension between maintaining their current successful model and the potential for growth that could require some collaboration.",
+    "category": "long_term_planning",
+    "initial_prompt": "If I expand my business, what part of my creative control would I be willing to give up? Would it feel like a loss or an opportunity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_241_scenario_1",
+    "context_note": "As the persona experiences success, they reflect on their early days in the workshop, questioning how their foundational choices shape their current identity. This scenario highlights the struggle between who they have become and the influence of their past.",
+    "category": "career_transition",
+    "initial_prompt": "Looking back, how did my early decisions in woodworking set the stage for the person I am today? Am I still that same passionate creator?"
+  },
+  {
+    "scenario_id": "lifelong_profile_241_scenario_2",
+    "context_note": "In moments of stress, the persona finds it challenging to balance their workload with the emotional demands of running a business. This highlights the difficulty of managing expectations while hoping for personal fulfillment.",
+    "category": "emotional_support",
+    "initial_prompt": "Sometimes I feel overwhelmed by the expectations I've set for myself in the workshop. How do I process these feelings without losing my focus?"
+  },
+  {
+    "scenario_id": "lifelong_profile_241_scenario_3",
+    "context_note": "The persona's journey in furniture design reflects an ongoing commitment to their craft and a desire to create a lasting impact in their community. They are torn between the push for exclusivity and the need for connection with clients.",
+    "category": "identity_values",
+    "initial_prompt": "As I strive for exclusivity in my designs, how do I balance that with the need to create connections in the community? What does that say about my values?"
+  },
+  {
+    "scenario_id": "lifelong_profile_241_scenario_4",
+    "context_note": "Reflecting on the integration of technology into their craft, the persona explores how this shift affects their identity as a traditional craftsman. This prompts a deeper question about the essence of their work and who they are becoming.",
+    "category": "creative_expression",
+    "initial_prompt": "In using advanced tools and technology, am I preserving the essence of my craft, or changing what it means to be a furniture designer? What does this mean for my legacy?"
+  }
+]

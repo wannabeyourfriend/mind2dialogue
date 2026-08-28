@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_272_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with family dynamics and the tension between their desire for autonomy and the expectations set by their parents.",
+    "category": "relationship",
+    "initial_prompt": "Sometimes I feel like my parents want me to be someone I'm not. How do I express my own ideas without upsetting them?"
+  },
+  {
+    "scenario_id": "lifelong_profile_272_scenario_1",
+    "context_note": "This scenario connects to the persona's quest for personal identity as they navigate their educational journey, reflecting their struggle for independence while also wanting to excel in their creative pursuits.",
+    "category": "identity_values",
+    "initial_prompt": "In school, I feel pressure to fit in, but I want to stand out. How do I choose projects that truly reflect who I am?"
+  },
+  {
+    "scenario_id": "lifelong_profile_272_scenario_2",
+    "context_note": "This scenario illustrates the persona's anticipation of future independence and the fears associated with growing up, as they weigh the impact of their choices now on their future self.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm thinking about what I want to do when I grow up. What if the decisions I make now lead me away from what I truly want?"
+  },
+  {
+    "scenario_id": "lifelong_profile_272_scenario_3",
+    "context_note": "In this scenario, the persona reflects on their creative endeavors as a way to express themselves, showing their desire for self-authorization and fear of being judged for their choices.",
+    "category": "creative_expression",
+    "initial_prompt": "When I create something, I want it to be perfect and truly mine. What if people don't appreciate it the way I do?"
+  },
+  {
+    "scenario_id": "lifelong_profile_272_scenario_4",
+    "context_note": "This scenario highlights the persona's ongoing negotiation with their family dynamics, particularly the balance between pushing boundaries and seeking approval.",
+    "category": "parenting_family",
+    "initial_prompt": "I sometimes feel the need to break the rules just to have my own space. How do I show my parents that I can handle more freedom without causing conflict?"
+  }
+]

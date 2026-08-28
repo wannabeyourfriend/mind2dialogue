@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_250_scenario_0",
+    "context_note": "This scenario reflects the persona’s tendency to navigate complex relationships while maintaining a guarded distance, rooted in a fear of dependency and the need for control.",
+    "category": "relationship",
+    "initial_prompt": "I've been thinking about how I usually keep people at arm's length. Is there a way to build trust without risking too much?"
+  },
+  {
+    "scenario_id": "lifelong_profile_250_scenario_1",
+    "context_note": "This scenario explores the persona's unresolved patterns from the past, particularly around financial stability and the influence of their family’s money scripts.",
+    "category": "financial",
+    "initial_prompt": "I feel like I'm constantly juggling my finances, but I worry I'm just repeating the same patterns I grew up with. Is it possible to break free from that?"
+  },
+  {
+    "scenario_id": "lifelong_profile_250_scenario_2",
+    "context_note": "This scenario captures the personal struggle of facing identity disruption as the persona considers potential career changes that challenge their self-concept.",
+    "category": "career_transition",
+    "initial_prompt": "What if I decided to pursue a different job? I wonder who I would be if I stepped out of this role as a switchboard operator."
+  },
+  {
+    "scenario_id": "lifelong_profile_250_scenario_3",
+    "context_note": "This scenario illustrates the persona's long-term aspirations while grappling with the fear of making choices that could lead to regret, particularly in a social landscape they find complex.",
+    "category": "long_term_planning",
+    "initial_prompt": "When I think about my future, I’m torn between staying in Jewar for stability or taking a risk that could lead to something greater. What if I choose wrong?"
+  },
+  {
+    "scenario_id": "lifelong_profile_250_scenario_4",
+    "context_note": "This scenario emphasizes the oscillation between dwelling on past connections and the desire to move on, reflecting the persona's guardedness and solitary nature.",
+    "category": "grief_loss",
+    "initial_prompt": "Sometimes I find myself reminiscing about past relationships, feeling a sense of loss but also knowing I need to focus on what’s ahead. How do I balance those feelings?"
+  }
+]

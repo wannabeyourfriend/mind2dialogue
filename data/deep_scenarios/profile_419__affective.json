@@ -1,0 +1,26 @@
+[
+  {
+    "scenario_id": "affective_profile_419_scenario_0",
+    "category": "interpersonal_advice",
+    "initial_prompt": "I’m trying to express my thoughts clearly during discussions with my classmates about our science projects. Do you have any tips on how to communicate complex ideas in a way that’s engaging and understandable?",
+    "context_note": "This is personal because effective communication is essential for sharing their passion for astronomy and engaging peers in meaningful discussions."
+  },
+  {
+    "scenario_id": "affective_profile_419_scenario_1",
+    "category": "coaching",
+    "initial_prompt": "I’m considering different paths in my future career in astrophysics. What steps should I take now to build a strong foundation for a career in space science research?",
+    "context_note": "This is personal as it aligns with their long-term goal of pursuing a career in astrophysics, allowing them to explore practical steps toward their passion."
+  },
+  {
+    "scenario_id": "affective_profile_419_scenario_2",
+    "category": "psychotherapy_or_counseling",
+    "initial_prompt": "I sometimes feel overwhelmed with the pressure to excel in school while also pursuing my interests in astronomy. What strategies can I use to manage stress and maintain a healthy balance?",
+    "context_note": "This is personal as balancing academic pressures with their passion for astronomy can impact their emotional wellbeing, making this a relevant concern for them."
+  },
+  {
+    "scenario_id": "affective_profile_419_scenario_3",
+    "category": "companionship",
+    "initial_prompt": "I’ve been reflecting on how my interest in the universe shapes my identity. How can I explore these thoughts further and understand their impact on how I relate to others?",
+    "context_note": "This is personal because it touches on their journey of self-discovery and how their scientific interests influence their interactions with peers."
+  }
+]

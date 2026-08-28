@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_436_scenario_0",
+    "context_note": "This scenario reflects the persona's ongoing commitment to stability and clarity regarding financial and property matters, highlighting a tension they may feel about their long-term planning.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I observe the recent real estate developments around Madison, I find myself wondering—if I stay in my current home, will I regret not having pursued a smaller, more manageable property? There’s so much change happening, and I fear it might disrupt the community I’ve cherished."
+  },
+  {
+    "scenario_id": "lifelong_profile_436_scenario_1",
+    "context_note": "This scenario touches on the persona's past experiences with financial stability and the values they learned from their family, linking their current financial management to their upbringing.",
+    "category": "financial",
+    "initial_prompt": "I often think back to how my parents managed their finances. Was their constant caution about spending a reflection of their upbringing, or was it their way of ensuring our family's security? I want to be prudent, but sometimes I wonder if I might be overly conservative, especially with my fixed income."
+  },
+  {
+    "scenario_id": "lifelong_profile_436_scenario_2",
+    "context_note": "This scenario explores the persona's sense of identity tied to their community engagement as they navigate their role in the local historical society, addressing questions of legacy and self-worth.",
+    "category": "creative_expression",
+    "initial_prompt": "At the historical society, I often contemplate what it truly means to preserve the stories and artifacts of our community. Am I leaving a meaningful legacy, or is it just a way to fill my afternoons? What does my commitment to this work say about who I am at this stage of life?"
+  },
+  {
+    "scenario_id": "lifelong_profile_436_scenario_3",
+    "context_note": "This scenario reflects the persona's current struggle with aging and the changes in their physical health, highlighting a sense of grief over the loss of vitality and independence they once had.",
+    "category": "health_decision",
+    "initial_prompt": "As I navigate my daily walks, I sometimes feel a pang of nostalgia for the days when I could walk without any effort or concern. How do I reconcile my desire to stay active and engaged with the reality of my aging body?"
+  },
+  {
+    "scenario_id": "lifelong_profile_436_scenario_4",
+    "context_note": "This scenario illustrates the persona's concern about the changing dynamics within their community and the potential loss of neighborhood character as they contemplate the implications of new developments.",
+    "category": "relationship",
+    "initial_prompt": "When I attend city council meetings, I often find myself questioning whether the decisions being made truly consider the needs of our community. How do I express my concerns about maintaining our neighborhood's character without coming across as resistant to change?"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_335_scenario_0",
+    "context_note": "This scenario reflects your current engagement in mentoring, highlighting your desire to contribute and the tension between generativity and the fear of becoming stagnant in retirement.",
+    "category": "relationship",
+    "initial_prompt": "As I reflect on my mentorship with the young individuals in our community, I often wonder if my guidance truly resonates with them. Am I inspiring them to explore their own paths, or am I merely projecting my own values onto them?"
+  },
+  {
+    "scenario_id": "lifelong_profile_335_scenario_1",
+    "context_note": "This scenario takes a look back at your earlier career choices and how they have shaped your current identity, considering the tension between your past professional life and the quietude of retirement.",
+    "category": "career_transition",
+    "initial_prompt": "Thinking about my days as a consultant, I sometimes grapple with the question: who am I now that I’ve stepped away from that part of my life? Is my worth still tied to my professional achievements?"
+  },
+  {
+    "scenario_id": "lifelong_profile_335_scenario_2",
+    "context_note": "This scenario explores the bittersweet nature of your current health decisions, touching on how you have cared for your body throughout your life while facing the realities of aging.",
+    "category": "health_decision",
+    "initial_prompt": "Lately, I've been contemplating my diet and health routines more than ever. I wonder, am I doing enough to honor my body now? What do I miss about the vitality I once had?"
+  },
+  {
+    "scenario_id": "lifelong_profile_335_scenario_3",
+    "context_note": "This scenario captures your engagement with cultural heritage and ethical philosophy, illustrating the belief that one’s legacy is shaped by the values passed down through generations.",
+    "category": "identity_values",
+    "initial_prompt": "As I delve into classical Japanese literature, I find myself questioning: how much of my identity is influenced by the cultural teachings I’ve absorbed? Am I upholding these values, or am I creating new ones as I engage with the present?"
+  },
+  {
+    "scenario_id": "lifelong_profile_335_scenario_4",
+    "context_note": "This scenario expresses your reflections on community involvement and how it is both fulfilling yet comes with a sense of loss for what was left behind in your professional life.",
+    "category": "life_transition",
+    "initial_prompt": "While volunteering at the library brings me joy, I sometimes feel a void from my past career. How do I reconcile the fulfillment of contributing to my community with the sense of loss I feel from my professional life?"
+  }
+]

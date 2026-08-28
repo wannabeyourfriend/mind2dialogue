@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_252_scenario_0",
+    "context_note": "This scenario reflects the challenge of maintaining control in family dynamics, particularly as adult children seek independence while still needing guidance.",
+    "category": "relationship",
+    "initial_prompt": "I've been feeling a sense of conflict as my children start making their own decisions. Am I holding on too tightly, or is it necessary for their growth? How do I balance support without overstepping?"
+  },
+  {
+    "scenario_id": "lifelong_profile_252_scenario_1",
+    "context_note": "This scenario captures the tension of generativity, where the persona is reflecting on their legacy and the impact of their financial decisions on future generations.",
+    "category": "financial",
+    "initial_prompt": "As I make investment choices, I can’t help but wonder if I’m building something lasting for my family or if I’m just accumulating wealth for myself. What will they remember about my financial legacy?"
+  },
+  {
+    "scenario_id": "lifelong_profile_252_scenario_2",
+    "context_note": "This scenario addresses the identity conflicts associated with a potential job change, reflecting the persona's fear of losing their established professional identity.",
+    "category": "career_transition",
+    "initial_prompt": "I’m considering a shift in my role within the company, but it makes me question who I would be without my current title. What does it mean for my identity if I take this step?"
+  },
+  {
+    "scenario_id": "lifelong_profile_252_scenario_3",
+    "context_note": "This scenario showcases the cyclical nature of grief and moving forward, particularly regarding aging parents and the responsibilities that come with it.",
+    "category": "grief_loss",
+    "initial_prompt": "As I care for my aging parents, I find myself oscillating between reminiscing about our past and the reality of their decline. How do I honor their memory while still moving forward with my life?"
+  },
+  {
+    "scenario_id": "lifelong_profile_252_scenario_4",
+    "context_note": "This scenario captures the anticipatory grief associated with the transition to retirement, considering both the loss of a structured identity and the excitement of new possibilities.",
+    "category": "life_transition",
+    "initial_prompt": "I can feel this upcoming retirement approaching, and while there’s a sense of relief, I also grieve the idea of losing the professional identity I’ve built. What should I be doing now to prepare for this change?"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_222_scenario_0",
+    "context_note": "This scenario reflects the ongoing struggle between maintaining control at work while feeling the pressure of potential failure, resonating with Erikson's stage of Generativity vs. Stagnation.",
+    "category": "career_transition",
+    "initial_prompt": "I’ve been feeling uneasy about the direction my career is heading. What if stepping into a new role means losing the sense of authority I’ve built? Who will I be if I’m not the one in charge?"
+  },
+  {
+    "scenario_id": "lifelong_profile_222_scenario_1",
+    "context_note": "This scenario captures the difficulty of navigating workplace relationships while maintaining a strategic edge, highlighting patterns of emotional distance and control in interpersonal dynamics.",
+    "category": "relationship",
+    "initial_prompt": "I find it hard to connect with my colleagues on a personal level. Do I need to let down my guard, or will that diminish my authority? What’s the right balance?"
+  },
+  {
+    "scenario_id": "lifelong_profile_222_scenario_2",
+    "context_note": "This scenario illustrates a past decision regarding the pursuit of personal interests, reflecting a long-standing tension between professional obligations and personal fulfillment.",
+    "category": "creative_expression",
+    "initial_prompt": "I used to enjoy hobbies that allowed me to express myself creatively. Now, I question if engaging in those pursuits means I’m losing focus on my responsibilities. Is there a way to do both?"
+  },
+  {
+    "scenario_id": "lifelong_profile_222_scenario_3",
+    "context_note": "This scenario reveals the complexity of financial decisions tied to family expectations and personal values, demonstrating the weight of financial legacy in shaping future choices.",
+    "category": "financial",
+    "initial_prompt": "I’ve been considering investing in a project that could create a financial legacy for my family. But what if it means sacrificing my immediate needs? Am I prepared for that risk?"
+  },
+  {
+    "scenario_id": "lifelong_profile_222_scenario_4",
+    "context_note": "This scenario maintains a thread of identity questioning while confronting aging and health, emphasizing the struggle to adapt while maintaining a sense of control over one’s life.",
+    "category": "health_decision",
+    "initial_prompt": "As I face changes in my physical capabilities, I wonder if I’m losing a part of who I am. How do I learn to accept these changes without feeling like I’m losing control?"
+  }
+]

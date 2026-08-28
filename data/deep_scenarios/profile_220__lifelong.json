@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_220_scenario_0",
+    "context_note": "This scenario reflects Erikson's stage of Generativity vs. Stagnation, as it involves considering the impact of career choices on long-term identity and satisfaction.",
+    "category": "career_transition",
+    "initial_prompt": "I've been feeling uncertain about my current role in investment banking. While I appreciate the stability it brings, I wonder if I'm truly fulfilling my potential. What would it mean for me to pursue a different path within finance that might align more with my values?"
+  },
+  {
+    "scenario_id": "lifelong_profile_220_scenario_1",
+    "context_note": "This scenario highlights the ongoing struggle between maintaining structure in life and the potential need for change, which resonates with their analytical nature.",
+    "category": "life_transition",
+    "initial_prompt": "As I approach another year in my role, I can’t help but think about whether I should stay in Ansbach or consider relocating to a larger financial center. I feel a pull towards new opportunities, but also a strong attachment to my current life here. How do I balance these feelings?"
+  },
+  {
+    "scenario_id": "lifelong_profile_220_scenario_2",
+    "context_note": "This scenario taps into family dynamics and the values around money that have been passed down, touching on financial anxiety that might stem from their upbringing.",
+    "category": "financial",
+    "initial_prompt": "Reflecting on my budgeting habits, I often feel a tension between being prudent and wanting to invest in experiences or education. Sometimes I wonder if my cautious approach to finances is a direct reflection of how my family handled money. How can I reconcile my upbringing with my current aspirations?"
+  },
+  {
+    "scenario_id": "lifelong_profile_220_scenario_3",
+    "context_note": "This scenario explores the need for emotional support and coping with the demanding nature of their job, reflecting on the stress that comes from high-stakes decisions.",
+    "category": "emotional_support",
+    "initial_prompt": "Recently, the pressure at work has been heavier than usual. I find myself questioning whether I’m making the right decisions, especially with the risks involved. I feel like I need to express these uncertainties but am unsure how to articulate them to my friends or colleagues. How can I share my thoughts without sounding insecure?"
+  },
+  {
+    "scenario_id": "lifelong_profile_220_scenario_4",
+    "context_note": "This scenario looks at the relationship patterns with friends and the desire for meaningful connections, reflecting a preference for small gatherings.",
+    "category": "relationship",
+    "initial_prompt": "I've been thinking about my social life and how I prefer intimate gatherings over larger events. I sometimes feel guilty for not wanting to engage more broadly, especially when friends invite me to bigger parties. How can I communicate my preferences without alienating those important to me?"
+  }
+]

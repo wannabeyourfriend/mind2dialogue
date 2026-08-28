@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_id": "lifelong_profile_126_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with maintaining order amid stress, resonating with their preference for routine and structure.",
+    "category": "emotional_support",
+    "initial_prompt": "I've been feeling a bit overwhelmed lately with all the demands at work. It's hard to pinpoint exactly why I'm feeling this way. Can you help me identify what emotions might be lurking beneath the surface?"
+  },
+  {
+    "scenario_id": "lifelong_profile_126_scenario_1",
+    "context_note": "This scenario touches upon the persona's navigation of workplace relationships, showcasing their need for clear communication and their commitment to fostering trust within their team.",
+    "category": "relationship",
+    "initial_prompt": "I had a tough conversation with a team member today regarding an ongoing issue. I want to ensure that we maintain a strong relationship while addressing the problem. How can I approach this without creating tension?"
+  },
+  {
+    "scenario_id": "lifelong_profile_126_scenario_2",
+    "context_note": "This scenario highlights the persona's contemplation of their career trajectory and the fear of losing their current sense of identity amidst potential changes.",
+    "category": "career_transition",
+    "initial_prompt": "I've been considering a significant shift in my career path, possibly moving into a senior leadership role. I'm excited, but I'm also unsure about who I will become in that role. Can you help me explore this transition?"
+  },
+  {
+    "scenario_id": "lifelong_profile_126_scenario_3",
+    "context_note": "This scenario reflects the persona's long-term goals and the ambiguity of their future, capturing the tension of decision-making and potential regrets associated with relocation.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm weighing the possibility of relocating for a better job opportunity. On one hand, it could advance my career; on the other, I might leave behind a stable life here. How can I approach this decision thoughtfully?"
+  },
+  {
+    "scenario_id": "lifelong_profile_126_scenario_4",
+    "context_note": "This scenario delves into the persona's evolving relationship with their body and health, reflecting on how past habits may affect their current lifestyle choices.",
+    "category": "health_decision",
+    "initial_prompt": "As I prioritize a healthier lifestyle, I'm reflecting on my past dietary habits and how they've shaped my relationship with food. What steps can I take to improve my well-being without feeling overwhelmed?"
+  },
+  {
+    "scenario_id": "lifelong_profile_126_scenario_5",
+    "context_note": "This scenario addresses the persona's quest for personal growth and the contradictions they face between their public persona and private values.",
+    "category": "identity_values",
+    "initial_prompt": "I've been feeling conflicted about the values I project at work versus what I truly believe. I want to align my actions with my ethics, but it's challenging in a corporate environment. How can I navigate this?"
+  }
+]

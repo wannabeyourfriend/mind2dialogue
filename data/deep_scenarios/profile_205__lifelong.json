@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_205_scenario_0",
+    "context_note": "This scenario reflects the struggle of balancing a commitment to technological advancement with community concerns, echoing a tension between professional obligations and personal values.",
+    "category": "relationship",
+    "initial_prompt": "I often find myself caught in conversations with community members who are skeptical about the new 5G installations. I feel a growing pressure to justify our work while also respecting their concerns. How can I better navigate these discussions without feeling like I'm compromising my professional integrity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_205_scenario_1",
+    "context_note": "This scenario expresses a formative experience from the past, revealing a connection between the persona's childhood curiosity about technology and their current dedication to community engagement in the field.",
+    "category": "identity_values",
+    "initial_prompt": "Reflecting on my childhood, I remember how fascinated I was with how things worked, yet I also sensed a reluctance from my parents to embrace new technology. Now, I struggle with balancing my deep commitment to advancing mobile communication and my desire to respect the community's hesitations. How do I reconcile these opposing feelings from my past with my present values?"
+  },
+  {
+    "scenario_id": "lifelong_profile_205_scenario_2",
+    "context_note": "This scenario highlights a prospective regret question, addressing the identity disruption linked to a potential career transition, and raises concerns about the impact of such a change on personal identity.",
+    "category": "career_transition",
+    "initial_prompt": "I'm considering pursuing a leadership role that would shift my focus away from hands-on technical work to more strategic management. There's a part of me that fears losing touch with the technical intricacies that define my identity. What if I miss the very aspects of my work that I love? How should I approach this decision?"
+  },
+  {
+    "scenario_id": "lifelong_profile_205_scenario_3",
+    "context_note": "This scenario embodies the oscillation between loss and restoration, as the persona reflects on their evolving role in the tech community while grappling with the fear of losing connection to their technical roots.",
+    "category": "life_transition",
+    "initial_prompt": "As I step into more community-focused initiatives around 5G technology, I'm grappling with the feeling of leaving behind my previous hands-on roles. I find solace in helping others understand technology, but I often miss the thrill of troubleshooting and direct problem-solving. How can I embrace this new path while honoring the skills and experiences that shaped my career?"
+  },
+  {
+    "scenario_id": "lifelong_profile_205_scenario_4",
+    "context_note": "This scenario explores a theme of financial decisions linked to the persona's commitment to community initiatives, reflecting the intergenerational transmission of values around technology and investment.",
+    "category": "financial",
+    "initial_prompt": "I often feel torn about budgeting for community outreach programs versus investing in the latest technologies for my projects. My parents always emphasized the importance of saving and being cautious with spending, but I see the potential in investing in education and awareness for the community. How can I find a balance that honors my upbringing while also pushing for progress?"
+  }
+]

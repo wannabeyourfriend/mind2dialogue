@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_358_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with the tension between their desire for creative autonomy and the inevitable need for collaboration in a team setting, which they generally avoid.",
+    "category": "career_transition",
+    "initial_prompt": "I'm wondering if leading the café redesign is pushing me into a new identity as a designer. What if I need to work more with others in the future? Who will I become if I have to compromise on my vision?"
+  },
+  {
+    "scenario_id": "lifelong_profile_358_scenario_1",
+    "context_note": "This scenario touches on the persona's solitary nature and how it contrasts with their deep-seated desire for connection, reflecting their ambivalence about both isolation and social interaction.",
+    "category": "relationship",
+    "initial_prompt": "Sometimes I feel like the quiet of my studio is all I need, but other times I wonder if I'm missing out on meaningful connections. How do I know if I'm truly content alone or just avoiding something deeper?"
+  },
+  {
+    "scenario_id": "lifelong_profile_358_scenario_2",
+    "context_note": "This scenario captures the persona's fear of losing their unique style amid pressures of external validation, echoing their commitment to maintaining a personal vision in their work.",
+    "category": "identity_values",
+    "initial_prompt": "Every project I take on feels like a test of my identity as a designer. Am I creating spaces that truly reflect who I am, or am I just conforming to what I think others expect?"
+  },
+  {
+    "scenario_id": "lifelong_profile_358_scenario_3",
+    "context_note": "This scenario centers on the persona's contemplation of their future, reflecting their anxiety about whether their current path will lead to the fulfillment of their long-term goals or a sense of loss if they stray from their vision.",
+    "category": "long_term_planning",
+    "initial_prompt": "I sometimes worry about what will happen if I go too far into freelance work and lose touch with my core vision. What if I end up compromising on my aesthetic just to make ends meet?"
+  },
+  {
+    "scenario_id": "lifelong_profile_358_scenario_4",
+    "context_note": "This scenario embodies the persona's experience of oscillating between dwelling on past experiences and moving forward, which resonates with their creative journey and the tension in letting go of old patterns.",
+    "category": "grief_loss",
+    "initial_prompt": "As I refine my portfolio, I find myself reminiscing about earlier projects that didn't align with my current style. How do I let go of those memories while still honoring where I came from?"
+  }
+]

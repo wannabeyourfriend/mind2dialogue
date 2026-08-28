@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_346_scenario_0",
+    "context_note": "This scenario reflects the tension of managing personal ambition while balancing professional responsibilities, addressing the conflict between career goals and maintaining team dynamics.",
+    "category": "career_transition",
+    "initial_prompt": "As I think about taking on a more significant leadership role, I find myself wondering who I would be if I make that leap. Would it change how my colleagues see me, or how I see myself in this structured environment?"
+  },
+  {
+    "scenario_id": "lifelong_profile_346_scenario_1",
+    "context_note": "This scenario highlights a formative decision related to personal values and career aspirations, reinforcing a pattern of weighing practical benefits against emotional fulfillment.",
+    "category": "identity_values",
+    "initial_prompt": "Reflecting on my past choices, I often question if I’ve been true to my values. Was I shaping my career based on what I genuinely wanted, or was I merely following a path laid out by expectations?"
+  },
+  {
+    "scenario_id": "lifelong_profile_346_scenario_2",
+    "context_note": "This scenario captures the present struggle of wanting to maintain close professional relationships while fearing dependency, revealing an underlying relational pattern.",
+    "category": "relationship",
+    "initial_prompt": "I find myself in a situation where I want to connect more with my team, yet I hesitate. Am I reaching out for support, or am I becoming too reliant on them? What if that creates tension?"
+  },
+  {
+    "scenario_id": "lifelong_profile_346_scenario_3",
+    "context_note": "This scenario explores the anticipation of future changes in professional identity and the fear of losing a sense of self that comes with it, reflecting on the impact on community contributions.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I consider the possibility of starting my own business, I can't shake the feeling of what I might lose—the familiar structure of my current job versus the freedom to create something meaningful."
+  },
+  {
+    "scenario_id": "lifelong_profile_346_scenario_4",
+    "context_note": "This scenario delves into the internal conflict between the desire for personal resilience and the acknowledgment of vulnerability, rooted in a life focused on efficiency and productivity.",
+    "category": "emotional_support",
+    "initial_prompt": "Lately, I've been feeling an unnameable weight. It’s like I’m managing everything at work, yet underneath, there’s a quiet discontent. What is it that I need to address to move forward?"
+  }
+]

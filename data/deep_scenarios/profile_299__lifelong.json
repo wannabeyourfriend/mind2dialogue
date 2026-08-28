@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_299_scenario_0",
+    "context_note": "This scenario reflects the tension between Erikson's generativity and stagnation as the persona navigates their established career while feeling the pressure of maintaining a respected industry standing.",
+    "category": "career_transition",
+    "initial_prompt": "What does it mean for me to take on a new role in this industry? Am I still the same lighting technician if I move into a more managerial position?"
+  },
+  {
+    "scenario_id": "lifelong_profile_299_scenario_1",
+    "context_note": "The persona is dealing with the emotional complexity of their limited family ties and the resulting feelings of isolation or connection, showcasing their relationship pattern of needing closeness while fearing dependency.",
+    "category": "relationship",
+    "initial_prompt": "Sometimes I wonder if my independence is worth the loneliness. How do I balance my work focus with the need for connection in my life?"
+  },
+  {
+    "scenario_id": "lifelong_profile_299_scenario_2",
+    "context_note": "This scenario explores potential regrets related to financial decisions, as the persona weighs the implications of investing in rare equipment against the risk of not solidifying their financial future.",
+    "category": "financial",
+    "initial_prompt": "If I invest in this specialized lighting gear now, will it enhance my career, or am I just risking financial stability for something uncertain?"
+  },
+  {
+    "scenario_id": "lifelong_profile_299_scenario_3",
+    "context_note": "Reflecting on the persona's relationship with their own body, this scenario touches on aging concerns and the demands of a physically taxing career, highlighting their grief about the changes over time.",
+    "category": "health_decision",
+    "initial_prompt": "As I age, I find myself questioning if my body can keep up with the demands of my work. What do I need to change to maintain my performance without feeling defeated?"
+  },
+  {
+    "scenario_id": "lifelong_profile_299_scenario_4",
+    "context_note": "This scenario embodies the oscillation between dwelling on past losses and moving towards restoring control in the persona's life, connecting to their professional identity and the weight of expectations.",
+    "category": "grief_loss",
+    "initial_prompt": "I sometimes miss the excitement of emerging in my career, but I also feel the pressure to achieve more. How can I honor those lost moments while pushing forward?"
+  }
+]

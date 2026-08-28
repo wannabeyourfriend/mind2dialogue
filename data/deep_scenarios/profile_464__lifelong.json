@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_464_scenario_0",
+    "context_note": "This scenario reflects the persona's commitment to their work and the emotional tension surrounding their identity as a reliable worker, potentially feeling a sense of loss if their current routine were to change.",
+    "category": "career_transition",
+    "initial_prompt": "What if I had to consider changing jobs? How would I even begin to see myself if I wasn't doing this anymore?"
+  },
+  {
+    "scenario_id": "lifelong_profile_464_scenario_1",
+    "context_note": "This scenario captures the persona's need for practicality and their direct approach to relationships, illustrating the challenge of navigating family dynamics and the fear of dependency.",
+    "category": "relationship",
+    "initial_prompt": "How do I tell my family I don't want to rely on them for help? I don't want to seem proud, but I prefer to handle things myself."
+  },
+  {
+    "scenario_id": "lifelong_profile_464_scenario_2",
+    "context_note": "Reflects on the persona's past decisions and the feeling of nostalgia for simpler times, highlighting a potential regret about not taking more risks earlier in life.",
+    "category": "long_term_planning",
+    "initial_prompt": "Looking back, do I regret not trying something different when I had the chance? Should I have taken a risk instead of staying safe?"
+  },
+  {
+    "scenario_id": "lifelong_profile_464_scenario_3",
+    "context_note": "This scenario represents a current struggle with aging and the physical demands of work, aligning with the persona's relationship with their body and the reality they face about limitations.",
+    "category": "health_decision",
+    "initial_prompt": "How do I deal with the aches I feel at the end of the day? Am I pushing my body too hard, or is this just part of getting older?"
+  },
+  {
+    "scenario_id": "lifelong_profile_464_scenario_4",
+    "context_note": "Illustrates the persona's concern over practical matters and the legacy they are building, while also addressing the fear of leaving behind unfinished business as they consider retirement.",
+    "category": "life_transition",
+    "initial_prompt": "What will happen to my work if I decide to step back? Will I leave things in the right place or have I got unfinished business?"
+  }
+]

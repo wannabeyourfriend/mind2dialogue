@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_292_scenario_0",
+    "context_note": "This scenario captures the challenge of navigating the complexities of aging while maintaining personal autonomy, which is crucial for someone who values transparency and accountability.",
+    "category": "health_decision",
+    "initial_prompt": "I've been noticing changes in my body as I age, and I find myself grappling with what that means for my health decisions. How do I honor the needs of my body while still feeling in control of my life?"
+  },
+  {
+    "scenario_id": "lifelong_profile_292_scenario_1",
+    "context_note": "This situation reflects the persona's past consulting experiences and the current focus on community mentoring, illustrating a struggle with identity and purpose as they transition from career to retirement.",
+    "category": "career_transition",
+    "initial_prompt": "As I volunteer as a mentor in the community, I sometimes wonder who I am beyond my consulting career. How do I reconcile my past identity with this new role I’ve embraced?"
+  },
+  {
+    "scenario_id": "lifelong_profile_292_scenario_2",
+    "context_note": "This scenario explores the tension between the desire to remain involved in the community while also being wary of rapid changes, resonating with the persona's cautious approach to social interactions.",
+    "category": "relationship",
+    "initial_prompt": "In our community meetings, I often feel torn between wanting to contribute and feeling uneasy about changes that don't respect our local culture. How do I voice my concerns without alienating others?"
+  },
+  {
+    "scenario_id": "lifelong_profile_292_scenario_3",
+    "context_note": "This forward-looking scenario addresses the persona’s contemplation of future changes while emphasizing the importance of maintaining a stable environment, aligning with their preferences and values.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about the years ahead, I find myself weighing the idea of staying here in Shertallai versus relocating to be closer to family. What do I risk losing in either choice?"
+  },
+  {
+    "scenario_id": "lifelong_profile_292_scenario_4",
+    "context_note": "This scenario reflects on the persona's connection to family legacy and financial habits, highlighting the tension between past influences and current financial oversight.",
+    "category": "financial",
+    "initial_prompt": "Reflecting on my family's financial practices, I often question whether I'm too stringent in my oversight. Am I honoring my values of transparency, or am I holding onto past fears about money?"
+  }
+]

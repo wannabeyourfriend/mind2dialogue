@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_212_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with reconciling their commitment to transparent reporting with the complexities of public health data, capturing the tension of their professional identity.",
+    "category": "career_transition",
+    "initial_prompt": "I've been feeling a bit lost in my work lately. Sometimes, I wonder if my commitment to data integrity is holding me back from advancing in my career. Who am I if I prioritize these principles over climbing the professional ladder?"
+  },
+  {
+    "scenario_id": "lifelong_profile_212_scenario_1",
+    "context_note": "This scenario connects to the persona's relationship with their body and health across time, highlighting the evolving demands of their lifestyle and their feelings of nostalgia for their younger self.",
+    "category": "health_decision",
+    "initial_prompt": "I've noticed that my body is changing, and I find myself reflecting on how I used to take for granted my energy and resilience. Sometimes, I grieve the ease of my younger days. How do I reconcile these changes while still maintaining my health?"
+  },
+  {
+    "scenario_id": "lifelong_profile_212_scenario_2",
+    "context_note": "This scenario showcases the persona's navigation of their values and professional identity, reflecting the tension between the persona they've presented and their evolving beliefs about their role in public health.",
+    "category": "identity_values",
+    "initial_prompt": "I've been questioning whether my current approach to public health is still aligned with my personal values. Am I being true to myself in this field, or am I just fulfilling an expectation of what a statistician should be?"
+  },
+  {
+    "scenario_id": "lifelong_profile_212_scenario_3",
+    "context_note": "This scenario illustrates the persona's ongoing negotiation with family patterns regarding financial security, reflecting a desire to create their own path while grappling with inherited beliefs about money.",
+    "category": "financial",
+    "initial_prompt": "As I think about my financial future, I sometimes worry about repeating patterns from my family regarding money management. How do I ensure I learn from their mistakes without completely cutting off from their influence?"
+  },
+  {
+    "scenario_id": "lifelong_profile_212_scenario_4",
+    "context_note": "This scenario captures the persona's feelings of disorientation as they navigate their professional landscape and community, reflecting a transitional phase where they seek to define their new role without losing their established connections.",
+    "category": "life_transition",
+    "initial_prompt": "I feel like I'm in a 'neutral zone' right now, with my professional identity shifting. I'm unsure how to embrace this change while still feeling connected to the community I've built. What does this new chapter really mean for me?"
+  }
+]

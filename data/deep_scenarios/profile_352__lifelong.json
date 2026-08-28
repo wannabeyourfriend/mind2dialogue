@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_352_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with understanding their own emotions regarding curiosity and fairness, leading to questions about their place in friendships.",
+    "category": "relationship",
+    "initial_prompt": "Sometimes I wonder if my questions about history and fairness in games make me different from my friends. Do you think it's okay to be curious, even if my friends don’t always understand?"
+  },
+  {
+    "scenario_id": "lifelong_profile_352_scenario_1",
+    "context_note": "This scenario relates to the persona's past experiences of discovering a coin and their parents' influence on valuing history, reflecting on how this shapes their identity today.",
+    "category": "identity_values",
+    "initial_prompt": "I found an old coin near school the other day and remembered how I brought my first one home to my parents. It makes me think about the stories behind these artifacts and how they shape who I am today. What role do our past discoveries play in defining our identity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_352_scenario_2",
+    "context_note": "This scenario explores the persona's forward-looking feelings about their future, balancing between their current interests in history and a potential career path.",
+    "category": "career_transition",
+    "initial_prompt": "As I explore more about history and artifacts, I can’t help but wonder who I will become in the future. What if pursuing this passion means I have to change who I am right now? How can I balance my interests with my identity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_352_scenario_3",
+    "context_note": "This scenario captures the interplay of loss and nostalgia in the persona's relationship with their family traditions and how they feel about preserving their cultural heritage.",
+    "category": "grief_loss",
+    "initial_prompt": "During family dinners, I am often reminded of the traditions we uphold, but I sometimes feel a pang of sadness thinking about how things change over time. How do I cherish these moments while also accepting that some traditions may fade?"
+  },
+  {
+    "scenario_id": "lifelong_profile_352_scenario_4",
+    "context_note": "This scenario highlights the persona's navigation of their evolving attachment to their family and their desire to carve out their own identity while respecting their heritage.",
+    "category": "intergenerational",
+    "initial_prompt": "I appreciate the stories my parents share about our history, but at times, I feel the urge to express my own thoughts and beliefs. How can I stay connected to my family's legacy while also finding my own voice?"
+  }
+]

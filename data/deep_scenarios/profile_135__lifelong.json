@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_135_scenario_0",
+    "context_note": "This scenario reflects the persona's quiet life in Ersheng and their deep connection to their past, showcasing how nostalgia influences their present and future.",
+    "category": "grief_loss",
+    "initial_prompt": "I've been reflecting on my childhood lately, especially the simple joys of family meals and traditions. How do you think these memories shape who I am today?"
+  },
+  {
+    "scenario_id": "lifelong_profile_135_scenario_1",
+    "context_note": "This scenario highlights the persona's struggle with change and their desire for predictability, illustrating the tension between embracing new experiences and holding onto familiar routines.",
+    "category": "life_transition",
+    "initial_prompt": "As I see new developments in my neighborhood, I can't help but feel uneasy. What does it mean for me when the places I cherish start to change?"
+  },
+  {
+    "scenario_id": "lifelong_profile_135_scenario_2",
+    "context_note": "This scenario explores the persona's identity and values surrounding their cultural heritage, reflecting how they navigate their sense of self amid societal changes.",
+    "category": "identity_values",
+    "initial_prompt": "I often wonder if my attachment to traditional dishes and stories makes me resistant to change. What does that say about my identity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_135_scenario_3",
+    "context_note": "This scenario delves into the persona's relationship with their body as they age, capturing the tension between acceptance and grief, as they notice changes that affect their daily life.",
+    "category": "health_decision",
+    "initial_prompt": "I've been feeling some discomfort lately and it's hard not to think about how my body has changed over the years. How should I approach these feelings?"
+  },
+  {
+    "scenario_id": "lifelong_profile_135_scenario_4",
+    "context_note": "This scenario addresses the persona's perspective on retirement and their role in the community, exploring their fears of losing purpose while volunteering.",
+    "category": "career_transition",
+    "initial_prompt": "Volunteering at the library brings me joy, but I sometimes wonder who I am without my career. How do I balance my identity as a retiree with my desire to contribute?"
+  }
+]

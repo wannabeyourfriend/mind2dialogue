@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_302_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with maintaining their professional identity while facing potentially disruptive changes, particularly in a competitive environment.",
+    "category": "career_transition",
+    "initial_prompt": "I'm considering taking a step into a higher leadership role, but what if I lose the tactical edge I've worked so hard to build? Who am I if I change my job title?"
+  },
+  {
+    "scenario_id": "lifelong_profile_302_scenario_1",
+    "context_note": "This scenario touches on emotional regulation as the persona navigates feelings of stress and uncertainty in their career, reflecting the duality of ambition and anxiety.",
+    "category": "emotional_support",
+    "initial_prompt": "Lately, I feel an undercurrent of anxiety about my position in the company. I can't quite articulate it, but it’s there. How should I process this feeling without losing focus on work?"
+  },
+  {
+    "scenario_id": "lifelong_profile_302_scenario_2",
+    "context_note": "This scenario highlights the persona's deep-seated values regarding financial success, rooted in their upbringing, as they weigh the impact of a career choice on their future.",
+    "category": "financial",
+    "initial_prompt": "As I think about potential investments in my career development, I can't help but wonder if my decisions are still guided by the financial lessons I learned from my family. What would my future self regret if I choose differently?"
+  },
+  {
+    "scenario_id": "lifelong_profile_302_scenario_3",
+    "context_note": "This scenario examines the persona's relational dynamics in a competitive work environment, reflecting their ambivalence towards forming close connections versus maintaining professionalism.",
+    "category": "relationship",
+    "initial_prompt": "In team meetings, I often feel torn between being assertive and building rapport. How can I navigate these relationships without compromising my need to maintain control and focus?"
+  },
+  {
+    "scenario_id": "lifelong_profile_302_scenario_4",
+    "context_note": "This scenario presents the persona's awareness of life's transitions, specifically their realization that their professional path might lead to personal sacrifices, illustrating the tension between ambition and personal fulfillment.",
+    "category": "life_transition",
+    "initial_prompt": "I feel like I'm at a crossroad where my career demands more of my time, yet I wonder what I'm sacrificing in my personal life. What does it mean if I choose to prioritize my career over everything else?"
+  }
+]

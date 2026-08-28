@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "Mind2Dialogue: Training Human-Aware Language Models through Shared-State User Simulation"
+message: "If you use this code or the released data, please cite our paper."
+type: software
+authors:
+  - family-names: "Wang"
+    given-names: "Zixuan"
+  - family-names: "Wang"
+    given-names: "Zhen"
+preferred-citation:
+  type: article
+  title: "Mind2Dialogue: Training Human-Aware Language Models through Shared-State User Simulation"
+  authors:
+    - family-names: "Wang"
+      given-names: "Zixuan"
+    - family-names: "Wang"
+      given-names: "Zhen"
+  year: 2026
+  notes: "Submitted to NeurIPS 2026"
+repository-code: "https://github.com/wannabeyourfriend/mind2dialogue"
+license: MIT
+keywords:
+  - personalization
+  - theory-of-mind
+  - synthetic data
+  - user simulation
+  - large language models
+  - supervised fine-tuning

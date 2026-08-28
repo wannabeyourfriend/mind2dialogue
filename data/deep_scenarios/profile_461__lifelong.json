@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_461_scenario_0",
+    "context_note": "This scenario reflects the struggle between wanting to be perfect and the fear of making mistakes, which is a common experience for someone who values understanding and thoroughness.",
+    "category": "emotional_support",
+    "initial_prompt": "Sometimes I feel really overwhelmed when I'm trying to get everything perfect in school. I care so much about doing things right, but it can feel like too much pressure. How do I handle these feelings when they come up?"
+  },
+  {
+    "scenario_id": "lifelong_profile_461_scenario_1",
+    "context_note": "This scenario explores the tension between valuing honesty and kindness in friendships, as well as the difficulty of standing up for what's right, which is especially important at this age.",
+    "category": "relationship",
+    "initial_prompt": "I noticed a friend was being treated unfairly, and it really upset me. I want to say something to help, but I'm also scared it might make things worse. How can I approach this without losing my friend or causing more conflict?"
+  },
+  {
+    "scenario_id": "lifelong_profile_461_scenario_2",
+    "context_note": "This scenario connects to the theme of identity and personal growth, as the persona grapples with their passion for renewable energy and how it shapes their future aspirations.",
+    "category": "identity_values",
+    "initial_prompt": "I really love learning about renewable energy and how it can help the planet. But sometimes I worry about whether I can make a difference or if it's just a dream. How can I stay motivated to pursue this passion?"
+  },
+  {
+    "scenario_id": "lifelong_profile_461_scenario_3",
+    "context_note": "This scenario reflects the internal conflict of wanting to grow up and take on more responsibilities, while also feeling the need for support as they navigate changes in their life.",
+    "category": "life_transition",
+    "initial_prompt": "As I get older, I keep thinking about what it means to be more responsible and independent. Sometimes it feels exciting, but other times it’s scary. How can I balance wanting to grow up with still needing help and support from my family?"
+  },
+  {
+    "scenario_id": "lifelong_profile_461_scenario_4",
+    "context_note": "This scenario highlights the importance of passion and creative expression in shaping future identity, as the persona considers how their interests might impact who they become.",
+    "category": "creative_expression",
+    "initial_prompt": "I love reading and exploring science, but I'm not always sure how to share that with others in a way that feels true to me. What does it mean to express my interests creatively, and how can I make it part of who I am?"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_426_scenario_1",
+    "context_note": "This scenario reflects the persona's ongoing struggle with maintaining professional integrity while also feeling the pressure of market demands, which ties back to their commitment to preserving Salem's heritage.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm starting to worry about the direction the real estate market is taking in Salem. On one hand, I want to ensure my work reflects the historical value of properties, but on the other, there’s a growing trend toward quick valuations that prioritize speed over accuracy. What do I fear I might lose if I don't adapt?"
+  },
+  {
+    "scenario_id": "lifelong_profile_426_scenario_2",
+    "context_note": "This scenario looks back on the persona's formative experiences that taught them the importance of integrity in their work, influencing their current professional identity.",
+    "category": "career_transition",
+    "initial_prompt": "Reflecting on my early days as an appraiser, I remember how I learned that taking shortcuts can damage reputations. I wonder if I'm still the same person who started this journey. Is my commitment to integrity still strong enough to withstand the pressures of today’s market?"
+  },
+  {
+    "scenario_id": "lifelong_profile_426_scenario_3",
+    "context_note": "This scenario highlights a moment of grief for the persona as they navigate the loss of a simpler time in the appraisal industry, juxtaposed with their desire to move forward.",
+    "category": "grief_loss",
+    "initial_prompt": "I've been feeling nostalgic about how appraisals used to focus more on the stories of the homes rather than just statistical data. I find myself caught between wanting to remember and honor that past while also needing to embrace the current demands. How do I balance these feelings?"
+  },
+  {
+    "scenario_id": "lifelong_profile_426_scenario_4",
+    "context_note": "This scenario reflects the persona's attachment style, exploring how their work relationships inform their sense of security and stability within their profession.",
+    "category": "relationship",
+    "initial_prompt": "Lately, I’ve noticed a distance growing between myself and some colleagues as I prioritize thoroughness in my appraisals. I feel a fear of being misunderstood or seen as overly meticulous. How can I communicate the value of my approach without risking those connections?"
+  },
+  {
+    "scenario_id": "lifelong_profile_426_scenario_5",
+    "context_note": "This future-looking scenario questions the persona's long-term vision and the potential for change in their professional landscape, reflecting their commitment to Salem's character.",
+    "category": "life_transition",
+    "initial_prompt": "As I think about the future of my career, I wonder what it would mean to transition into a more advisory role in urban planning. Would I be able to maintain my integrity and dedication to Salem's history? What might I have to let go of if I choose that path?"
+  }
+]

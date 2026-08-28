@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_271_scenario_0",
+    "context_note": "This scenario reflects the persona's ongoing struggle with ethical dilemmas in their career, a core aspect of their identity and professional values.",
+    "category": "identity_values",
+    "initial_prompt": "I've been thinking a lot about the decisions I make for my patients, especially those who seem to fall through the cracks. How do I balance the ethical responsibility I feel with the limitations of resources?"
+  },
+  {
+    "scenario_id": "lifelong_profile_271_scenario_1",
+    "context_note": "This scenario represents an earlier formative experience that shaped the persona's current approach to patient care and the value they place on fairness and transparency.",
+    "category": "grief_loss",
+    "initial_prompt": "I often reflect on a time early in my career when I witnessed an unfair treatment decision. That moment still resonates with me. How do I process the feelings of loss associated with that experience, while also pushing for change in my current role?"
+  },
+  {
+    "scenario_id": "lifelong_profile_271_scenario_2",
+    "context_note": "This scenario embodies the persona's current challenges in balancing a demanding career with personal well-being, reflecting on their evolving relationship with their own health.",
+    "category": "health_decision",
+    "initial_prompt": "I'm feeling a bit overwhelmed lately, juggling my responsibilities at the hospital and trying to maintain my health. How do I reconcile the physical demands of my job with the self-care that I know I need?"
+  },
+  {
+    "scenario_id": "lifelong_profile_271_scenario_3",
+    "context_note": "This scenario captures the persona's contemplation of their professional future and the fear of losing their current identity as they pursue further expertise.",
+    "category": "career_transition",
+    "initial_prompt": "As I think about deepening my specialization in infectious diseases, I wonder who I will become in this process. Will I still be the same person dedicated to compassionate care, or will I lose that connection?"
+  },
+  {
+    "scenario_id": "lifelong_profile_271_scenario_4",
+    "context_note": "This scenario illustrates the persona's commitment to their community and the desire to advocate for equitable healthcare, reflecting on their professional journey and future aspirations.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm at a crossroads where I need to decide how to best contribute to policies that ensure equitable treatment for all. I fear that if I don't make the right choice now, I may regret not doing enough for my community."
+  }
+]

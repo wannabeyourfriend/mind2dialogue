@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_192_scenario_0",
+    "context_note": "This scenario reflects the persona's tendency to navigate complex relationships and professional networks, mirroring his calm demeanor under pressure.",
+    "category": "relationship",
+    "initial_prompt": "I find myself in a tense negotiation with a venue manager who insists on preserving the historical aspects of a venue while I see the potential for modernization. I'm struggling to balance my respect for tradition with my vision for a better sound experience—how do I articulate my thoughts without alienating them?"
+  },
+  {
+    "scenario_id": "lifelong_profile_192_scenario_1",
+    "context_note": "This scenario explores Erikson's theme of generativity versus stagnation, highlighting the persona's commitment to his craft while facing the possibility of change.",
+    "category": "career_transition",
+    "initial_prompt": "I’ve been offered a role that would expand my expertise, but it means stepping away from the familiar environments I know. I'm questioning who I am if I move into a more managerial position—am I still the hands-on engineer I love being, or will I lose that part of my identity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_192_scenario_2",
+    "context_note": "The persona's growth in his current life phase is mirrored in this forward-looking scenario, where the need for change collides with the fear of losing what defines him.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm considering relocating to a new city for a job that promises growth, but it also means leaving behind the venues that have shaped my career. I can’t help but wonder—if I choose this path, what will I miss about my current life?"
+  },
+  {
+    "scenario_id": "lifelong_profile_192_scenario_3",
+    "context_note": "This scenario touches on the persona's relationship with his body and the demands of his profession, reflecting the ongoing evolution of his physical and mental health.",
+    "category": "health_decision",
+    "initial_prompt": "I've started noticing how my body responds to the long hours and stress of live events. I want to maintain my energy levels, but I also feel conflicted about giving up the late nights that come with my job. How do I create a healthier routine without feeling like I'm diminishing my passion for sound engineering?"
+  },
+  {
+    "scenario_id": "lifelong_profile_192_scenario_4",
+    "context_note": "This scenario reflects the persona's introspection about his legacy and the creative expressions that define him, connecting to a desire to leave a mark in his field.",
+    "category": "creative_expression",
+    "initial_prompt": "As I experiment with new equipment and techniques, I find myself wondering what my contributions to the audio world will ultimately mean. Am I allowed to be more than just a technician? How do I define my legacy in a field that values both creativity and technical skill?"
+  }
+]

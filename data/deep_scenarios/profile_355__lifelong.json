@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_355_scenario_0",
+    "context_note": "Reflects the ongoing struggle with maintaining personal values while adapting to new realities in life post-retirement. The question highlights a sense of loss regarding his previous professional identity.",
+    "category": "career_transition",
+    "initial_prompt": "As I mentor young professionals, I often find myself questioning who I am without my consulting title. How do I embrace my new identity while still honoring my past experiences?"
+  },
+  {
+    "scenario_id": "lifelong_profile_355_scenario_1",
+    "context_note": "Captures the emotional complexity of supporting others while grappling with the need for personal validation and the fear of losing connection as the next generation seeks their paths.",
+    "category": "relationship",
+    "initial_prompt": "I sometimes worry that my advice might not resonate with the younger generation. How do I ensure my mentorship is relevant without feeling like I'm losing touch with them?"
+  },
+  {
+    "scenario_id": "lifelong_profile_355_scenario_2",
+    "context_note": "Explores the tension between fulfilling family obligations and recognizing individual desires, reflecting on how his upbringing influences his current parenting and mentoring style.",
+    "category": "parenting_family",
+    "initial_prompt": "When I guide young professionals, I often reflect on my own upbringing. How can I balance passing down values while encouraging them to carve their own paths?"
+  },
+  {
+    "scenario_id": "lifelong_profile_355_scenario_3",
+    "context_note": "Demonstrates the oscillation between nostalgia for his past and adapting to the present, as he seeks to integrate both into his daily interactions and mentoring.",
+    "category": "grief_loss",
+    "initial_prompt": "As I reflect on my days in Osaka, I feel a mix of nostalgia and acceptance. How do I honor that chapter of my life while embracing the new relationships I've built here in Gobō?"
+  },
+  {
+    "scenario_id": "lifelong_profile_355_scenario_4",
+    "context_note": "Highlights the anticipatory grief of losing a stable routine as he approaches the next phase of life, conflicting between the desire to stay grounded and the need to adapt.",
+    "category": "life_transition",
+    "initial_prompt": "As I consider the changes retirement brings, I sometimes fear losing the structure I've built. How can I prepare for this transition while still feeling secure in my daily routine?"
+  }
+]

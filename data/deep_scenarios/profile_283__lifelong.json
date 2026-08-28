@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_id": "lifelong_profile_283_scenario_0",
+    "context_note": "This scenario reflects the tension between the persona's need for strategic control in trade and the emotional support they might need amidst the pressures of their role, highlighting an aspect of vulnerability they may not often acknowledge.",
+    "category": "emotional_support",
+    "initial_prompt": "Lately, I've been feeling overwhelmed by the constant pressure of negotiations. How do I deal with this feeling without losing focus on my goals?"
+  },
+  {
+    "scenario_id": "lifelong_profile_283_scenario_1",
+    "context_note": "This scenario showcases the persona's complex relationship dynamics, where tendencies to keep plans close conflict with the need for deeper connections, echoing their strategic mindset in personal relationships.",
+    "category": "relationship",
+    "initial_prompt": "Why do I struggle to open up to my closest friends about my career stress? Is it just about keeping my plans close, or is there something more?"
+  },
+  {
+    "scenario_id": "lifelong_profile_283_scenario_2",
+    "context_note": "Here, the persona is faced with a pivotal career decision that challenges their professional identity, weighing the fear of losing their established role against the potential for growth, mirroring past identity struggles.",
+    "category": "career_transition",
+    "initial_prompt": "If I consider pursuing a different role in foreign trade, who will I be? Will I lose what I've built so far, or can I redefine my future?"
+  },
+  {
+    "scenario_id": "lifelong_profile_283_scenario_3",
+    "context_note": "This scenario addresses the persona's financial strategy while reflecting on childhood lessons about money, revealing an internal conflict regarding financial security and growth in their future plans.",
+    "category": "financial",
+    "initial_prompt": "Am I repeating my family's approach to money, or can I break free from those patterns? How do I balance investing in my future while ensuring stability now?"
+  },
+  {
+    "scenario_id": "lifelong_profile_283_scenario_4",
+    "context_note": "This scenario captures the oscillation between dwelling on lost opportunities in their career and moving forward, connecting to their ongoing professional journey and the impact of past choices.",
+    "category": "grief_loss",
+    "initial_prompt": "Sometimes, I find myself reflecting on missed opportunities in my career. How do I process this without getting stuck, and can I still create a successful path?"
+  },
+  {
+    "scenario_id": "lifelong_profile_283_scenario_5",
+    "context_note": "This forward-looking scenario highlights the persona's impending transition in their career, hinting at their readiness to embrace change while grappling with uncertainty about the future.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about advancing in my career, I wonder if I’m ready to let go of my current role. What will I lose, and what potential gains are worth that risk?"
+  }
+]

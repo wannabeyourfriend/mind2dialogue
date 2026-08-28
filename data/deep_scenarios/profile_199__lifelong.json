@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_199_scenario_0",
+    "context_note": "This scenario reflects Erikson's stage of Generativity vs. Stagnation, as the persona grapples with their professional identity and the implications of their choices in the automotive parts industry.",
+    "category": "career_transition",
+    "initial_prompt": "I've been thinking about my role in the automotive parts business and where I see myself in five years. What if I decided to pursue a different career path? Who would I become if I took that leap?"
+  },
+  {
+    "scenario_id": "lifelong_profile_199_scenario_1",
+    "context_note": "This scenario connects to the persona's values and identity, as he reflects on the tension between the meticulous professional persona he presents and the personal feelings of pressure he experiences.",
+    "category": "identity_values",
+    "initial_prompt": "Sometimes, I feel like I'm just the guy who's great at spotting inconsistencies, but what if that's not all I am? What does it mean for me to allow myself to experience vulnerability in my work?"
+  },
+  {
+    "scenario_id": "lifelong_profile_199_scenario_2",
+    "context_note": "This scenario highlights a moment of emotional processing, as the persona navigates the stress that comes from his careful negotiation style and the implications it has on his relationships.",
+    "category": "emotional_support",
+    "initial_prompt": "I often feel a weight on my shoulders after a long day of negotiations. I can't quite put my finger on it, but it's like there's a heaviness I carry home. How do I start to unpack that feeling?"
+  },
+  {
+    "scenario_id": "lifelong_profile_199_scenario_3",
+    "context_note": "This scenario represents the persona's forward-looking thoughts on life transitions, as he considers the impact of potential changes in his career and how they may affect his sense of stability.",
+    "category": "long_term_planning",
+    "initial_prompt": "If I were to take a step back from my current position and explore options outside of automotive parts sales, would I regret leaving this level of stability behind? What would I miss the most?"
+  },
+  {
+    "scenario_id": "lifelong_profile_199_scenario_4",
+    "context_note": "This scenario illustrates the persona's complex relationship with his family, particularly regarding how he approaches familial expectations and his desire for independence in his professional choices.",
+    "category": "intergenerational",
+    "initial_prompt": "I sometimes feel torn between wanting to meet my family's expectations and carving out my own unique path in my career. How do I find a balance without feeling like I'm letting anyone down?"
+  }
+]

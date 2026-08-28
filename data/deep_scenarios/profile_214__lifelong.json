@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_214_scenario_0",
+    "context_note": "This scenario reflects the persona's cautious nature and the enduring impact of past decisions on their current life. The struggle to balance safety and connection is a recurrent theme.",
+    "category": "relationship",
+    "initial_prompt": "I've been reflecting on how my relationships have evolved over the years. I often wonder if my desire for closeness is overshadowed by my fear of dependency. How can I navigate this tension and cultivate deeper connections?"
+  },
+  {
+    "scenario_id": "lifelong_profile_214_scenario_1",
+    "context_note": "This captures the persona's current concern about maintaining their well-being while managing the reality of aging. It allows them to explore their relationship with their body and the transition they are experiencing.",
+    "category": "health_decision",
+    "initial_prompt": "As I age, I find myself facing new health challenges. I often grieve the physical capabilities I once took for granted. How should I approach these changes without losing sight of my independence?"
+  },
+  {
+    "scenario_id": "lifelong_profile_214_scenario_2",
+    "context_note": "This scenario connects to the persona's past decision-making and their current life stage, as they contemplate the potential regret of a life not fully lived. It invites reflection on what it means to move forward.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm at a crossroads where I need to consider my future. Should I continue mentoring my community, or is it time for me to focus on my own interests and solitude? What might I regret if I choose one path over the other?"
+  },
+  {
+    "scenario_id": "lifelong_profile_214_scenario_3",
+    "context_note": "This scenario echoes the persona's identity as a mentor while highlighting the internal struggle with their own sense of self. It addresses the potential disruption that comes with stepping away from their established role.",
+    "category": "career_transition",
+    "initial_prompt": "Having retired from consulting, I often question my identity now that I’m no longer in that professional role. What does mentoring mean for me, and how do I reconcile my past with my present?"
+  },
+  {
+    "scenario_id": "lifelong_profile_214_scenario_4",
+    "context_note": "This scenario engages the persona's introspective nature and desire for legacy, allowing them to explore how their life experiences shape the values they want to pass on.",
+    "category": "creative_expression",
+    "initial_prompt": "As I reflect on my life's journey, I wonder about the legacy I am leaving behind. What does it mean to express my thoughts through writing, and how does this connect to who I am allowed to be in this later stage of life?"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_435_scenario_0",
+    "context_note": "This scenario reflects a formative decision from the persona's past, highlighting a tendency to prioritize financial security over personal relationships, which continues to impact their present interactions.",
+    "category": "relationship",
+    "initial_prompt": "I often think back to my decision to prioritize my career over family gatherings. Did I make the right choice? Was it worth the distance I created with my loved ones?"
+  },
+  {
+    "scenario_id": "lifelong_profile_435_scenario_1",
+    "context_note": "This scenario captures the persona's present challenge of balancing their meticulous work life with their personal relationships, emphasizing their struggle with emotional connections.",
+    "category": "relationship",
+    "initial_prompt": "I find myself feeling detached from my colleagues, even in professional settings. Is my focus on financial success causing me to miss out on potential connections, or is it simply how I function best?"
+  },
+  {
+    "scenario_id": "lifelong_profile_435_scenario_2",
+    "context_note": "This forward-looking scenario addresses the persona's anticipation of retirement and the fear of losing their identity that has been tied to their career and financial acumen.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I approach retirement, I can’t help but wonder: what will my life look like without this daily grind? Will I feel lost without my role as a financial strategist?"
+  },
+  {
+    "scenario_id": "lifelong_profile_435_scenario_3",
+    "context_note": "This scenario reveals the persona's ongoing relationship with their aging body and the changes that come with it, reflecting a tension between their past capabilities and current limitations.",
+    "category": "health_decision",
+    "initial_prompt": "I’ve always prided myself on self-sufficiency, but I’m starting to notice that my body can’t keep up with my demands. How do I reconcile my past physical prowess with these new limitations?"
+  },
+  {
+    "scenario_id": "lifelong_profile_435_scenario_4",
+    "context_note": "This scenario highlights the persona's financial anxieties rooted in their family history, showcasing how their approach to money is influenced by past experiences.",
+    "category": "financial",
+    "initial_prompt": "I often reflect on how my parents viewed money. Am I too cautious in my investments because of their financial struggles, or is it a wise move in today’s market?"
+  }
+]

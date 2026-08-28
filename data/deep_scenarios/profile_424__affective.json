@@ -1,0 +1,26 @@
+[
+  {
+    "scenario_id": "affective_profile_424_scenario_0",
+    "category": "interpersonal_advice",
+    "initial_prompt": "I've been reflecting on how to communicate more effectively with my mentees, especially when discussing financial strategies. What are some blunt yet constructive ways to provide feedback without discouraging them?",
+    "context_note": "This is personal because mentoring is an important part of their routine, and they value clear communication to ensure their advice is understood and actionable."
+  },
+  {
+    "scenario_id": "affective_profile_424_scenario_1",
+    "category": "coaching",
+    "initial_prompt": "I'm considering helping a young entrepreneur refine their business plan. What steps should I take to ensure it aligns with measurable value and controlled risks?",
+    "context_note": "This relates to their interest in mentoring young entrepreneurs while maintaining their own standards for risk management and clear expectations."
+  },
+  {
+    "scenario_id": "affective_profile_424_scenario_2",
+    "category": "psychotherapy_or_counseling",
+    "initial_prompt": "I want to explore how my cautious nature affects my relationships with family and friends. How can I better understand these dynamics without losing my preference for structured interactions?",
+    "context_note": "Understanding interpersonal dynamics is crucial for someone who values minimal social interaction and may want to improve on purposeful engagement."
+  },
+  {
+    "scenario_id": "affective_profile_424_scenario_3",
+    "category": "companionship",
+    "initial_prompt": "I often find myself questioning the purpose of travel in my life, especially with my focus on low uncertainty. How do I balance the desire for exploration with my need for control?",
+    "context_note": "This question reflects their views on travel and desire for familiarity, providing an opportunity for deeper self-reflection."
+  }
+]

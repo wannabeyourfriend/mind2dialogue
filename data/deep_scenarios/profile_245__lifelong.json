@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_245_scenario_1",
+    "context_note": "This scenario reflects the persona's role in their family and the pressure they feel to support them financially while navigating their own aspirations.",
+    "category": "financial",
+    "initial_prompt": "I've been thinking about how my financial decisions impact my family. Sometimes it feels overwhelming, like I'm carrying the weight of our future on my shoulders. What if I'm not making the right choices?"
+  },
+  {
+    "scenario_id": "lifelong_profile_245_scenario_2",
+    "context_note": "This scenario showcases the persona's current struggle between responsibility to family and their own identity as they transition into adulthood.",
+    "category": "identity_values",
+    "initial_prompt": "I've been reflecting on who I want to be versus who my family expects me to be. Sometimes I feel like I'm caught between their dreams for me and my own desires. How do I navigate this without losing myself?"
+  },
+  {
+    "scenario_id": "lifelong_profile_245_scenario_3",
+    "context_note": "This scenario represents a formative decision from their past, where the persona had to choose between pursuing personal interests and fulfilling family obligations, echoing their current situation.",
+    "category": "career_transition",
+    "initial_prompt": "I remember back in school when I had to decide whether to join a club I loved or help out more at home. I chose family then, but now I'm wondering if I should start focusing on my career aspirations. What if I regret not taking that chance?"
+  },
+  {
+    "scenario_id": "lifelong_profile_245_scenario_4",
+    "context_note": "This scenario highlights the persona's evolving relationship with their health and well-being amid the stresses of school and work, reflecting on how it has changed over time.",
+    "category": "health_decision",
+    "initial_prompt": "Lately, I've felt more tired than usual, probably from balancing school and work. I remember when I used to bounce back easily. Now, I wonder if I should change my routine or focus more on my health. What if I don’t take care of myself and it affects everything else?"
+  },
+  {
+    "scenario_id": "lifelong_profile_245_scenario_5",
+    "context_note": "This scenario illustrates the persona's anticipation of future changes and their desire to create a stable foundation for their family, reflecting their long-term goals.",
+    "category": "long_term_planning",
+    "initial_prompt": "I often think about my future and how I can achieve financial stability while supporting my family. What if I take a job that pays well but doesn't leave me time for school? I fear missing out on opportunities while trying to help. How do I make this decision?"
+  }
+]

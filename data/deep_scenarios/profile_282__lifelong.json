@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_282_scenario_0",
+    "context_note": "This scenario reflects the tension between personal ambition and the impact of family dynamics, as the persona navigates their career while family obligations take a backseat.",
+    "category": "relationship",
+    "initial_prompt": "I've been thinking about how my career has taken precedence over family. Was I wrong to prioritize my ambitions? What does that say about my relationships?"
+  },
+  {
+    "scenario_id": "lifelong_profile_282_scenario_1",
+    "context_note": "This scenario illustrates a moment of self-reflection where the persona questions their identity in the face of potential job changes, reflecting feelings of uncertainty about who they are without their current role.",
+    "category": "career_transition",
+    "initial_prompt": "If I were to shift my focus to a different area in engineering, who would I be? What would I lose in terms of my identity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_282_scenario_2",
+    "context_note": "This scenario highlights the persona’s struggle with loss and nostalgia, as they grapple with the evolving demands of their body and the lifestyle changes that come with aging.",
+    "category": "health_decision",
+    "initial_prompt": "I feel like my body is demanding more attention than I’m willing to give it. How do I balance my ambitions with the reality of aging? What do I miss about my younger self?"
+  },
+  {
+    "scenario_id": "lifelong_profile_282_scenario_3",
+    "context_note": "This scenario speaks to the persona's financial anxieties rooted in their upbringing, exploring the tension between building wealth and a fear of losing financial stability.",
+    "category": "financial",
+    "initial_prompt": "As I consider investing in a new project, I can't shake the feeling of anxiety about losing what I've worked for. How do I reconcile that fear with the need to grow my wealth?"
+  },
+  {
+    "scenario_id": "lifelong_profile_282_scenario_4",
+    "context_note": "This scenario captures the persona’s anticipatory regret surrounding potential life transitions, exploring the fear of missed opportunities and the challenge of making strategic decisions for future success.",
+    "category": "long_term_planning",
+    "initial_prompt": "If I continue on my current path, will I miss out on something greater? What choices might I regret later, and how do I weigh that against the stability I currently have?"
+  }
+]

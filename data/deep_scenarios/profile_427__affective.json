@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "affective_profile_427_scenario_0",
+    "category": "interpersonal_advice",
+    "initial_prompt": "I’ve been trying to improve my communication with agents when discussing complex policy changes. What strategies can I implement to ensure I am clear and effective?",
+    "context_note": "As an insurance trainer, clear communication is essential for translating complex policy language, which aligns with their goal of fostering understanding among agents."
+  },
+  {
+    "scenario_id": "affective_profile_427_scenario_1",
+    "category": "coaching",
+    "initial_prompt": "I’m considering a new framework for personal development that aligns with my career goals in policy reform. What key elements should I include?",
+    "context_note": "This ties directly to their long-term goal of influencing broader policy reforms and expanding their leadership in training."
+  },
+  {
+    "scenario_id": "affective_profile_427_scenario_2",
+    "category": "psychotherapy_or_counseling",
+    "initial_prompt": "I sometimes feel overwhelmed by the resistance I face when proposing policy changes. What strategies can I use to manage this frustration effectively?",
+    "context_note": "Addressing their feelings of frustration can help them maintain their advocacy for fairness in policies."
+  },
+  {
+    "scenario_id": "affective_profile_427_scenario_3",
+    "category": "companionship",
+    "initial_prompt": "I'm reflecting on how my career impacts my personal life. How can I better balance my professional responsibilities with my personal time?",
+    "context_note": "This resonates with their need for balance between work and personal life, especially given their deliberate approach to finances and personal time."
+  },
+  {
+    "scenario_id": "affective_profile_427_scenario_4",
+    "category": "interpersonal_advice",
+    "initial_prompt": "How can I better analyze the psychological patterns I see in the feedback from agents to improve my training materials?",
+    "context_note": "Their role involves analyzing feedback data, and understanding psychological patterns can enhance the effectiveness of their training."
+  }
+]

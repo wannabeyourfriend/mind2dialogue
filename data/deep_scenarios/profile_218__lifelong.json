@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_218_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with the tension between their independent thinking and the weight of family expectations, particularly related to decisions about their future.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm feeling a bit overwhelmed thinking about my future. On one hand, I want to pursue a career that aligns with my passion for environmental science, but I also feel the pressure to make practical choices that will ensure stability. What if I choose a path that doesn’t meet my family's expectations or what if I regret not taking a risk?"
+  },
+  {
+    "scenario_id": "lifelong_profile_218_scenario_1",
+    "context_note": "This scenario highlights the persona's need for closeness with their family while also navigating their own identity as they grow and learn independently.",
+    "category": "relationship",
+    "initial_prompt": "I've noticed that as I dive deeper into environmental issues and form my own opinions, it sometimes creates a gap between my family and me. I value our discussions, but I also fear that my independent thoughts might lead to misunderstandings. How do I maintain our connection while still being true to my beliefs?"
+  },
+  {
+    "scenario_id": "lifelong_profile_218_scenario_2",
+    "context_note": "This scenario addresses the persona's ongoing development in cooking and life skills, reflecting their gradual evolution as they learn to balance independence with family involvement.",
+    "category": "creative_expression",
+    "initial_prompt": "I've been trying to learn more about cooking, but I still feel uncertain about what I can create on my own. It’s a bit daunting, and I sometimes wonder if I’m allowed to express myself in the kitchen like I do in my studies. What does cooking represent for me in terms of my independence and creativity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_218_scenario_3",
+    "context_note": "This scenario focuses on the persona's connection to nature and their responsibility in environmental stewardship, reflecting their values and the potential conflict with societal challenges.",
+    "category": "identity_values",
+    "initial_prompt": "I often feel torn between my love for nature and the reality of environmental degradation. It’s like I’m expected to have all the answers, but I’m still learning. How do I reconcile my strong beliefs about sustainability with the complexities of the world around me? Am I allowed to question and still care deeply?"
+  },
+  {
+    "scenario_id": "lifelong_profile_218_scenario_4",
+    "context_note": "This scenario explores the persona's relationship with money, especially as they strive to be responsible while navigating their family's values around financial support.",
+    "category": "financial",
+    "initial_prompt": "I’ve been thinking a lot about managing my finances as I make decisions about eco-friendly purchases. I feel the need to be responsible and not burden my family, but I also want to support sustainable products. How do I find a balance between being financially cautious and supporting what I believe in?"
+  }
+]

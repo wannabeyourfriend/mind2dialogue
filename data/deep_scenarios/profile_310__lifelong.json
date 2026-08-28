@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_id": "lifelong_profile_310_scenario_0",
+    "context_note": "This scenario reflects the persona's cautious approach to relationships and their reluctance to overcommit, stemming from past experiences of mistrust.",
+    "category": "relationship",
+    "initial_prompt": "How do I navigate the growing tension with a colleague who repeatedly takes credit for my work? It feels like I'm trying to maintain my integrity while protecting my contributions."
+  },
+  {
+    "scenario_id": "lifelong_profile_310_scenario_1",
+    "context_note": "This scenario draws from the persona's careful consideration of their financial future, highlighting the tension between wanting security and the fear of regret over missed opportunities.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about retirement, I wonder if I should invest more or play it safe with my savings. What if I miss out on a chance to grow my nest egg?"
+  },
+  {
+    "scenario_id": "lifelong_profile_310_scenario_2",
+    "context_note": "This scenario illustrates the persona’s struggle with their identity as they approach retirement, reflecting fears of losing a part of themselves that has been tied to their work for decades.",
+    "category": "career_transition",
+    "initial_prompt": "What will my identity be when I step away from my role as a sample maker? I'm starting to question who I am without that title."
+  },
+  {
+    "scenario_id": "lifelong_profile_310_scenario_3",
+    "context_note": "This scenario captures the persona's feelings about aging and their relationship with their body, addressing both nostalgia and the need for future health considerations.",
+    "category": "health_decision",
+    "initial_prompt": "I've been reflecting on how my body has changed over the years. How can I stay healthy and active as I age, while also accepting what I may have to let go of?"
+  },
+  {
+    "scenario_id": "lifelong_profile_310_scenario_4",
+    "context_note": "This scenario ties to the persona's cautious approach to finances and echoes past experiences with investments, illustrating their desire to protect their financial future.",
+    "category": "financial",
+    "initial_prompt": "With the recent changes in the market, I'm feeling anxious about my investments. How can I ensure I'm making the right choices without overextending myself?"
+  },
+  {
+    "scenario_id": "lifelong_profile_310_scenario_5",
+    "context_note": "This scenario explores the persona's feelings of loss and nostalgia in the face of impending retirement, highlighting their oscillation between clinging to the past and preparing for the future.",
+    "category": "grief_loss",
+    "initial_prompt": "As I consider retiring soon, I find myself reminiscing about my career. How do I balance those memories with the excitement of what's to come?"
+  }
+]

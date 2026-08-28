@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_256_scenario_0",
+    "context_note": "This scenario reflects the persona's cautious nature and the importance they place on observation and trust, especially in their interactions with peers.",
+    "category": "relationship",
+    "initial_prompt": "I've been noticing how my classmates react when they talk about their personal lives. It makes me wonder if I should share more about myself or keep things to myself. Is it better to be open or to be careful?"
+  },
+  {
+    "scenario_id": "lifelong_profile_256_scenario_1",
+    "context_note": "This scenario highlights the persona's struggle with independence and the anticipation of a future where they might have to take greater responsibilities.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about my future and potential career choices, I feel torn between sticking with what I know and trying something new. What if I miss out on opportunities that align with my strengths, but what if I also face challenges I’m not ready for?"
+  },
+  {
+    "scenario_id": "lifelong_profile_256_scenario_2",
+    "context_note": "This scenario connects to the persona's awareness of their own problem-solving skills and how that identity might shift as they face new challenges in life.",
+    "category": "career_transition",
+    "initial_prompt": "I’ve always been good at solving puzzles and games, but I worry about what it means for my future. If I decide to pursue something more creative, will I still be the logical thinker I am now? Who will I become in the process?"
+  },
+  {
+    "scenario_id": "lifelong_profile_256_scenario_3",
+    "context_note": "This scenario reflects a tension between the persona’s family values and their personal aspirations, especially regarding their educational path and independence.",
+    "category": "identity_values",
+    "initial_prompt": "Sometimes I feel like I’m expected to follow a certain path that my parents envision for me. But deep down, I wonder if what I truly want is different from their dreams for me. How do I navigate this without disappointing them?"
+  },
+  {
+    "scenario_id": "lifelong_profile_256_scenario_4",
+    "context_note": "This scenario addresses the persona's reflections on their childhood and the values instilled by their parents, providing insight into their cautious approach to interactions.",
+    "category": "grief_loss",
+    "initial_prompt": "Thinking back on my childhood, I realize how much I've changed and how my parents' expectations shaped who I am. Sometimes, I wish I could relive those simpler moments without the pressure of growing up. How do I honor those memories while moving forward?"
+  }
+]

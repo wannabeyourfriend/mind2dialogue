@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_497_scenario_0",
+    "context_note": "This scenario reflects the tension between the persona's desire for control and the inevitability of change, especially as they face the gradual approach of retirement.",
+    "category": "long_term_planning",
+    "initial_prompt": "I've been thinking about retirement lately. What does it mean for me if I step back from my role? Will I still feel valuable and purposeful, or will it feel like I'm losing a part of myself?"
+  },
+  {
+    "scenario_id": "lifelong_profile_497_scenario_1",
+    "context_note": "This scenario highlights the persona's struggle with maintaining structured relationships while navigating the emotional complexities of aging, particularly in terms of family dynamics.",
+    "category": "relationship",
+    "initial_prompt": "When I talk to my children about their futures, I feel a mix of pride and concern. How can I support them without imposing too much of my own structure on their choices?"
+  },
+  {
+    "scenario_id": "lifelong_profile_497_scenario_2",
+    "context_note": "This scenario connects to the persona's cautious approach to finances and reflects a legacy concern, as they ponder how their decisions affect future generations.",
+    "category": "financial",
+    "initial_prompt": "As I plan for my retirement savings, I can't help but wonder if I'm being too conservative. Am I sacrificing too much security for the sake of a stable future?"
+  },
+  {
+    "scenario_id": "lifelong_profile_497_scenario_3",
+    "context_note": "In this scenario, the persona's relationship with their body is highlighted, showcasing the evolving demands of aging and the grief over lost vitality.",
+    "category": "health_decision",
+    "initial_prompt": "I'm starting to notice changes in my health that I didn't expect. How do I reconcile my past self with who I am becoming? What lifestyle changes should I consider?"
+  },
+  {
+    "scenario_id": "lifelong_profile_497_scenario_4",
+    "context_note": "This scenario taps into the persona's identity and values, reflecting a conflict between their structured professional identity and the more emotional aspects of life that they may not engage with regularly.",
+    "category": "identity_values",
+    "initial_prompt": "I often feel like I present a certain image at work, but inside, I'm questioning if that's truly who I am. What does it mean to be a supply chain manager who also wants to connect on a deeper level?"
+  }
+]

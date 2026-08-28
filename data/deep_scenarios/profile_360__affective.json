@@ -1,0 +1,26 @@
+[
+  {
+    "scenario_id": "affective_profile_360_scenario_0",
+    "category": "interpersonal_advice",
+    "initial_prompt": "Can you help me draft a clear message to inform my tenants about upcoming maintenance without any unnecessary details?",
+    "context_note": "As a landlord, it's crucial for me to communicate effectively and directly with my tenants to maintain stability in my properties."
+  },
+  {
+    "scenario_id": "affective_profile_360_scenario_1",
+    "category": "coaching",
+    "initial_prompt": "What are some best practices for tracking rental income and expenses more efficiently?",
+    "context_note": "I manage my rental properties myself, so optimizing my financial tracking is essential for preserving my income streams."
+  },
+  {
+    "scenario_id": "affective_profile_360_scenario_2",
+    "category": "psychotherapy_or_counseling",
+    "initial_prompt": "How can I maintain my emotional well-being as I navigate the challenges of aging independently?",
+    "context_note": "I value my independence and want to ensure I am managing any emotional challenges effectively."
+  },
+  {
+    "scenario_id": "affective_profile_360_scenario_3",
+    "category": "companionship",
+    "initial_prompt": "What tips do you have for engaging in small talk with acquaintances without feeling overwhelmed?",
+    "context_note": "While I prefer to avoid social events, there are times when I need to engage with others and want to keep it simple and controlled."
+  }
+]

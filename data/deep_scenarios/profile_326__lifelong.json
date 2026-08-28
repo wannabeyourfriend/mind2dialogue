@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_id": "lifelong_profile_326_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with balancing personal values and professional identity, particularly in moments where transparency is crucial.",
+    "category": "identity_values",
+    "initial_prompt": "I've been reflecting on how my approach to transparency at work sometimes clashes with the more reserved nature I was taught growing up. How can I reconcile these two sides of myself?"
+  },
+  {
+    "scenario_id": "lifelong_profile_326_scenario_1",
+    "context_note": "This scenario explores past family dynamics that continue to inform the persona's present relationships, particularly around conflict resolution.",
+    "category": "relationship",
+    "initial_prompt": "During a recent team conflict, I found myself handling it much like how my parents would, avoiding direct confrontation. I wonder what healthy communication would really look like instead."
+  },
+  {
+    "scenario_id": "lifelong_profile_326_scenario_2",
+    "context_note": "The persona faces a significant career transition that raises questions about their identity and the professional legacy they want to leave.",
+    "category": "career_transition",
+    "initial_prompt": "As I consider a shift in my role to focus more on client success management, I can't help but wonder: who will I be if I pursue this path?"
+  },
+  {
+    "scenario_id": "lifelong_profile_326_scenario_3",
+    "context_note": "This scenario captures the persona's ongoing balancing act between their professional responsibilities and the need for personal growth, reflecting the tension of generativity.",
+    "category": "long_term_planning",
+    "initial_prompt": "Looking ahead, I find myself weighing the option of pursuing further education against the fear of being too consumed by work. Will I regret not investing in my personal development?"
+  },
+  {
+    "scenario_id": "lifelong_profile_326_scenario_4",
+    "context_note": "This scenario addresses the persona's relationship with their body and health, emphasizing the changes they are experiencing as they navigate mid-life.",
+    "category": "health_decision",
+    "initial_prompt": "I've noticed that my body doesn't bounce back like it used to after stressful days. How do I adapt my lifestyle to better care for myself without feeling like I'm giving up on my current routines?"
+  },
+  {
+    "scenario_id": "lifelong_profile_326_scenario_5",
+    "context_note": "This scenario reflects the persona's efforts to maintain clarity in financial matters while grappling with family-of-origin scripts about money.",
+    "category": "financial",
+    "initial_prompt": "As I plan for future investments, I can't shake the feeling of anxiety stemming from my family's financial history. How do I ensure I'm making decisions based on my own values rather than inherited fears?"
+  }
+]

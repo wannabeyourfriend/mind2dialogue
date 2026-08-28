@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_273_scenario_0",
+    "context_note": "This scenario reflects the persona's ongoing struggle with generativity, as they weigh their desire to mentor young entrepreneurs against the realization that their own time for growth is limited.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I invest my time in mentoring young entrepreneurs, I sometimes wonder if I'm creating opportunities for them to flourish, or if I'm missing out on pursuing my own hidden ambitions. Am I making the most of my remaining years?"
+  },
+  {
+    "scenario_id": "lifelong_profile_273_scenario_1",
+    "context_note": "This scenario reveals the persona's relationship with aging and changing health concerns, specifically in how they perceive their physical capabilities compared to their mental sharpness.",
+    "category": "health_decision",
+    "initial_prompt": "I find myself reflecting on how my body feels more tired during those long mentoring sessions, yet my mind is still sharp. How do I reconcile my physical limitations with my desire to remain active and engaged?"
+  },
+  {
+    "scenario_id": "lifelong_profile_273_scenario_2",
+    "context_note": "This scenario highlights the persona's financial acumen and the tension between their desire to secure investments and the generational wealth implications of their decisions.",
+    "category": "financial",
+    "initial_prompt": "While I evaluate the potential of local startups, I can't shake off the thought of how these investments will influence my family's financial legacy. Am I prioritizing my own goals at the expense of their future?"
+  },
+  {
+    "scenario_id": "lifelong_profile_273_scenario_3",
+    "context_note": "This scenario connects past experiences of familial expectation with the current pressure to maintain a balance between traditional values and the modern business landscape.",
+    "category": "identity_values",
+    "initial_prompt": "Growing up, I felt the weight of tradition in my family's expectations. Now, as I navigate modern entrepreneurship, I wonder if I'm betraying my roots or redefining what it means to honor them."
+  },
+  {
+    "scenario_id": "lifelong_profile_273_scenario_4",
+    "context_note": "This scenario explores the persona's reflections on legacy and their potential to impact the business landscape, revealing their desire for a meaningful contribution.",
+    "category": "creative_expression",
+    "initial_prompt": "As I think about my life's work, I question the legacy I'll leave behind. What does creating successful ventures mean for my identity, and how can I express this through mentorship and investment?"
+  }
+]

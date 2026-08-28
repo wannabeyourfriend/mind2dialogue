@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_197_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with trusting others while navigating relationships, aligning with their need for control and observation.",
+    "category": "relationship",
+    "initial_prompt": "I've noticed that I often second-guess people's intentions, especially those close to me. Sometimes I wonder if I'm too guarded or if my instincts to be cautious are justified. How do I determine when to let someone in?"
+  },
+  {
+    "scenario_id": "lifelong_profile_197_scenario_1",
+    "context_note": "This scenario connects to the persona's ongoing tension between their current identity and the potential future roles they may take, revealing their fear of losing control.",
+    "category": "career_transition",
+    "initial_prompt": "As I think about my future, I find myself questioning who I really want to be. If I choose a path that involves working creatively or in a team, I worry about losing my autonomy. How can I make sure I stay in control of my identity amidst these changes?"
+  },
+  {
+    "scenario_id": "lifelong_profile_197_scenario_2",
+    "context_note": "This scenario addresses the persona's complex relationship with their own needs and desires, showcasing a struggle between self-reliance and the fear of vulnerability.",
+    "category": "emotional_support",
+    "initial_prompt": "There are times when I feel overwhelmed but don’t know how to express it. I keep everything to myself because I fear being seen as weak. What does it mean to let someone see my struggles without losing my edge?"
+  },
+  {
+    "scenario_id": "lifelong_profile_197_scenario_3",
+    "context_note": "This scenario taps into the persona's financial anxieties and reflects their desire to maintain control over their future, showing the weight of family expectations.",
+    "category": "financial",
+    "initial_prompt": "With all the pressure to handle money wisely, I find myself torn between investing for the future or saving for immediate needs. Sometimes I think back to how my family handled finances, and I wonder if I’ll end up repeating their mistakes. How do I break free from those patterns?"
+  },
+  {
+    "scenario_id": "lifelong_profile_197_scenario_4",
+    "context_note": "This scenario captures the persona's exploration of identity and personal values, reflecting the tension between their perceived public persona and their internal feelings.",
+    "category": "identity_values",
+    "initial_prompt": "I've been thinking about how I present myself to others versus who I feel I am inside. There’s a part of me that wants to embrace new ideas, but I'm afraid of what that might mean for my current image. How do I reconcile these conflicting parts of myself?"
+  }
+]

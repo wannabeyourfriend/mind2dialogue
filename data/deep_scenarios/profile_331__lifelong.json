@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_331_scenario_0",
+    "context_note": "This scenario reflects the tension between the persona's desire for personal well-being and the pressure to meet client needs, highlighting the struggle for balance that exists in their current profession.",
+    "category": "emotional_support",
+    "initial_prompt": "I've been feeling this subtle pressure to always be 'on' for my clients, even when I'm still working on my own wellness. Sometimes I find it hard to express this feeling without sounding unprofessional. How do I balance my personal recovery with the expectations of my role?"
+  },
+  {
+    "scenario_id": "lifelong_profile_331_scenario_1",
+    "context_note": "This scenario connects to the persona’s contemplative journey as a wellness consultant, grappling with their identity and purpose within their professional life, raising questions of self-worth and value beyond their role.",
+    "category": "career_transition",
+    "initial_prompt": "As I navigate my career as a wellness consultant, I find myself questioning who I am without this role. What if I take a different direction? Would I still feel valued and fulfilled? It's a little unsettling to think about."
+  },
+  {
+    "scenario_id": "lifelong_profile_331_scenario_2",
+    "context_note": "This scenario mirrors the persona's experience of cooking and meal preparation as a form of self-care, exploring the juxtaposition of their personal dietary habits against the traditional Japanese principles they promote.",
+    "category": "identity_values",
+    "initial_prompt": "I truly enjoy preparing seasonal meals, but sometimes I feel torn between what I love to eat and what I feel I should promote to my clients. In what ways can I reconcile these two sides of myself without losing authenticity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_331_scenario_3",
+    "context_note": "This scenario encapsulates the persona's ongoing relationship with their body as they age and adapt their wellness practices, revealing the complexities of self-acceptance and the evolving demands of physical health.",
+    "category": "health_decision",
+    "initial_prompt": "Lately, I've noticed my body doesn't respond the way it used to during my stretches and exercises. It makes me reflect on what I need to do differently for my health. What does this change mean for me, and how can I embrace it without feeling defeated?"
+  },
+  {
+    "scenario_id": "lifelong_profile_331_scenario_4",
+    "context_note": "This scenario addresses the persona's future aspirations of establishing a business that contributes to the community, embodying their desire to create something meaningful while confronting the fear of potential failure or loss.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about creating a successful wellness business, I can't help but wonder if I might regret not taking the leap. What if I invest all this time and energy but it doesn't work out? How do I weigh the risks against the potential impact I could make?"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "scenario_id": "lifelong_profile_285_scenario_0",
+    "context_note": "This scenario explores the tension between the persona's current financial independence and the fear of what could be lost if future investments don't pan out. It reflects their cautious approach to risk.",
+    "category": "long_term_planning",
+    "initial_prompt": "I've been thinking a lot about my investments lately. What if I make the wrong decision and jeopardize my financial independence? Balancing security with potential growth feels daunting."
+  },
+  {
+    "scenario_id": "lifelong_profile_285_scenario_1",
+    "context_note": "This scenario reflects the persona's cautious approach to relationships, particularly in mentoring young entrepreneurs, where they may feel torn between offering support and maintaining emotional distance.",
+    "category": "relationship",
+    "initial_prompt": "As I mentor these young entrepreneurs, I wonder if I'm doing enough for them, or if I'm holding back too much. How do I balance being supportive without getting too emotionally involved?"
+  },
+  {
+    "scenario_id": "lifelong_profile_285_scenario_2",
+    "context_note": "This scenario connects to the persona's career transition into real estate investment, where they may grapple with their identity as a business consultant versus their current role, touching on themes of self-worth and recognition.",
+    "category": "career_transition",
+    "initial_prompt": "Sometimes I question who I am now that I've shifted from consulting to real estate. Am I still the same savvy business strategist, or have I lost a part of that identity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_285_scenario_3",
+    "context_note": "This scenario illustrates the persona's relationship with aging and changing lifestyle needs, reflecting on how their body has shifted over time and the emotional response to these changes.",
+    "category": "health_decision",
+    "initial_prompt": "As I notice my body changing, I find myself mourning the physical capabilities I once took for granted. How do I adjust to these new realities without feeling defeated?"
+  },
+  {
+    "scenario_id": "lifelong_profile_285_scenario_4",
+    "context_note": "This scenario addresses the persona's feelings of nostalgia and loss as they reflect on their earlier career and the decisions that have shaped their path, capturing the struggle between dwelling in the past and moving on.",
+    "category": "grief_loss",
+    "initial_prompt": "Sometimes I find myself looking back on my career with a sense of nostalgia. I miss certain aspects of my past work, but I also know I need to focus on what's next. How do I reconcile these feelings?"
+  },
+  {
+    "scenario_id": "lifelong_profile_285_scenario_5",
+    "context_note": "This scenario examines the persona's desire to maintain privacy and self-reliance while also feeling the pressure to engage more in the community, reflecting their struggle to balance personal values with external expectations.",
+    "category": "intergenerational",
+    "initial_prompt": "With the younger generation pushing for more community involvement, I feel torn. I value my privacy and independence, but I also wonder if I'm missing out on deeper connections. How can I find a balance?"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_266_scenario_0",
+    "context_note": "This scenario reflects the tension between the persona's dedication to family and the ongoing physical demands of their work, highlighting the struggle for generativity in a challenging environment.",
+    "category": "emotional_support",
+    "initial_prompt": "Sometimes, I feel overwhelmed by the never-ending cleaning during the monsoon. I want to be strong for my family, but there are moments when it just feels too much. How do I keep my spirits up when everything feels heavy?"
+  },
+  {
+    "scenario_id": "lifelong_profile_266_scenario_1",
+    "context_note": "This scenario addresses the persona's past experiences with family dynamics, particularly around work and financial support, which influence their current feelings about job security and generational responsibilities.",
+    "category": "financial",
+    "initial_prompt": "Growing up, I saw how hard my parents worked to make ends meet. Now, I find myself in similar shoes, but I worry that I'm not doing enough for my family. How do I balance my spending with supporting them?"
+  },
+  {
+    "scenario_id": "lifelong_profile_266_scenario_2",
+    "context_note": "This scenario highlights a decision the persona is facing about their career, reflecting the identity disruption of wanting to support their family while feeling the physical toll of their work.",
+    "category": "career_transition",
+    "initial_prompt": "I’ve been thinking about taking on a different type of job to ease the burdens of cleaning houses. But what if I change too much? Who will I be if I step away from this work that feels so tied to my identity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_266_scenario_3",
+    "context_note": "This scenario involves the persona’s reflections on their health and lifestyle, acknowledging the changes in their body and the demands of their work as they age.",
+    "category": "health_decision",
+    "initial_prompt": "As I work harder during the rains, I can feel my body starting to protest. I wonder if I'm taking care of myself as well as I should. What should I keep in mind to ensure that I stay healthy while supporting my family?"
+  },
+  {
+    "scenario_id": "lifelong_profile_266_scenario_4",
+    "context_note": "This scenario reveals the persona's ongoing struggle to balance familial obligations with personal growth, particularly in the context of their small garden and the potential for nurturing their own interests.",
+    "category": "creative_expression",
+    "initial_prompt": "Tending to my garden brings me joy, but I often feel guilty for spending time on it when there’s so much work to be done. How can I allow myself to nurture this passion without feeling like I’m letting my family down?"
+  }
+]

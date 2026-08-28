@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_238_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with independence and the frustration of feeling held back, particularly in the context of family dynamics.",
+    "category": "relationship",
+    "initial_prompt": "Why do my parents insist on sticking to routines when I just want to handle my own tasks in my own way?"
+  },
+  {
+    "scenario_id": "lifelong_profile_238_scenario_1",
+    "context_note": "This scenario captures the persona's impatience with waiting and the challenge of taking things at a slower pace, linking to their desire for autonomy.",
+    "category": "emotional_support",
+    "initial_prompt": "I feel really annoyed when I have to wait for others to finish a game or task. Is it wrong to want to just get things done quickly?"
+  },
+  {
+    "scenario_id": "lifelong_profile_238_scenario_2",
+    "context_note": "This scenario reflects the persona's fear of having to conform to expectations that conflict with their independence, showcasing a desire for self-definition.",
+    "category": "identity_values",
+    "initial_prompt": "Sometimes I wonder if I really want to be like everyone else. What if I prefer to be different, even if it means being alone?"
+  },
+  {
+    "scenario_id": "lifelong_profile_238_scenario_3",
+    "context_note": "This scenario addresses the persona's anticipation of change and the emotional labor involved in transitioning from childhood independence to a broader understanding of responsibility.",
+    "category": "life_transition",
+    "initial_prompt": "I can feel that I’ll have to start sharing responsibilities more as I get older. What will that mean for me and my sense of independence?"
+  },
+  {
+    "scenario_id": "lifelong_profile_238_scenario_4",
+    "context_note": "This scenario deals with the persona's relationship with their body and health, reflecting a transition point where they may have to consider changes they aren't ready for yet.",
+    "category": "health_decision",
+    "initial_prompt": "I know I need to start thinking about my health, but the idea of changing my routine feels overwhelming. How do I even begin?"
+  }
+]

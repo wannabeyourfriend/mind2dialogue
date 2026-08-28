@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_201_scenario_0",
+    "context_note": "This scenario reflects your current struggle with defining your identity and purpose as you navigate your consultancy and support for artisans. It highlights the tension between your current professional role and your evolving self-perception.",
+    "category": "career_transition",
+    "initial_prompt": "I've been reflecting on my journey as a consultant and sometimes wonder, who am I becoming in this role? Is this path truly aligned with my core values?"
+  },
+  {
+    "scenario_id": "lifelong_profile_201_scenario_1",
+    "context_note": "This scenario captures the delicate balance between the financial pressures of running a consultancy and your commitment to sustainable practices. It resonates with your ongoing efforts to budget carefully while staying true to your mission.",
+    "category": "financial",
+    "initial_prompt": "As I navigate the financial side of my consultancy, I find myself torn between wanting to support local artisans and the reality of meeting my own financial needs. How do I ensure I’m making the right decisions without compromising my values?"
+  },
+  {
+    "scenario_id": "lifelong_profile_201_scenario_2",
+    "context_note": "This scenario touches on the loss of a previous identity and the nostalgia associated with your earlier career. It reflects the oscillation between embracing your current path and mourning what you left behind.",
+    "category": "grief_loss",
+    "initial_prompt": "Sometimes, I miss the security and predictability of my former career. I find myself reminiscing about those days while trying to embrace the challenges and rewards of my current path. How do I balance this sense of loss with my excitement for the future?"
+  },
+  {
+    "scenario_id": "lifelong_profile_201_scenario_3",
+    "context_note": "This scenario expresses your desire to foster meaningful connections within your community while grappling with the emotional weight of your responsibilities. It reflects your values of transparency and mutual support with your artisan clients.",
+    "category": "relationship",
+    "initial_prompt": "I cherish the relationships I build with local artisans, but sometimes I feel the weight of their challenges and my desire to help them. How can I maintain that connection without feeling overwhelmed by their burdens?"
+  },
+  {
+    "scenario_id": "lifelong_profile_201_scenario_4",
+    "context_note": "This scenario presents your engagement with online courses as a way to grow personally and professionally. It captures the anticipation of how this learning may shape your future and the potential shifts it could bring in your identity.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I dive deeper into my online courses on sustainable business practices, I can’t help but wonder about the future. How will this new knowledge change me, and what opportunities might it open up that I hadn't considered before?"
+  }
+]

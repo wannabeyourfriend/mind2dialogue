@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_121_scenario_0",
+    "context_note": "This scenario explores the persona's struggle with the balance between familial obligations and professional aspirations, reflecting the tension of the Generativity vs. Stagnation stage.",
+    "category": "relationship",
+    "initial_prompt": "I've been feeling pulled in two directions lately—wanting to support my family while also growing my practice. How do I navigate these conflicting priorities without feeling like I’m failing at either?"
+  },
+  {
+    "scenario_id": "lifelong_profile_121_scenario_1",
+    "context_note": "This scenario connects to the persona's past, revealing how childhood experiences with family dynamics may influence their current approach to balancing work and home life.",
+    "category": "parenting_family",
+    "initial_prompt": "Reflecting on how my parents managed their work-life balance, I wonder if I'm repeating their patterns or forging my own path. What does this mean for my family now?"
+  },
+  {
+    "scenario_id": "lifelong_profile_121_scenario_2",
+    "context_note": "This scenario captures the persona’s current feelings of identity disruption as they consider expanding their practice, questioning who they might become in the process.",
+    "category": "career_transition",
+    "initial_prompt": "As I think about expanding my services, I can’t help but wonder—if I branch out and change my practice, who will I be? What aspects of my identity are tied to what I currently do?"
+  },
+  {
+    "scenario_id": "lifelong_profile_121_scenario_3",
+    "context_note": "This scenario looks forward, contemplating the persona's aspirations and the fear of unfulfilled potential, as they weigh a move that could enhance their digital presence.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm considering investing more in my online presence, but I worry about what I might lose in the process. If I don’t take this step, will I regret not reaching a wider audience?"
+  },
+  {
+    "scenario_id": "lifelong_profile_121_scenario_4",
+    "context_note": "This scenario reflects on the persona's relationship with their body, tracing the evolution of their physical experience and the emotional weight of their current health decisions.",
+    "category": "health_decision",
+    "initial_prompt": "I’m starting to notice changes in my body that I never anticipated. How do I reconcile my traditional beliefs about health with the modern demands my body is placing on me now?"
+  }
+]

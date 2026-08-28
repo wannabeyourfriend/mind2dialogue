@@ -1,0 +1,26 @@
+[
+  {
+    "scenario_id": "affective_profile_423_scenario_0",
+    "category": "interpersonal_advice",
+    "initial_prompt": "How can I better communicate with my regulars when tensions rise over games?",
+    "context_note": "This is personal because maintaining a calm atmosphere in the bar is crucial for keeping the community engaged and ensuring that everyone feels welcome."
+  },
+  {
+    "scenario_id": "affective_profile_423_scenario_1",
+    "category": "coaching",
+    "initial_prompt": "What strategies can I implement to attract younger customers without losing my regulars?",
+    "context_note": "This is personal as it relates to the changing demographics of the town and the need to sustain the bar's business while honoring the loyalty of longstanding patrons."
+  },
+  {
+    "scenario_id": "affective_profile_423_scenario_2",
+    "category": "psychotherapy_or_counseling",
+    "initial_prompt": "How can I manage the emotional stress that comes with running a bar in a changing community?",
+    "context_note": "This is personal because the pressures of keeping the bar afloat during economic shifts can weigh heavily on emotional well-being."
+  },
+  {
+    "scenario_id": "affective_profile_423_scenario_3",
+    "category": "companionship",
+    "initial_prompt": "What are some ways to connect more meaningfully with my children during their visits?",
+    "context_note": "This is personal as family connections are important, and finding ways to deepen those conversations can strengthen relationships."
+  }
+]

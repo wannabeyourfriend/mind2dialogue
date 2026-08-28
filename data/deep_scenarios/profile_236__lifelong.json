@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_236_scenario_0",
+    "context_note": "This scenario reflects the persona's strict control over their professional life and how it may sometimes lead to feeling isolated in their decision-making.",
+    "category": "relationship",
+    "initial_prompt": "I often feel like I'm making decisions in a vacuum at work. How do I open up to my team without losing control over our projects?"
+  },
+  {
+    "scenario_id": "lifelong_profile_236_scenario_1",
+    "context_note": "This scenario captures the tension between the persona's commitment to maintaining a certain lifestyle and the potential regret of not exploring new opportunities.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I look to the future, I wonder if sticking to my current path in marketing is the right choice. What if pursuing a different opportunity means letting go of my current stability?"
+  },
+  {
+    "scenario_id": "lifelong_profile_236_scenario_2",
+    "context_note": "This scenario delves into the unresolved pattern of the persona's early years regarding work-life balance and self-worth, now manifesting in their drive for success.",
+    "category": "identity_values",
+    "initial_prompt": "Sometimes I question if my workaholic tendencies are a sign of ambition or insecurity. How do I find a balance that honors both my drive and my well-being?"
+  },
+  {
+    "scenario_id": "lifelong_profile_236_scenario_3",
+    "context_note": "This scenario illustrates the psychological struggle between the persona's pursuit of control in their fitness regime and their body's changing demands as they age.",
+    "category": "health_decision",
+    "initial_prompt": "With my fitness training, I often push myself hard to maintain control, but I'm starting to wonder if my body is asking for something more gentle. How do I listen to its needs without feeling like I’m giving up?"
+  },
+  {
+    "scenario_id": "lifelong_profile_236_scenario_4",
+    "context_note": "This scenario presents the persona's internal conflict with their rigid approach to networking and the potential for growth that collaboration could offer.",
+    "category": "career_transition",
+    "initial_prompt": "I'm hesitant to change my approach to networking, but I can't shake the feeling that being more open could help my career. Who would I become if I let others in?"
+  }
+]

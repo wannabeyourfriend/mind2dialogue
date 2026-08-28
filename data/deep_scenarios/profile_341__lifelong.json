@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_341_scenario_0",
+    "context_note": "This scenario reflects the persona's careful consideration around their job stability and the identity tied to their current role, revealing the tension between maintaining autonomy and facing the discomfort of change.",
+    "category": "career_transition",
+    "initial_prompt": "If I were to consider taking on a different role at work, how would I balance the fear of losing my current position with the potential for growth? Who would I be if I stepped outside this comfort zone?"
+  },
+  {
+    "scenario_id": "lifelong_profile_341_scenario_1",
+    "context_note": "This scenario highlights the persona's relationship with their body and the inevitable changes that come with age, as well as the internal struggle between nostalgia for vitality and the need for self-care.",
+    "category": "health_decision",
+    "initial_prompt": "I'm starting to feel the wear on my body from years of work and hiking. How do I reconcile my desire to remain active with the reality that my body may not support me as it once did?"
+  },
+  {
+    "scenario_id": "lifelong_profile_341_scenario_2",
+    "context_note": "This scenario looks at the persona's need for privacy and their coping strategies in navigating emotions, especially in times of change or personal reflection, illustrating the challenge of processing deeper feelings.",
+    "category": "emotional_support",
+    "initial_prompt": "Sometimes I find it hard to put my feelings into words, especially when I feel overwhelmed by changes at work. How can I better understand these emotions without needing to share them with others?"
+  },
+  {
+    "scenario_id": "lifelong_profile_341_scenario_3",
+    "context_note": "This scenario connects to the persona's careful financial planning and anxiety about maintaining stability, exploring their thoughts on future financial decisions and the emotional weight behind money management.",
+    "category": "financial",
+    "initial_prompt": "As I think about my financial future, I can’t help but wonder: am I being too cautious, or is my approach ensuring a stable life? What would I regret more—a missed opportunity or a financial misstep?"
+  },
+  {
+    "scenario_id": "lifelong_profile_341_scenario_4",
+    "context_note": "This scenario engages the persona's solitary lifestyle and their resistance to social pressures, reflecting on the choices made in their past that have shaped their present identity and the desire for autonomy.",
+    "category": "identity_values",
+    "initial_prompt": "I often feel disconnected from the typical social expectations around holidays and gatherings. How do I reconcile the person I’ve become with the traditional values I was raised with?"
+  }
+]
