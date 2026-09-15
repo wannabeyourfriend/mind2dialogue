@@ -1,7 +1,7 @@
-# Mind2Dialogue: Training Human-Aware Language Models through Shared-State User Simulation
+# Mind2Dialogue: Training Human-Aware Language Models by Simulating User Mental States
 
 [![Project Page](https://img.shields.io/badge/Project-Page-1f6feb.svg)](https://wannabeyourfriend.github.io/mind2dialogue/)
-[![arXiv](https://img.shields.io/badge/arXiv-2026.xxxxx-b31b1b.svg)](https://arxiv.org/abs/xxxx)
+[![arXiv](https://img.shields.io/badge/arXiv-2609.15972-b31b1b.svg)](https://arxiv.org/abs/2609.15972)
 [![HuggingFace Dataset](https://img.shields.io/badge/%F0%9F%A4%97%20HuggingFace-Dataset-yellow.svg)](https://huggingface.co/datasets/wannabeyourfriend-hf/mind2dialogue)
 [![License](https://img.shields.io/badge/License-MIT%20%C2%B7%20CC--BY--4.0-blue.svg)](LICENSE)
 ![idea-promotion](assets/idea-promotion.png)
