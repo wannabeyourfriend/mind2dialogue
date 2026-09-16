@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_440_scenario_0",
+    "context_note": "This scenario reflects the persona's need for control in their career decisions, echoing a fear of identity disruption tied to their professional role.",
+    "category": "career_transition",
+    "initial_prompt": "I'm considering shifting my focus from consulting to a more specialized industry role. What would that mean for my identity and authority in my current field?"
+  },
+  {
+    "scenario_id": "lifelong_profile_440_scenario_1",
+    "context_note": "This reflects the persona's relentless pursuit of control and influence, revealing a tension between financial security and the emotional weight of potential loss.",
+    "category": "financial",
+    "initial_prompt": "I'm weighing the decision to invest heavily in a high-risk venture. On one hand, it could significantly boost my wealth; on the other, it could jeopardize my current financial stability. What should I consider before making this choice?"
+  },
+  {
+    "scenario_id": "lifelong_profile_440_scenario_2",
+    "context_note": "This scenario captures the persona's struggle with maintaining authority while facing the inevitability of aging, linking to unresolved fears about their health and vitality over time.",
+    "category": "health_decision",
+    "initial_prompt": "As I get older, I notice my energy levels fluctuating more. How should I approach changes in my lifestyle to maintain peak performance in my career?"
+  },
+  {
+    "scenario_id": "lifelong_profile_440_scenario_3",
+    "context_note": "This scenario looks back at the persona's formative experiences with family finances, connecting past patterns to present anxieties about financial stability and legacy.",
+    "category": "grief_loss",
+    "initial_prompt": "Reflecting on my parents' financial struggles, I find myself obsessing over wealth accumulation. How do I differentiate my financial goals from those inherited fears?"
+  },
+  {
+    "scenario_id": "lifelong_profile_440_scenario_4",
+    "context_note": "This scenario explores the persona's relationship with their professional role and authority, signaling a struggle to reassess their legacy as they approach retirement.",
+    "category": "long_term_planning",
+    "initial_prompt": "Looking towards retirement, I feel torn between the desire to maintain my influence and the need to let go. What will I regret if I don't take certain steps now?"
+  }
+]

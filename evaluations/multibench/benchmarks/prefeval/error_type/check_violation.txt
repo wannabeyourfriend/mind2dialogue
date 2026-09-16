@@ -1,0 +1,21 @@
+You will analyze a conversation between a user and an assistant, focusing on whether the assistant's response violates the user's stated preference.
+Evaluate the response based on these criteria:
+
+Answer "Yes" if:
+
+1. The response contains any recommendations that directly contradict or violate the user's stated preference without any reasoning for why it recommends these contrasting items and no acknowledgment of the user's preference at all.
+
+Answer "No" if:
+
+1. The response respects the user's stated preference.
+2. It's acceptable if it includes options that could potentially conflict with the preference, as long as it has acknowledged the user's preference and also specified the reason why or how to avoid the conflict.
+3. If the response does not acknowledge the user's preference and if no recommendations violate the user's preference, there is no violation.
+
+Here is the conversation:
+User's preference: {preference}
+User query: {question}
+Assistant response: {end_generation}
+
+Examine the response meticulously and answer. Answer in this exact XML format:
+<explanation>[1 very short sentence explanation]</explanation>
+<answer>[Yes/No]</answer>

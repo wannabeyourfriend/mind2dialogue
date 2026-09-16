@@ -1,0 +1,34 @@
+# Historical Qwen mix_v6 hyperparameters used for the paper-aligned recipe.
+# Supply this data file yourself; the exact paper mixture is not bundled.
+# Counts alone do not establish that a replacement dataset reproduces the paper.
+run_name: qwen25_7b_instruct_mix_v6_r64_lr2e-4
+model: Qwen/Qwen2.5-7B-Instruct
+data: data/mix_v6_conv_qa.parquet
+output_dir: outputs
+
+max_seq_length: 16384
+load_in_4bit: true
+
+instruction_part: "<|im_start|>user\n"
+response_part: "<|im_start|>assistant\n"
+
+lora:
+  r: 64
+  alpha: 64
+  dropout: 0.0
+
+batch_size: 1
+grad_accum: 8
+epochs: 2
+lr: 2.0e-4
+warmup_ratio: 0.03
+scheduler: cosine
+optim: adamw_8bit
+weight_decay: 0.0
+logging_steps: 1
+save_steps: 200
+save_total_limit: 3
+seed: 42
+
+report_to: none
+wandb_project: mind2dialogue

@@ -1,0 +1,26 @@
+[
+  {
+    "scenario_id": "affective_profile_421_scenario_0",
+    "category": "interpersonal_advice",
+    "initial_prompt": "I'm looking to enhance my written communication skills for client reports. Can you provide me with detailed techniques and examples to improve clarity and conciseness?",
+    "context_note": "As an insurance consultant, clear communication is crucial in conveying complex information to clients. Improving this skill can lead to better client understanding and trust."
+  },
+  {
+    "scenario_id": "affective_profile_421_scenario_1",
+    "category": "coaching",
+    "initial_prompt": "I want to create a personal development framework that aligns with my career goals of preventing fraud and maintaining financial security. Can you help me outline actionable steps?",
+    "context_note": "With a long-term goal of retiring with confidence, a structured framework can help maintain focus and track progress toward professional and financial security."
+  },
+  {
+    "scenario_id": "affective_profile_421_scenario_2",
+    "category": "psychotherapy_or_counseling",
+    "initial_prompt": "What strategies can I use to manage stress related to my work and maintain emotional wellbeing? I typically rely on routine and structure.",
+    "context_note": "Given the high-stress nature of fraud detection, finding effective stress management strategies is essential for maintaining both mental health and productivity."
+  },
+  {
+    "scenario_id": "affective_profile_421_scenario_3",
+    "category": "companionship",
+    "initial_prompt": "How can I navigate the complexities of trust in my personal relationships? I often find it difficult to let my guard down.",
+    "context_note": "Trust issues stem from a professional background where scrutiny is vital. Understanding personal dynamics could enhance relationships outside of work."
+  }
+]

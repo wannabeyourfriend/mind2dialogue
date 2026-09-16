@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_321_scenario_0",
+    "context_note": "This scenario highlights the persona's struggle with incremental changes at work while balancing personal boundaries, reflecting the tension between generativity and stagnation.",
+    "category": "career_transition",
+    "initial_prompt": "As I watch my team adapting to new digital tools, I can't help but wonder—if I lead them through this shift, who will I be if the team thrives without me as the primary guide? Am I ready to embrace a new role?"
+  },
+  {
+    "scenario_id": "lifelong_profile_321_scenario_1",
+    "context_note": "This scenario reflects a past decision that impacts the persona's current attitudes towards work-life balance, exploring how these choices shape their relationships.",
+    "category": "relationship",
+    "initial_prompt": "I often think back to my early career when I prioritized work over family time. Did that decision truly serve my loved ones? How do I navigate this delicate balance now, ensuring I don’t repeat the same patterns?"
+  },
+  {
+    "scenario_id": "lifelong_profile_321_scenario_2",
+    "context_note": "This scenario reveals an anticipated life transition as the persona contemplates retirement and how his legacy will be shaped by his mentoring efforts.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I consider the next chapter of my life, I find myself torn between staying in my role to guide future leaders and the idea of stepping back. What do I regret not having done if I choose to leave now?"
+  },
+  {
+    "scenario_id": "lifelong_profile_321_scenario_3",
+    "context_note": "This scenario illustrates the persona’s emotional connection to gardening as a form of self-care and its resemblance to his work philosophy of nurturing over time, connecting the past and present.",
+    "category": "creative_expression",
+    "initial_prompt": "When I tend to my garden, I often reflect on how the care I provide mirrors my approach to leadership. What does cultivating these plants say about my identity and my legacy?"
+  },
+  {
+    "scenario_id": "lifelong_profile_321_scenario_4",
+    "context_note": "This scenario addresses the persona's feelings towards aging and health, expressing a deep appreciation for his body’s changes over time while also confronting the physical demands of a busy lifestyle.",
+    "category": "health_decision",
+    "initial_prompt": "As I navigate my busy days, I feel the tension between pushing my limits and honoring my body’s needs. How do I reconcile my desire for productivity with the reality of aging and self-care?"
+  }
+]

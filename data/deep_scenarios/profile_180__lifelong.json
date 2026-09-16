@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_180_scenario_0",
+    "context_note": "This scenario reflects the tension in the persona's current stage of life as they balance their professional responsibilities with family obligations, particularly in managing financial stability and caregiving roles.",
+    "category": "financial",
+    "initial_prompt": "As I review my family's budget this month, I'm feeling a sense of anxiety about whether I'm making the right choices to secure financial stability for my kids. Am I repeating my parents' patterns, or am I carving out a new path for them?"
+  },
+  {
+    "scenario_id": "lifelong_profile_180_scenario_1",
+    "context_note": "This scenario connects the persona's past as they recall the influential financial lessons from their parents, juxtaposed with their current role as a caregiver and financial guide for the younger generation.",
+    "category": "parenting_family",
+    "initial_prompt": "When I sit down to talk about finances with my children, I often reflect on the lessons my parents taught me. How do I ensure I’m passing on the right values without imposing my own fears about money?"
+  },
+  {
+    "scenario_id": "lifelong_profile_180_scenario_2",
+    "context_note": "In this scenario, the persona grapples with their current professional identity and the potential changes coming from shifting job responsibilities, which evokes deeper questions about their self-worth and contributions.",
+    "category": "career_transition",
+    "initial_prompt": "As I consider the possibility of taking on more leadership roles in my research team, I can’t help but wonder, who will I become if I step into a position of greater authority? Will it change how I see my contributions to economic policy?"
+  },
+  {
+    "scenario_id": "lifelong_profile_180_scenario_3",
+    "context_note": "This scenario captures the persona's ongoing struggle with their health and the changing demands of their body, reflecting a sense of grief for what was while grappling with the need to adapt.",
+    "category": "health_decision",
+    "initial_prompt": "While practicing tai chi, I often notice how my body feels different now than it did a few years ago. I’m starting to confront the reality of aging and what that means for my health. What do I need to grieve, and what can I still embrace?"
+  },
+  {
+    "scenario_id": "lifelong_profile_180_scenario_4",
+    "context_note": "In this scenario, the persona anticipates a future life transition that involves their aging parents, which prompts reflections on intergenerational family dynamics and the associated responsibilities.",
+    "category": "intergenerational",
+    "initial_prompt": "As I think about my parents aging, I feel a mix of duty and fear. How can I support them without compromising my family's stability? What does it look like to find a balance between caring for them and nurturing my own household?"
+  }
+]

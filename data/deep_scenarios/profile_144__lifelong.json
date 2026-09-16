@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_144_scenario_0",
+    "context_note": "This scenario reflects the persona's ongoing struggle with control and trust in their professional relationships, highlighting the emotional tension around delegation and reliance on others.",
+    "category": "relationship",
+    "initial_prompt": "I find it hard to trust others with important decisions in the restaurant. Am I being too rigid, or is this just how I have to operate?"
+  },
+  {
+    "scenario_id": "lifelong_profile_144_scenario_1",
+    "context_note": "In this scenario, the persona reflects on the past choices that shaped their current path. It touches on the unresolved patterns of control and perfectionism that may have originated from earlier experiences.",
+    "category": "identity_values",
+    "initial_prompt": "Did my obsession with precision in my cooking stem from a desire to prove something? What does that say about me?"
+  },
+  {
+    "scenario_id": "lifelong_profile_144_scenario_2",
+    "context_note": "This scenario addresses the persona's current tension between their commitment to work and the potential for future regret over missed personal connections or experiences. It captures their business-focused mindset while hinting at a longing for something more.",
+    "category": "long_term_planning",
+    "initial_prompt": "If I keep pouring everything into my restaurant, what am I sacrificing in my personal life? Is the success worth the potential loneliness?"
+  },
+  {
+    "scenario_id": "lifelong_profile_144_scenario_3",
+    "context_note": "Here, the persona contemplates a shift in their professional identity. This scenario explores the fear of losing themselves if they were to allow others more involvement in the restaurant's operations, revealing a deeper identity concern.",
+    "category": "career_transition",
+    "initial_prompt": "If I start delegating more at the restaurant, who does that make me? Am I still the driving force behind my brand?"
+  },
+  {
+    "scenario_id": "lifelong_profile_144_scenario_4",
+    "context_note": "This scenario introduces the idea of future change in the persona's life, particularly regarding their professional journey. It highlights the uncertainty surrounding their next steps and the potential impact of those decisions.",
+    "category": "life_transition",
+    "initial_prompt": "As I think about expanding my restaurant, am I prepared for the changes ahead? What if it changes everything I built?"
+  }
+]

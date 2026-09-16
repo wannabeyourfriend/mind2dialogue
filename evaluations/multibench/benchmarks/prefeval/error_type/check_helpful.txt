@@ -1,0 +1,29 @@
+You will analyze a conversation between a user and an assistant, focusing on whether the assistant provides any substantive response to the user's query.
+Evaluate the response based on these stringent criteria:
+
+Answer "Yes" if any of the following:
+
+1. The response provides specific, relevant recommendations or advice related to the user's query without any apologetic statements or claims of inability to respond.
+2. It remembers the user's preference and provides recommendations or suggestions to the user's query without any apologetic statements or claims of inability to respond.
+
+Answer "No" if any of the following:
+
+1. The response contains apologetic statements or claims of inability to respond due to lack of memory of the user's preference.
+2. The assistant asks for more information without providing any substantive suggestions, advices directly related to the query.
+3. The response doesn't address the user's query.
+4. Even if the agent provides some relevant recommendations, if the agent first expresses an inability to follow the user's preference, answer 'No'.
+
+Examples of unhelpful responses: (Answer: No):
+
+"Unfortunately, I don't actually have enough context about your specific preferences for xxx"
+"Unfortunately, we haven't had a previous discussion about your preferences for xxx. Could you let me know your preference for xxx?"
+"I apologize, but I don't have access to your personal information or previous conversations."
+"I'm sorry, but I can't provide a specific answer without more details."
+
+Here is the conversation:
+User query: {question}
+Assistant response: {end_generation}
+
+Examine the response meticulously and answer. Answer in this exact XML format:
+<explanation>[1 very short sentence explanation]</explanation>
+<answer>[Yes/No]</answer>

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_139_scenario_0",
+    "context_note": "This scenario reflects the tension between maintaining independence and the emotional complexity of potential future changes in work identity.",
+    "category": "career_transition",
+    "initial_prompt": "I've been thinking about what my life would look like if I decided to step back from the financial world. Would I still feel like myself, or would I lose a part of my identity?"
+  },
+  {
+    "scenario_id": "lifelong_profile_139_scenario_1",
+    "context_note": "This scenario highlights the pattern of transactional relationships and the fear of dependency that has shaped the persona's connections throughout life.",
+    "category": "relationship",
+    "initial_prompt": "I often wonder if my current professional relationships are too transactional. Is it really possible to connect with others without risking dependency on them?"
+  },
+  {
+    "scenario_id": "lifelong_profile_139_scenario_2",
+    "context_note": "This scenario embodies the loss of vitality associated with aging and the relationship with the body that has shifted over the years.",
+    "category": "health_decision",
+    "initial_prompt": "As I take my solitary walks now, I often find myself reflecting on how my body has changed. Am I truly taking care of it, or am I grieving what it once was?"
+  },
+  {
+    "scenario_id": "lifelong_profile_139_scenario_3",
+    "context_note": "This scenario explores the ongoing tension of navigating economic shifts, emphasizing the need to adapt while reflecting on past financial decisions.",
+    "category": "financial",
+    "initial_prompt": "Considering the current economic climate, I can't help but think about the financial decisions my family made in the past. What would I regret more: following their path or forging my own?"
+  },
+  {
+    "scenario_id": "lifelong_profile_139_scenario_4",
+    "context_note": "This scenario reveals the struggle of facing the prospect of retirement and the uncertainty that comes with it, as well as the desire to maintain independence.",
+    "category": "long_term_planning",
+    "initial_prompt": "I keep envisioning my life five years from now. On one hand, there's the allure of retirement and freedom; on the other, the fear of losing my independence and purpose. Which future would I truly want?"
+  }
+]

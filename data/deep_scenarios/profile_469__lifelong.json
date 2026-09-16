@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_469_scenario_0",
+    "context_note": "This scenario reflects the tension between the persona's commitment to her career and her role in her family, as she navigates changes in her professional identity.",
+    "category": "career_transition",
+    "initial_prompt": "I've been thinking about how my role as a maternity matron defines me, but with the changes in healthcare and the increasing pressure to adapt, I wonder—who am I if I have to shift my responsibilities or even step back?"
+  },
+  {
+    "scenario_id": "lifelong_profile_469_scenario_1",
+    "context_note": "This scenario connects to the persona's long-standing dedication to her work and her desire to mentor others, which may evoke feelings of uncertainty about the future.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I consider the possibility of retirement in the coming years, I find myself questioning—what legacy do I want to leave behind in this maternity unit, and what will I miss most about my daily interactions with the mothers and staff?"
+  },
+  {
+    "scenario_id": "lifelong_profile_469_scenario_2",
+    "context_note": "This scenario highlights the emotional complexity of witnessing births and losses, reflecting the persona's deep connection to her patients and her coping mechanisms.",
+    "category": "grief_loss",
+    "initial_prompt": "There are days when the weight of the losses I've experienced in my career lingers with me, making me question how to find balance between mourning those moments and celebrating the new lives I help bring into the world."
+  },
+  {
+    "scenario_id": "lifelong_profile_469_scenario_3",
+    "context_note": "This scenario illustrates the persona's cultural sensitivity and her efforts to connect with patients from diverse backgrounds, pulling at the threads of her identity and values.",
+    "category": "identity_values",
+    "initial_prompt": "As I interact with mothers from the Latino community, I feel a strong responsibility to honor their cultural values while providing care. Yet, I sometimes struggle with how much of my own identity I should share in those moments. Am I being true to myself, or am I trying too hard to connect?"
+  },
+  {
+    "scenario_id": "lifelong_profile_469_scenario_4",
+    "context_note": "This scenario reflects the persona's consideration of her health and well-being, revealing the tensions between her professional demands and her personal self-care.",
+    "category": "health_decision",
+    "initial_prompt": "After a particularly intense shift, I find myself reflecting on how my body feels different now than when I started my career. I know I need to prioritize my health, but how do I balance that with the demands of my job and the energy I want to give to my family?"
+  }
+]

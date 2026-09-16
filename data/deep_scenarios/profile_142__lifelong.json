@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_142_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with their independent nature and the need for space within a busy household, highlighting the tension between needing support and valuing autonomy.",
+    "category": "relationship",
+    "initial_prompt": "I've been feeling a bit overwhelmed lately. Sometimes I just need to escape to my quiet corner, but I wonder if it's okay to ask for help when I feel stressed."
+  },
+  {
+    "scenario_id": "lifelong_profile_142_scenario_1",
+    "context_note": "This scenario connects with the persona's selective nature in relationships and the need for independence. It showcases their internal conflict between wanting to engage with others and their preference for solitude.",
+    "category": "identity_values",
+    "initial_prompt": "I keep thinking about why I prefer my own company over being with others. Is it because I fear being let down, or is it simply who I am meant to be?"
+  },
+  {
+    "scenario_id": "lifelong_profile_142_scenario_2",
+    "context_note": "This scenario explores the persona's relationship with money, reflecting their cautious approach to spending and their desire for control over their finances. It hints at the possible generational influences on their financial behavior.",
+    "category": "financial",
+    "initial_prompt": "I sometimes wonder if I should save my pocket money for something big or just buy little things that catch my eye. What’s the right choice, and what does it mean for my future?"
+  },
+  {
+    "scenario_id": "lifelong_profile_142_scenario_3",
+    "context_note": "This scenario showcases the persona's anticipated transition into greater independence as they approach new experiences in life. It reflects their struggle with the idea of change and the unknown.",
+    "category": "life_transition",
+    "initial_prompt": "As I think about the next school year, I feel both excited and nervous. What if I’m not ready for the new challenges ahead, and how do I prepare for them without losing myself?"
+  },
+  {
+    "scenario_id": "lifelong_profile_142_scenario_4",
+    "context_note": "This scenario captures the persona's emotional processing around the pressures to conform and their questioning of rules, reflecting the developmental stage of asserting independence while grappling with external expectations.",
+    "category": "grief_loss",
+    "initial_prompt": "I often feel torn between following the rules at school and wanting to do things my own way. It's like I'm losing a part of myself that wants to explore, and I'm not sure how to handle that feeling."
+  }
+]

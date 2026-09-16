@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_471_scenario_0",
+    "context_note": "This scenario reflects the persona's struggle with identity and purpose after retirement, as they question their sense of self in the absence of their former professional role.",
+    "category": "career_transition",
+    "initial_prompt": "I've been reflecting on my career as a consultant, and I'm starting to wonder: who am I now that I'm no longer defined by that role? What if I’m not making as big of an impact as I’d like to believe?"
+  },
+  {
+    "scenario_id": "lifelong_profile_471_scenario_1",
+    "context_note": "This scenario connects with their current work in mentoring, recognizing the emotional challenge of meeting young professionals' needs while balancing their own feelings of inadequacy.",
+    "category": "emotional_support",
+    "initial_prompt": "I often feel overwhelmed when I’m trying to guide my mentees through their challenges. There’s a part of me that worries I'm not giving them what they need. Is it common to feel this way as a mentor?"
+  },
+  {
+    "scenario_id": "lifelong_profile_471_scenario_2",
+    "context_note": "This scenario touches on the persona's feelings of nostalgia and loss related to their past career, while also reflecting their desire to build a legacy through mentoring.",
+    "category": "grief_loss",
+    "initial_prompt": "Sometimes I find myself reminiscing about the impact I had in my consulting days. I miss the thrill of shaping strategies. How do I reconcile that loss with my current focus on mentoring? Is it okay to miss that part of my life?"
+  },
+  {
+    "scenario_id": "lifelong_profile_471_scenario_3",
+    "context_note": "This scenario represents the persona's present struggle with the digital divide in their community, illustrating their commitment to fostering lifelong learning while feeling the weight of the challenge.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I think about the future, I wonder if I’m doing enough to help bridge the digital divide in my community. What if I’m not making the impact I envision? How can I ensure that those I mentor have access to the tools they need?"
+  },
+  {
+    "scenario_id": "lifelong_profile_471_scenario_4",
+    "context_note": "This scenario addresses the persona's ongoing commitment to volunteer work, reflecting a desire to maintain connections and contribute to the community, while also confronting the potential changes that come with aging.",
+    "category": "life_transition",
+    "initial_prompt": "I love volunteering and connecting with my community, but I can’t help but think: as I age, will I still be able to contribute as I do now? What does that mean for me and the relationships I've built?"
+  }
+]

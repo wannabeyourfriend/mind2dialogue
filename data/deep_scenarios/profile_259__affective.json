@@ -1,0 +1,26 @@
+[
+  {
+    "scenario_id": "affective_profile_259_scenario_0",
+    "category": "interpersonal_advice",
+    "initial_prompt": "I need to improve my communication skills when working with team members on-site. How can I ensure everyone is on the same page and understands their roles without causing confusion?",
+    "context_note": "Clear communication is crucial in your work environment where safety and precision are paramount. Enhancing these skills will help maintain team focus and compliance."
+  },
+  {
+    "scenario_id": "affective_profile_259_scenario_1",
+    "category": "coaching",
+    "initial_prompt": "As I consider growing my family, I want to balance my career responsibilities and personal life effectively. What strategies can I implement to ensure that both areas thrive?",
+    "context_note": "This reflects your long-term goal of building a stable foundation for family growth while ensuring the resilience of community infrastructure."
+  },
+  {
+    "scenario_id": "affective_profile_259_scenario_2",
+    "category": "psychotherapy_or_counseling",
+    "initial_prompt": "I'm feeling the pressure of managing multiple projects and the weight of ensuring public safety. What strategies can I use to manage stress and maintain emotional well-being?",
+    "context_note": "Balancing high-stakes work with personal well-being is essential for your performance and mental health, especially given your commitment to ethical responsibility."
+  },
+  {
+    "scenario_id": "affective_profile_259_scenario_3",
+    "category": "companionship",
+    "initial_prompt": "I've been reflecting on my personal identity and values, especially in relation to my career. How can I navigate my thoughts and feelings to find more clarity?",
+    "context_note": "Your commitment to precision and ethical responsibility in your profession likely influences your personal reflections and search for clarity in identity."
+  }
+]

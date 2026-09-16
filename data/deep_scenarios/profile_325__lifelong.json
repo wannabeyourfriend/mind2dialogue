@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_325_scenario_0",
+    "context_note": "This scenario reflects the persona's current struggle with acknowledging the potential impact of their career decisions on their identity, particularly as they consider the next steps in their professional journey.",
+    "category": "career_transition",
+    "initial_prompt": "What if I make a significant shift in my career? Who am I if I step away from the role I've defined myself by for so long?"
+  },
+  {
+    "scenario_id": "lifelong_profile_325_scenario_1",
+    "context_note": "This scenario connects to the persona's relationship with their family, particularly the need for control and the tension between their professional ambitions and personal life.",
+    "category": "relationship",
+    "initial_prompt": "How do I balance my intense work commitments with the expectations of my family? Am I repeating patterns from my upbringing that I wanted to break free from?"
+  },
+  {
+    "scenario_id": "lifelong_profile_325_scenario_2",
+    "context_note": "This scenario addresses the persona's long-term planning concerns, particularly the fear of choosing a path that could lead to regret, especially in terms of financial stability and future opportunities.",
+    "category": "long_term_planning",
+    "initial_prompt": "If I focus solely on business growth, what opportunities am I sacrificing for personal satisfaction? Will I end up regretting my choices later?"
+  },
+  {
+    "scenario_id": "lifelong_profile_325_scenario_3",
+    "context_note": "This scenario touches on the persona's past, reflecting on how their childhood experiences with money have shaped their current financial anxieties and investment decisions.",
+    "category": "financial",
+    "initial_prompt": "How much of my financial behavior is influenced by my upbringing? Am I making decisions based on my own values, or am I perpetuating old family scripts?"
+  },
+  {
+    "scenario_id": "lifelong_profile_325_scenario_4",
+    "context_note": "This scenario explores the persona's relationship with their body and health, focusing on the changes they have experienced over time and the new demands that come with aging.",
+    "category": "health_decision",
+    "initial_prompt": "How do I reconcile the physical changes I face as I age with my active lifestyle? What do I need to let go of to embrace this new phase?"
+  }
+]

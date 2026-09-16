@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mind2dialogue-evaluations"
+version = "0.1.0"
+description = "Selected evaluation adapters for Mind2Dialogue"
+requires-python = ">=3.10"
+dependencies = ["openai>=1.30.0", "tqdm>=4.66", "beautifulsoup4>=4.12"]
+
+[project.scripts]
+multibench = "multibench.core:main"
+
+[tool.setuptools.packages.find]
+include = ["multibench*"]
+
+[tool.setuptools.package-data]
+"multibench.benchmarks.bigtom" = ["*.txt", "LICENSE"]
+"multibench.benchmarks.prefeval" = ["error_type/*.txt", "LICENSE"]

@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_348_scenario_0",
+    "context_note": "This scenario reflects the persona's values and their fear of losing their established identity as a dependable technician. The tension arises from contemplating a potential career change, which could disrupt their sense of self.",
+    "category": "career_transition",
+    "initial_prompt": "I've been thinking about how my role as a technician defines me. If I decided to explore a different career path, who would I be beyond my current work? Would I lose the sense of purpose I find in what I do?"
+  },
+  {
+    "scenario_id": "lifelong_profile_348_scenario_1",
+    "context_note": "This scenario conveys the persona's emotional struggle with the passage of time and the changes in their physical abilities. It reflects a nostalgic longing for their agility in the past while grappling with the demands of aging.",
+    "category": "health_decision",
+    "initial_prompt": "I've noticed that my body doesn't respond as it used to during hands-on projects. I sometimes feel a sense of loss over my physical capabilities. How do I come to terms with these changes while still engaging in the activities I love?"
+  },
+  {
+    "scenario_id": "lifelong_profile_348_scenario_2",
+    "context_note": "In this scenario, the persona's ongoing commitment to community infrastructure serves as a backdrop for their reflection on generativity. They are contemplating their legacy and the impact of their work on future generations.",
+    "category": "long_term_planning",
+    "initial_prompt": "Looking back at my years of service, I wonder what kind of legacy I am leaving for my community. If I were to step back from my role, would the systems I helped build continue to thrive? What might I regret leaving unfinished?"
+  },
+  {
+    "scenario_id": "lifelong_profile_348_scenario_3",
+    "context_note": "This scenario highlights the persona's attachment to their community and the tension between their desire for closeness and the fear of dependency. It reflects their role in building reliable systems and the relationships that form around that.",
+    "category": "relationship",
+    "initial_prompt": "I have always been the one people rely on in emergencies, yet I sometimes wonder if it’s hard for others to see me as someone who also needs support. How do I navigate these relationships without feeling overly dependent or like I’m burdening others?"
+  },
+  {
+    "scenario_id": "lifelong_profile_348_scenario_4",
+    "context_note": "This scenario taps into the persona's interest in storm watching, symbolizing their ongoing quest for understanding and managing uncertainties in their work and life. It echoes their meticulous nature and desire for control in a changing environment.",
+    "category": "life_transition",
+    "initial_prompt": "As I monitor the weather patterns, I feel a mix of anticipation and anxiety about the storms that may come. It’s a reminder of how little control we have over certain aspects of life. How do I prepare for changes that are outside of my control while still maintaining a sense of stability?"
+  }
+]

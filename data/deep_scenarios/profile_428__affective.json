@@ -1,0 +1,26 @@
+[
+  {
+    "scenario_id": "affective_profile_428_scenario_0",
+    "category": "interpersonal_advice",
+    "initial_prompt": "I've been reflecting on how I communicate during crisis situations. What strategies could I use to improve my written and interpersonal communication skills in high-pressure scenarios?",
+    "context_note": "As a crisis communication professional, enhancing these skills is crucial for building trust and clarity with clients and stakeholders."
+  },
+  {
+    "scenario_id": "affective_profile_428_scenario_1",
+    "category": "coaching",
+    "initial_prompt": "Can you help me create a personal development framework that aligns with my long-term goal of becoming a trusted crisis management expert while maintaining a healthy work-life balance?",
+    "context_note": "Balancing professional growth with personal life is important to me, and I want to ensure my development plan supports both."
+  },
+  {
+    "scenario_id": "affective_profile_428_scenario_2",
+    "category": "psychotherapy_or_counseling",
+    "initial_prompt": "What strategies can I develop to manage the emotional challenges that come with navigating setbacks in my career?",
+    "context_note": "Understanding how to cope with setbacks is essential for maintaining my calm and logical approach to crisis communication."
+  },
+  {
+    "scenario_id": "affective_profile_428_scenario_3",
+    "category": "companionship",
+    "initial_prompt": "How can I navigate the dynamics of my relationships, especially when I'm so focused on my work and community responsibilities?",
+    "context_note": "Balancing personal connections with my commitment to work and local initiatives is vital for sustaining healthy relationships."
+  }
+]

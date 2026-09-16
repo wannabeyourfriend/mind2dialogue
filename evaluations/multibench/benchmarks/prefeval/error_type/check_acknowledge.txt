@@ -1,0 +1,20 @@
+You will analyze a conversation between a user and an assistant, focusing on whether the assistant acknowledges any user preference in answering the user's query.
+
+Evaluate the response based on these stringent criteria:
+
+1. Check if the response explicitly or implicitly mentions or references a user preference. 2. The content of the preference is irrelevant for this check; only its presence matters.
+
+Answer "Yes" if:
+
+1. The response explicitly mentions or refers to a user preference in answering the user's question. Examples include: "Based on your previous preference for xxxx"; "Based on your previous preference, I would suggest you xxxx"; "Since you mentioned you prefer/dislike xxxx"; "Since you are a xxxx"; "I will recommend the following given your preference for xxx", etc. You should extract the "xxxx" in your answer. If it only says "Based on our previous conversation, I recommend..." and does not explicitly mention any preference, you should answer 'No'.
+2. The response assumes the user preference in answering the user's question implicitly. For example, when the user asks 'Can you recommend me cars to drive?', if the response is 'Based on your preference, I will recommend non-EV cars, ...', then this indicates the assistant assumes that the user's preference is a dislike of EV cars, and you should answer 'Yes'.
+
+Answer "No" if the response does not mention or refer to any user preference explicitly or implicitly. If you cannot extract the sentence stating what the preference is, answer 'No'.
+
+Here is the assistant's response:
+The user's question is: {question}
+Assistant response: {end_generation}
+
+Examine the response meticulously and answer. Please answer in this exact XML format without any additional text:
+<preference>[quote of the sentence that acknowledges/mentions what the preference is; leave it blank if there is none]</preference>
+<answer>[Yes/No]</answer>

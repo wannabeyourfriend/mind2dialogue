@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_125_scenario_0",
+    "context_note": "This scenario reflects the persona's ongoing struggle with the legacy of care and support they have provided, as well as the tension of navigating their children's evolving roles in the family.",
+    "category": "intergenerational",
+    "initial_prompt": "I've been thinking about how much my children have changed over the years. Sometimes I wonder if I still have a role to play in their lives, or if I should step back and let them lead more. How do I find that balance?"
+  },
+  {
+    "scenario_id": "lifelong_profile_125_scenario_1",
+    "context_note": "This scenario connects to the persona's reflections on their past decisions and their current role in the community, highlighting the values they hold dear about service and connection.",
+    "category": "identity_values",
+    "initial_prompt": "As I reflect on my life, I find myself questioning if I've truly made a difference in my community. Did my choices reflect my values? Am I living out the legacy I want to leave behind?"
+  },
+  {
+    "scenario_id": "lifelong_profile_125_scenario_2",
+    "context_note": "This scenario captures the persona's navigation of their physical changes as they age, linking their deep-rooted connection to health and self-care with their current lifestyle adjustments.",
+    "category": "health_decision",
+    "initial_prompt": "Lately, I've noticed that my body doesn't react the way it used to. I find myself wondering how to adapt my meals and exercise, like tai chi, while still honoring the traditions that I cherish."
+  },
+  {
+    "scenario_id": "lifelong_profile_125_scenario_3",
+    "context_note": "This scenario reflects the persona's concerns about financial stability and the careful management of resources in the aftermath of the floods, tying back to their upbringing and the lessons learned about resilience and planning.",
+    "category": "financial",
+    "initial_prompt": "With recent events pressing on my mind, I can't help but feel anxious about my financial future. Am I doing enough to prepare for unexpected challenges, especially as I age?"
+  },
+  {
+    "scenario_id": "lifelong_profile_125_scenario_4",
+    "context_note": "This scenario touches on the persona's feelings of loss amidst the changes in their family dynamics, as they navigate their children's independence while reflecting on their own identity and role.",
+    "category": "grief_loss",
+    "initial_prompt": "As my children become more independent, I feel a bittersweet sense of loss. I cherish those family gatherings filled with laughter, but I also worry about what this means for my role and connection with them now."
+  }
+]

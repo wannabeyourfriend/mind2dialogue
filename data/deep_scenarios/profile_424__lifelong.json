@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_424_scenario_0",
+    "context_note": "This scenario reflects on past financial decisions, framing them within the persona's cautious and risk-averse mindset, and connects to the ongoing tension of maintaining control in the present.",
+    "category": "financial",
+    "initial_prompt": "Looking back, I often wonder if my conservative financial strategies have cost me opportunities. Were there moments when my fear of loss kept me from taking a calculated risk that could have yielded more growth?"
+  },
+  {
+    "scenario_id": "lifelong_profile_424_scenario_1",
+    "context_note": "This scenario addresses the struggle with identity in retirement and the challenge of mentoring, as well as the weight of past decisions shaping the current sense of self.",
+    "category": "career_transition",
+    "initial_prompt": "As I mentor young entrepreneurs, I find myself questioning who I am in this role. Am I simply a guide, or is there something about my identity that is tied to their success, and what happens to me if they don't thrive?"
+  },
+  {
+    "scenario_id": "lifelong_profile_424_scenario_2",
+    "context_note": "This scenario ties the persona's careful, planned approach to life transitions with the underlying fear of loss associated with giving up control. It reflects a pivotal moment in the present.",
+    "category": "life_transition",
+    "initial_prompt": "I'm considering a move to a new home that better suits my needs, but the thought of leaving this familiar setting feels unsettling. Am I ready to let go of what I've controlled so meticulously in Barberton?"
+  },
+  {
+    "scenario_id": "lifelong_profile_424_scenario_3",
+    "context_note": "This scenario evokes feelings related to aging and health, exploring a longstanding relationship with the body that has shifted over time and how it triggers reflections on loss and adaptation.",
+    "category": "health_decision",
+    "initial_prompt": "As I notice new limitations in my body, I can't help but reflect on the physical activities I once enjoyed. How do I navigate my evolving relationship with my health without feeling like I'm losing a part of myself?"
+  },
+  {
+    "scenario_id": "lifelong_profile_424_scenario_4",
+    "context_note": "This scenario examines the complexity of financial security in the context of family values, highlighting an ongoing negotiation between past teachings about money and contemporary financial practices.",
+    "category": "parenting_family",
+    "initial_prompt": "When I think about passing on my financial knowledge to my children, I wonder if I'm perpetuating old money scripts or encouraging them to forge a new path. How can I teach them about fiscal responsibility without stifling their independence?"
+  }
+]

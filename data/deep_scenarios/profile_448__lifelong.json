@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_448_scenario_0",
+    "context_note": "The tension between the need for security and the inevitability of change is evident in this scenario, reflecting a struggle in the current life stage.",
+    "category": "long_term_planning",
+    "initial_prompt": "I'm weighing whether to invest in expanding my video editing services or to focus solely on maintaining my current workload. What if I choose to expand and it doesn't work out? That feels like a significant loss."
+  },
+  {
+    "scenario_id": "lifelong_profile_448_scenario_1",
+    "context_note": "This scenario highlights the underlying fear of dependency and the tension in workplace dynamics, echoing the persona's need for control.",
+    "category": "relationship",
+    "initial_prompt": "I find it challenging to trust my collaborators on projects. How can I navigate working with others without feeling like I'm losing control over the outcome?"
+  },
+  {
+    "scenario_id": "lifelong_profile_448_scenario_2",
+    "context_note": "This scenario surfaces a contradiction between the persona's professional identity and their personal feelings about aging, reflecting on how their body has changed over time.",
+    "category": "health_decision",
+    "initial_prompt": "As I notice the physical toll of late nights and long editing sessions, I wonder how to balance my work demands with the need to take better care of my health. Am I too late to make these changes?"
+  },
+  {
+    "scenario_id": "lifelong_profile_448_scenario_3",
+    "context_note": "This situation reflects the persona's deep-seated fear about financial security and the legacy they want to leave, linking their past experiences with money to their current decisions.",
+    "category": "financial",
+    "initial_prompt": "I keep thinking about how my parents handled money and the lessons I learned—or didn't learn—from them. Am I making the right choices to ensure my financial independence?"
+  },
+  {
+    "scenario_id": "lifelong_profile_448_scenario_4",
+    "context_note": "This scenario captures the essence of a life transition and the disorientation that comes with it, as the persona grapples with their evolving identity in a shifting industry.",
+    "category": "life_transition",
+    "initial_prompt": "I'm feeling uncertain about my direction in the ever-changing media landscape. It seems like my old ways of working are no longer as effective. How do I find my footing in this neutral zone?"
+  }
+]

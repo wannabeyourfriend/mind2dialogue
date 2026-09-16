@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_475_scenario_0",
+    "context_note": "This scenario highlights the girl's curiosity and desire for understanding, reflecting her current struggle with patience and care in nurturing her garden and pets.",
+    "category": "emotional_support",
+    "initial_prompt": "Sometimes, I feel really excited when I see my sunflowers growing, but when a seed doesn't sprout, I get a little sad. How can I remember that it's okay for things to take time?"
+  },
+  {
+    "scenario_id": "lifelong_profile_475_scenario_1",
+    "context_note": "This moment addresses the girl's experiences with friendships and the importance of learning from mistakes, mirroring her efforts to follow rules and be kind.",
+    "category": "relationship",
+    "initial_prompt": "I had a little fight with my friend at school. It made me feel so confused and sad. What can I do to fix things and make sure we stay friends?"
+  },
+  {
+    "scenario_id": "lifelong_profile_475_scenario_2",
+    "context_note": "This forward-looking scenario reflects the girl's aspirations and the emotional weight of growing up, as she imagines what it might feel like to be a science educator.",
+    "category": "long_term_planning",
+    "initial_prompt": "Sometimes, I wonder if I can really become a science teacher one day. What if I don't know enough? How can I learn to be inspiring like the teachers I love?"
+  },
+  {
+    "scenario_id": "lifelong_profile_475_scenario_3",
+    "context_note": "This scenario explores the girl's journey in discovering her identity through her interests in science and care for nature, showing a deeper level of self-reflection as she grapples with who she is and what she values.",
+    "category": "identity_values",
+    "initial_prompt": "I love plants and animals, but sometimes I feel like I should also like other things. Is it okay to just really care about nature? How do I know what I truly love?"
+  },
+  {
+    "scenario_id": "lifelong_profile_475_scenario_4",
+    "context_note": "This moment connects to her experiences of nurturing and highlights her role in the family structure while also dealing with the complexity of her relationships with her pets, reflecting on the care she learns from her parents.",
+    "category": "parenting_family",
+    "initial_prompt": "I take care of my pets every day, and I want to do it right. But sometimes I feel worried about making mistakes. How can I learn to be even better for them, like my parents are for me?"
+  }
+]

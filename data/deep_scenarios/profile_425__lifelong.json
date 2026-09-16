@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_425_scenario_0",
+    "context_note": "This scenario reflects the persona's constant grappling with values, particularly regarding the perception of success and stability. The tension between ambition and fear of stagnation is evident.",
+    "category": "identity_values",
+    "initial_prompt": "I can’t shake the feeling that my ambition is always pushing me forward, but I sometimes wonder if I'm losing sight of what really matters. Is the pursuit of wealth overshadowing my personal values?"
+  },
+  {
+    "scenario_id": "lifelong_profile_425_scenario_1",
+    "context_note": "This scenario connects with the persona's history of early financial decisions influenced by family, revealing a pattern of anxiety around money that persists in their current investments.",
+    "category": "financial",
+    "initial_prompt": "Looking back, I realize how much my family’s financial struggles shaped my view of money. Am I just chasing numbers now, or am I building something meaningful for my future?"
+  },
+  {
+    "scenario_id": "lifelong_profile_425_scenario_2",
+    "context_note": "This scenario depicts the present tension around identity as the persona navigates their career and real estate ventures, questioning who they are if they pivot away from their current path.",
+    "category": "career_transition",
+    "initial_prompt": "As I consider branching out into new investments, I find myself questioning: if I’m not the property investor I’ve become known as, who am I really?"
+  },
+  {
+    "scenario_id": "lifelong_profile_425_scenario_3",
+    "context_note": "This scenario deals with the persona's ongoing struggle with family dynamics and expectations, highlighting a desire to break free from inherited patterns while still feeling the pull of obligation.",
+    "category": "intergenerational",
+    "initial_prompt": "I feel torn between wanting to honor my family’s legacy and the urge to carve my own path. How do I decide which family values to uphold and which to leave behind?"
+  },
+  {
+    "scenario_id": "lifelong_profile_425_scenario_4",
+    "context_note": "This forward-looking scenario reflects the persona's anticipation of upcoming life changes, hinting at an internal struggle with the potential loss of current stability and the unknown ahead.",
+    "category": "life_transition",
+    "initial_prompt": "I can sense that a shift is coming in my business life, but it’s unsettling. What if stepping into new opportunities means leaving behind the comfort of my current routine?"
+  }
+]

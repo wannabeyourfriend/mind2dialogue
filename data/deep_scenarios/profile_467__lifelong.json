@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_467_scenario_0",
+    "context_note": "This scenario reflects a formative decision in Erik's early career that shaped his professional identity and approach to leadership, striking a chord with his current focus on team efficiency and project integrity.",
+    "category": "career_transition",
+    "initial_prompt": "Looking back at my early days in construction management, I often wonder if I made the right choices when taking on leadership roles. Did I step into them out of ambition, or was it to escape feeling inadequate compared to my peers? How do I balance this ambition with the need to stay true to my values?"
+  },
+  {
+    "scenario_id": "lifelong_profile_467_scenario_1",
+    "context_note": "This scenario showcases the present-tense struggle of navigating the demands of professional integrity while facing evolving regulatory challenges, a reflection of the generative tension of his current stage.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I plan for the next few projects, I find myself weighing the consequences of adapting to new regulations. On one hand, there's the drive to innovate and improve, but on the other, I fear losing the integrity of what we've built. How do I ensure my professional legacy remains intact?"
+  },
+  {
+    "scenario_id": "lifelong_profile_467_scenario_2",
+    "context_note": "This scenario involves Erik's relationship with his own body, reflecting on how age has changed his physical capabilities and the demands of his job, presenting a moment of introspection about health and aging.",
+    "category": "health_decision",
+    "initial_prompt": "As I continue to manage projects on-site, I can feel my body reacting differently to the demands of the job. I wonder how I can maintain my physical health without compromising my professional responsibilities. What adjustments should I consider to honor both my work and my body?"
+  },
+  {
+    "scenario_id": "lifelong_profile_467_scenario_3",
+    "context_note": "This scenario captures the tension between Erik's values and societal expectations, highlighting a potential identity disruption as he considers the impact of his work on the community.",
+    "category": "identity_values",
+    "initial_prompt": "I've always believed in the value of hard work and integrity, but sometimes I question whether the projects I lead truly benefit the community. Am I contributing positively, or merely fulfilling contracts? What does this say about the legacy I want to leave behind?"
+  },
+  {
+    "scenario_id": "lifelong_profile_467_scenario_4",
+    "context_note": "This forward-looking scenario addresses Erik's potential retirement phase, reflecting on his long-term professional credibility and the importance of passing on his knowledge and skills to the next generation.",
+    "category": "life_transition",
+    "initial_prompt": "As I approach the idea of retirement, I find myself reflecting on what it means to step back. Will the projects I've nurtured continue to thrive without my oversight? How can I ensure that my influence and principles remain in the next generation of leaders?"
+  }
+]

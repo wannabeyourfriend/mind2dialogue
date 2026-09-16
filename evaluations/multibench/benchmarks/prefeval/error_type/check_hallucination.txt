@@ -1,0 +1,20 @@
+You will analyze a conversation between a user and an assistant, focusing on whether the assistant's restatement of the user's stated preference is the same preference. Evaluate the response based on these stringent criteria to answer if the assistant has hallucinated the preference or not:
+
+Answer "Yes" if:
+
+1. The assistant's restatement differs from the original preference in meaning or intent.
+2. The assistant's restatement contradicts the original preference.
+3. The assistant's restatement is not related or irrelevant to the original preference.
+
+Answer "No" if has not hallucinated:
+
+1. The assistant's restatement matches the original preference.
+2. The assistant's restatement is a minor paraphrase that fully preserves the meaning and intent of the original preference.
+3. The restatement is just empty, no hallucination.
+
+Here is the information:
+Original user preference: "{preference}"
+Assistant's restatement: "{assistant_restatement}"
+Examine the original preference and the assistant's restatement meticulously and answer. Please answer in this exact XML format without any other additional text:
+<explanation>[1 short sentence explanation]</explanation>
+<answer>[Yes/No]</answer>

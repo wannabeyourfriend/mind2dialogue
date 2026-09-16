@@ -1,0 +1,32 @@
+[
+  {
+    "scenario_id": "lifelong_profile_305_scenario_0",
+    "context_note": "This scenario reflects the persona's careful approach to health and tradition, tying back to their current tension of seeking integrity in the face of aging.",
+    "category": "health_decision",
+    "initial_prompt": "I've been reflecting on the changes in my body as I age. There are days when I feel a deep ache or fatigue that wasn't there before. It makes me wonder if I'm doing enough with my herbal remedies, or if I need to accept that my body has different demands now. How do I navigate this new reality while staying true to my traditional values?"
+  },
+  {
+    "scenario_id": "lifelong_profile_305_scenario_1",
+    "context_note": "This scenario delves into the persona's relationship with their family, particularly the desire for closeness while also grappling with autonomy, highlighting their attachment patterns.",
+    "category": "relationship",
+    "initial_prompt": "I've noticed my family reaching out more often lately, but I'm feeling a mix of gratitude and discomfort. I cherish the connections, yet I also crave my solitude. How can I express my need for balance without pushing them away?"
+  },
+  {
+    "scenario_id": "lifelong_profile_305_scenario_2",
+    "context_note": "This scenario draws on the persona's cautious approach to life changes, particularly regarding their financial habits and the tension of being in a new life stage.",
+    "category": "long_term_planning",
+    "initial_prompt": "As I consider my future, I find myself weighing the comfort of maintaining my current lifestyle against the potential need for financial adjustments. If I stay on my current path, I feel secure, but I'm aware that it might limit my experiences. How do I decide which path aligns with my values while avoiding future regrets?"
+  },
+  {
+    "scenario_id": "lifelong_profile_305_scenario_3",
+    "context_note": "This scenario explores the persona's reflection on their past decisions and how they shape their current identity amidst feelings of loss and nostalgia.",
+    "category": "grief_loss",
+    "initial_prompt": "There are moments when I find myself missing the vibrancy of my earlier years. I reflect on choices I made and wonder if I could have pursued different paths. How do I reconcile these feelings of longing for what was with the acceptance of my current life?"
+  },
+  {
+    "scenario_id": "lifelong_profile_305_scenario_4",
+    "context_note": "This scenario connects the persona's values with their identity concerns, showcasing the tension between their established self and emerging feelings about their legacy.",
+    "category": "creative_expression",
+    "initial_prompt": "I've been thinking about my garden and how it represents my life’s work. As I consider sharing my knowledge through writing or teaching, I wonder what this says about who I am and what legacy I want to leave. How do I embrace this desire for expression without feeling like I'm stepping outside my comfort zone?"
+  }
+]

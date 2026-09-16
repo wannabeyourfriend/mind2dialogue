@@ -1,0 +1,26 @@
+[
+  {
+    "scenario_id": "affective_profile_420_scenario_0",
+    "category": "interpersonal_advice",
+    "initial_prompt": "I've been reflecting on how to enhance my communication with my team, especially since each interaction can impact our operations. What strategies can I implement to ensure clarity and effectiveness in both written and face-to-face communication?",
+    "context_note": "As a concierge manager, effective communication is crucial for calibrating guest experiences and managing a team."
+  },
+  {
+    "scenario_id": "affective_profile_420_scenario_1",
+    "category": "coaching",
+    "initial_prompt": "I'm considering ways to strategically expand my influence within Pasadena's elite circles. What personal development frameworks or growth strategies can I adopt to strengthen my professional network and position?",
+    "context_note": "Expanding influence is essential for achieving long-term stability and success in luxury hospitality management."
+  },
+  {
+    "scenario_id": "affective_profile_420_scenario_2",
+    "category": "psychotherapy_or_counseling",
+    "initial_prompt": "I often find myself reflecting on the emotional demands of my role. What strategies can I implement to manage any mental health challenges while maintaining high performance in a high-stakes environment?",
+    "context_note": "Managing stress and mental well-being is critical given the pressures of the luxury hospitality industry."
+  },
+  {
+    "scenario_id": "affective_profile_420_scenario_3",
+    "category": "companionship",
+    "initial_prompt": "Navigating relationships in such a high-stakes environment can be tricky. How can I approach building trust with new contacts while ensuring there's a clear value exchange?",
+    "context_note": "Building trust is important in both personal and professional relationships, particularly in the luxury space where discretion is key."
+  }
+]
